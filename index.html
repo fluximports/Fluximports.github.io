@@ -1,8 +1,3 @@
-<!-- ========================================================= -->
-<!-- FLUX IMPORTS • PART 1 -->
-<!-- CORE STRUCTURE + GLOBAL SYSTEM -->
-<!-- ========================================================= -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,16 +8,58 @@
 <!-- ========================================================= -->
 
 <meta charset="UTF-8">
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Flux Imports • Global Automotive Infrastructure</title>
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+/>
 
-<meta name="description" content="Flux Imports is a global intelligent platform for vehicle import and export quotations, logistics, analytics and automotive B2B operations.">
+<title>
+Flux Imports • Global Automotive Infrastructure
+</title>
 
-<meta name="keywords" content="vehicle import, automotive platform, car import system, luxury cars, international logistics, automotive dealers">
+<meta
+name="description"
+content="Global automotive infrastructure for importers, dealerships and luxury automotive professionals."
+/>
 
-<meta name="author" content="Flux Imports">
+<meta
+name="keywords"
+content="luxury cars, import, export, dealerships, automotive software, supercars"
+/>
+
+<meta
+name="theme-color"
+content="#050505"
+/>
+
+<!-- ========================================================= -->
+<!-- SEO -->
+<!-- ========================================================= -->
+
+<meta property="og:title" content="Flux Imports">
+
+<meta
+property="og:description"
+content="The future of global automotive operations."
+/>
+
+<meta
+property="og:type"
+content="website"
+/>
+
+<meta
+property="og:image"
+content="assets/img/cover.jpg"
+/>
+
+<meta
+property="twitter:card"
+content="summary_large_image"
+/>
 
 <!-- ========================================================= -->
 <!-- FONTS -->
@@ -32,56 +69,760 @@
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+rel="stylesheet"
+/>
 
 <!-- ========================================================= -->
-<!-- PRELOAD -->
+<!-- CSS -->
 <!-- ========================================================= -->
 
-<link rel="preload" as="image" href="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2000&auto=format&fit=crop">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
 
 <!-- ========================================================= -->
-<!-- ROOT VARIABLES -->
+<!-- PRELOADER -->
 <!-- ========================================================= -->
 
-<style>
+<div class="preloader" id="preloader">
+
+<div class="preloader-logo">
+
+FLUX IMPORTS
+
+</div>
+
+<div class="preloader-line">
+
+<div class="preloader-fill"></div>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- GLOBAL CINEMATIC BACKGROUND -->
+<!-- ========================================================= -->
+
+<div class="global-background">
+
+<div class="background-gradient"></div>
+
+<div class="background-noise"></div>
+
+<div class="background-grid"></div>
+
+<div class="background-light light-1"></div>
+
+<div class="background-light light-2"></div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- CURSOR -->
+<!-- ========================================================= -->
+
+<div class="cursor-glow"></div>
+
+<!-- ========================================================= -->
+<!-- NAVBAR -->
+<!-- ========================================================= -->
+
+<header class="navbar" id="navbar">
+
+<div class="container navbar-container">
+
+<!-- ========================================================= -->
+<!-- LOGO -->
+<!-- ========================================================= -->
+
+<a href="#" class="logo">
+
+FLUX IMPORTS
+
+</a>
+
+<!-- ========================================================= -->
+<!-- NAVIGATION -->
+<!-- ========================================================= -->
+
+<nav class="nav-links">
+
+<a href="#hero">
+Home
+</a>
+
+<a href="#experience">
+Experience
+</a>
+
+<a href="#network">
+Network
+</a>
+
+<a href="#technology">
+Technology
+</a>
+
+<a href="#contact">
+Contact
+</a>
+
+</nav>
+
+<!-- ========================================================= -->
+<!-- RIGHT -->
+<!-- ========================================================= -->
+
+<div class="navbar-right">
+
+<!-- ========================================================= -->
+<!-- LANGUAGE -->
+<!-- ========================================================= -->
+
+<div class="language-selector">
+
+<button class="language-button">
+
+<span id="current-language">
+EN
+</span>
+
+<div class="language-arrow"></div>
+
+</button>
+
+<div class="language-dropdown">
+
+<div class="language-option" data-lang="en">
+English
+</div>
+
+<div class="language-option" data-lang="pt">
+Português
+</div>
+
+<div class="language-option" data-lang="es">
+Español
+</div>
+
+<div class="language-option" data-lang="de">
+Deutsch
+</div>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- CTA -->
+<!-- ========================================================= -->
+
+<a href="#" class="nav-cta">
+
+Request Access
+
+</a>
+
+<!-- ========================================================= -->
+<!-- MOBILE -->
+<!-- ========================================================= -->
+
+<button class="mobile-button" id="mobileButton">
+
+<span></span>
+
+<span></span>
+
+</button>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- ========================================================= -->
+<!-- MOBILE MENU -->
+<!-- ========================================================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+<a href="#hero">
+Home
+</a>
+
+<a href="#experience">
+Experience
+</a>
+
+<a href="#network">
+Network
+</a>
+
+<a href="#technology">
+Technology
+</a>
+
+<a href="#contact">
+Contact
+</a>
+
+<a href="#" class="mobile-cta">
+Request Access
+</a>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- HERO -->
+<!-- ========================================================= -->
+
+<section class="hero-section" id="hero">
+
+<!-- ========================================================= -->
+<!-- VIDEO -->
+<!-- ========================================================= -->
+
+<div class="hero-video-wrapper">
+
+<video
+class="hero-video"
+autoplay
+muted
+loop
+playsinline
+preload="metadata"
+>
+
+<source
+src="assets/video/hero.mp4"
+type="video/mp4"
+/>
+
+</video>
+
+<div class="hero-overlay"></div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- HERO CONTENT -->
+<!-- ========================================================= -->
+
+<div class="container hero-container">
+
+<div class="hero-content">
+
+<div class="hero-badge">
+
+<div class="hero-badge-dot"></div>
+
+<span>
+GLOBAL AUTOMOTIVE INFRASTRUCTURE
+</span>
+
+</div>
+
+<h1 class="hero-title">
+
+The Future
+Of Luxury
+Automotive
+Operations.
+
+</h1>
+
+<p class="hero-description">
+
+Flux Imports centralizes global vehicle quotations, enterprise logistics, international taxation and luxury automotive operations into one cinematic intelligent infrastructure.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#" class="primary-button">
+
+Request Private Access
+
+</a>
+
+<a href="#" class="secondary-button">
+
+Watch Experience
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- FLOATING CAR -->
+<!-- ========================================================= -->
+
+<div class="hero-car-wrapper">
+
+<img
+src="assets/img/car.png"
+alt="Luxury Vehicle"
+class="hero-car"
+/>
+
+<div class="car-glow"></div>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- SCROLL -->
+<!-- ========================================================= -->
+
+<div class="scroll-indicator">
+
+<div class="scroll-line"></div>
+
+<span>
+SCROLL
+</span>
+
+</div>
+
+</section>
+
+<!-- ========================================================= -->
+<!-- EXPERIENCE -->
+<!-- ========================================================= -->
+
+<section
+class="experience-section"
+id="experience"
+>
+
+<div class="container">
+
+<div class="experience-intro">
+
+<span class="section-mini-title">
+
+CINEMATIC EXPERIENCE
+
+</span>
+
+<h2 class="section-title">
+
+A New Standard
+For Automotive
+Technology.
+
+</h2>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- EXPERIENCE PANELS -->
+<!-- ========================================================= -->
+
+<div class="experience-panels">
+
+<!-- ========================================================= -->
+<!-- PANEL -->
+<!-- ========================================================= -->
+
+<div class="experience-panel panel-large">
+
+<div class="panel-content">
+
+<h3>
+
+Real-Time
+Global Quotations
+
+</h3>
+
+<p>
+
+Professional import and export calculations with intelligent logistics and live currency conversion.
+
+</p>
+
+</div>
+
+<img
+src="assets/img/dashboard-1.jpg"
+class="panel-image"
+alt=""
+/>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- PANEL -->
+<!-- ========================================================= -->
+
+<div class="experience-panel">
+
+<div class="panel-content">
+
+<h3>
+
+Luxury
+Automotive
+Network
+
+</h3>
+
+<p>
+
+Connect dealerships, brokers and automotive professionals globally.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- PANEL -->
+<!-- ========================================================= -->
+
+<div class="experience-panel">
+
+<div class="panel-content">
+
+<h3>
+
+Enterprise
+Infrastructure
+
+</h3>
+
+<p>
+
+Built for performance, scale and premium operational control.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================================= -->
+<!-- NETWORK -->
+<!-- ========================================================= -->
+
+<section
+class="network-section"
+id="network"
+>
+
+<div class="container network-container">
+
+<div class="network-left">
+
+<span class="section-mini-title">
+
+GLOBAL NETWORK
+
+</span>
+
+<h2 class="section-title">
+
+Connected
+Worldwide.
+
+</h2>
+
+<p class="network-description">
+
+Flux Imports connects luxury automotive operations across Europe, the Americas and international markets through one intelligent infrastructure.
+
+</p>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- NETWORK VISUAL -->
+<!-- ========================================================= -->
+
+<div class="network-visual">
+
+<img
+src="assets/img/world.png"
+class="world-map"
+alt=""
+/>
+
+<div class="network-point point-1"></div>
+<div class="network-point point-2"></div>
+<div class="network-point point-3"></div>
+<div class="network-point point-4"></div>
+
+<div class="network-line line-1"></div>
+<div class="network-line line-2"></div>
+<div class="network-line line-3"></div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================================= -->
+<!-- TECHNOLOGY -->
+<!-- ========================================================= -->
+
+<section
+class="technology-section"
+id="technology"
+>
+
+<div class="container">
+
+<div class="technology-header">
+
+<span class="section-mini-title">
+
+TECHNOLOGY
+
+</span>
+
+<h2 class="section-title">
+
+Designed For
+High Performance
+Automotive
+Operations.
+
+</h2>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- TECH GRID -->
+<!-- ========================================================= -->
+
+<div class="technology-grid">
+
+<div class="tech-card">
+
+<h3>
+Enterprise Security
+</h3>
+
+<p>
+Professional infrastructure with intelligent authentication and secure operational access.
+</p>
+
+</div>
+
+<div class="tech-card">
+
+<h3>
+Real-Time Conversion
+</h3>
+
+<p>
+Live currency exchange rates integrated directly into international quotations.
+</p>
+
+</div>
+
+<div class="tech-card">
+
+<h3>
+Private Access
+</h3>
+
+<p>
+Only approved businesses receive invitation-based access to the infrastructure.
+</p>
+
+</div>
+
+<div class="tech-card">
+
+<h3>
+Operational Analytics
+</h3>
+
+<p>
+Strategic dashboards for enterprise-level automotive intelligence.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================================= -->
+<!-- FINAL CTA -->
+<!-- ========================================================= -->
+
+<section class="final-section">
+
+<div class="container final-container">
+
+<h2 class="final-title">
+
+This Is Not
+Just Software.
+
+</h2>
+
+<p class="final-description">
+
+Flux Imports is the operating infrastructure behind modern luxury automotive operations.
+
+</p>
+
+<a href="#" class="primary-button">
+
+Request Invitation
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ========================================================= -->
+<!-- FOOTER -->
+<!-- ========================================================= -->
+
+<footer
+class="footer"
+id="contact"
+>
+
+<div class="container footer-container">
+
+<div class="footer-top">
+
+<div class="footer-brand">
+
+<h2>
+FLUX IMPORTS
+</h2>
+
+<p>
+
+Global automotive infrastructure for luxury dealerships, brokers and enterprise import operations.
+
+</p>
+
+</div>
+
+<div class="footer-links-wrapper">
+
+<div class="footer-column">
+
+<h3>
+Company
+</h3>
+
+<a href="#">
+About
+</a>
+
+<a href="#">
+Technology
+</a>
+
+<a href="#">
+Network
+</a>
+
+</div>
+
+<div class="footer-column">
+
+<h3>
+Contact
+</h3>
+
+<a href="#">
+contact@fluximports.com
+</a>
+
+<a href="#">
++49 152 29271880
+</a>
+
+<a href="#">
+Netherlands
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 Flux Imports. All rights reserved.
+
+</p>
+
+</div>
+
+</div>
+
+</footer>
+
+<!-- ========================================================= -->
+<!-- JS -->
+<!-- ========================================================= -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+/* ========================================================= */
+/* FLUX IMPORTS • STYLE.CSS */
+/* ========================================================= */
+
+/* ========================================================= */
+/* ROOT */
+/* ========================================================= */
 
 :root{
 
-    /* COLORS */
-
-    --background:#040404;
-    --background-secondary:#0a0a0a;
-    --background-card:#0f0f0f;
+    --background:#050505;
+    --background-secondary:#090909;
 
     --gold:#d7b377;
-    --gold-soft:#e7c895;
+    --gold-soft:#f0d2a2;
 
     --white:#ffffff;
-    --text:#d0d0d0;
-    --text-soft:#8f8f8f;
+    --text:#b8b8b8;
 
-    --border:rgba(255,255,255,0.06);
-
-    /* SHADOWS */
-
-    --shadow-gold:
-    0 20px 80px rgba(215,179,119,0.18);
-
-    --shadow-dark:
-    0 20px 60px rgba(0,0,0,0.45);
-
-    /* TRANSITIONS */
+    --border:rgba(255,255,255,.08);
 
     --transition:
-    all .45s cubic-bezier(.19,1,.22,1);
+    cubic-bezier(.19,1,.22,1);
 
-    /* RADIUS */
-
-    --radius-sm:16px;
-    --radius-md:24px;
-    --radius-lg:36px;
-    --radius-xl:48px;
+    --shadow:
+    0 20px 80px rgba(0,0,0,.45);
 
 }
 
@@ -90,13 +831,18 @@
 /* ========================================================= */
 
 *{
+
     margin:0;
     padding:0;
+
     box-sizing:border-box;
+
 }
 
 html{
+
     scroll-behavior:smooth;
+
 }
 
 body{
@@ -116,34 +862,37 @@ body{
 }
 
 /* ========================================================= */
-/* CUSTOM SCROLLBAR */
+/* SCROLLBAR */
 /* ========================================================= */
 
 ::-webkit-scrollbar{
+
     width:10px;
+
 }
 
 ::-webkit-scrollbar-track{
-    background:#050505;
+
+    background:#060606;
+
 }
 
 ::-webkit-scrollbar-thumb{
-    background:linear-gradient(
+
+    background:
+    linear-gradient(
     180deg,
     var(--gold),
-    #8a6d3f
+    #8f6d42
     );
+
     border-radius:999px;
+
 }
 
 /* ========================================================= */
-/* GLOBAL SYSTEM */
+/* GLOBAL */
 /* ========================================================= */
-
-section{
-    position:relative;
-    z-index:2;
-}
 
 .container{
 
@@ -154,95 +903,131 @@ section{
 
 }
 
-.gold{
-    color:var(--gold);
+section{
+
+    position:relative;
+
+    z-index:2;
+
 }
 
-.text-soft{
-    color:var(--text-soft);
-}
+img{
 
-.section-spacing{
-    padding:160px 0;
+    max-width:100%;
+
+    display:block;
+
 }
 
 /* ========================================================= */
-/* CINEMATIC BACKGROUND */
+/* BACKGROUND */
 /* ========================================================= */
+
+.global-background{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:0;
+
+    overflow:hidden;
+
+}
+
+.background-gradient{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    radial-gradient(
+    circle at top right,
+    rgba(215,179,119,.10),
+    transparent 35%
+    ),
+
+    radial-gradient(
+    circle at bottom left,
+    rgba(67,108,255,.08),
+    transparent 40%
+    ),
+
+    linear-gradient(
+    180deg,
+    #050505,
+    #090909
+    );
+
+}
+
+.background-noise{
+
+    position:absolute;
+
+    inset:0;
+
+    opacity:.03;
+
+    background-image:
+    url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+
+}
 
 .background-grid{
 
-    position:fixed;
+    position:absolute;
 
     inset:0;
 
     background-image:
 
     linear-gradient(
-    rgba(255,255,255,0.02) 1px,
+    rgba(255,255,255,.02) 1px,
     transparent 1px
     ),
 
     linear-gradient(
     90deg,
-    rgba(255,255,255,0.02) 1px,
+    rgba(255,255,255,.02) 1px,
     transparent 1px
     );
 
-    background-size:40px 40px;
-
-    z-index:0;
+    background-size:50px 50px;
 
 }
 
-.background-noise{
+.background-light{
 
-    position:fixed;
+    position:absolute;
 
-    inset:0;
-
-    opacity:.03;
-
-    background-image:url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-
-    z-index:0;
-
-    pointer-events:none;
-
-}
-
-.glow{
-
-    position:fixed;
-
-    width:900px;
-    height:900px;
+    width:700px;
+    height:700px;
 
     border-radius:50%;
 
     filter:blur(120px);
 
-    z-index:0;
-
     opacity:.12;
 
 }
 
-.glow-1{
+.light-1{
 
     top:-300px;
     right:-300px;
 
-    background:radial-gradient(circle,var(--gold),transparent 70%);
+    background:var(--gold);
 
 }
 
-.glow-2{
+.light-2{
 
     bottom:-300px;
     left:-300px;
 
-    background:radial-gradient(circle,#4f8cff,transparent 70%);
+    background:#3158ff;
 
 }
 
@@ -272,75 +1057,89 @@ section{
 
 }
 
-.preloader.hide{
+.preloader.hidden{
 
     opacity:0;
+
     visibility:hidden;
 
 }
 
-.loader-logo{
+.preloader-logo{
 
-    font-size:48px;
+    font-size:42px;
 
     font-weight:900;
 
-    letter-spacing:3px;
+    letter-spacing:4px;
 
     color:var(--gold);
 
-    margin-bottom:20px;
+    margin-bottom:24px;
 
 }
 
-.loader-line{
+.preloader-line{
 
     width:220px;
-    height:3px;
+    height:2px;
 
-    background:rgba(255,255,255,0.06);
+    background:
+    rgba(255,255,255,.06);
 
     border-radius:999px;
 
     overflow:hidden;
 
-    position:relative;
-
 }
 
-.loader-line::before{
+.preloader-fill{
 
-    content:'';
-
-    position:absolute;
-
-    top:0;
-    left:0;
-
-    width:40%;
+    width:0%;
 
     height:100%;
 
-    background:linear-gradient(
-    90deg,
-    transparent,
-    var(--gold),
-    transparent
-    );
+    background:var(--gold);
 
-    animation:loaderAnimation 1.4s infinite linear;
+    animation:loading 2s ease forwards;
 
 }
 
-@keyframes loaderAnimation{
+@keyframes loading{
 
-    0%{
-        left:-40%;
+    to{
+        width:100%;
     }
 
-    100%{
-        left:120%;
-    }
+}
+
+/* ========================================================= */
+/* CURSOR */
+/* ========================================================= */
+
+.cursor-glow{
+
+    position:fixed;
+
+    width:24px;
+    height:24px;
+
+    border-radius:50%;
+
+    background:
+    rgba(215,179,119,.45);
+
+    pointer-events:none;
+
+    z-index:999999;
+
+    transform:
+    translate(-50%,-50%);
+
+    filter:blur(10px);
+
+    transition:
+    transform .12s linear;
 
 }
 
@@ -359,25 +1158,23 @@ section{
 
     z-index:9999;
 
-    backdrop-filter:blur(20px);
-
-    background:rgba(0,0,0,0.45);
-
-    border-bottom:1px solid var(--border);
-
-    transition:var(--transition);
+    transition:.5s var(--transition);
 
 }
 
 .navbar.scrolled{
 
-    background:rgba(0,0,0,0.75);
+    background:
+    rgba(0,0,0,.72);
 
-    border-bottom:1px solid rgba(255,255,255,0.08);
+    backdrop-filter:blur(18px);
+
+    border-bottom:
+    1px solid rgba(255,255,255,.05);
 
 }
 
-.nav-wrapper{
+.navbar-container{
 
     height:110px;
 
@@ -389,41 +1186,26 @@ section{
 
 }
 
+/* ========================================================= */
+/* LOGO */
+/* ========================================================= */
+
 .logo{
 
-    font-size:42px;
-
-    font-weight:900;
+    text-decoration:none;
 
     color:var(--gold);
 
+    font-size:34px;
+
+    font-weight:900;
+
     letter-spacing:2px;
-
-    position:relative;
-
-}
-
-.logo::after{
-
-    content:'';
-
-    position:absolute;
-
-    bottom:-10px;
-    left:0;
-
-    width:40%;
-
-    height:3px;
-
-    background:var(--gold);
-
-    border-radius:999px;
 
 }
 
 /* ========================================================= */
-/* NAV LINKS */
+/* NAV */
 /* ========================================================= */
 
 .nav-links{
@@ -440,7 +1222,7 @@ section{
 
     text-decoration:none;
 
-    color:var(--text);
+    color:#d1d1d1;
 
     font-size:15px;
 
@@ -448,13 +1230,7 @@ section{
 
     position:relative;
 
-    transition:var(--transition);
-
-}
-
-.nav-links a:hover{
-
-    color:var(--white);
+    transition:.4s;
 
 }
 
@@ -473,7 +1249,13 @@ section{
 
     background:var(--gold);
 
-    transition:var(--transition);
+    transition:.4s;
+
+}
+
+.nav-links a:hover{
+
+    color:white;
 
 }
 
@@ -484,10 +1266,24 @@ section{
 }
 
 /* ========================================================= */
-/* LANGUAGE SYSTEM */
+/* NAV RIGHT */
 /* ========================================================= */
 
-.language-system{
+.navbar-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+/* ========================================================= */
+/* LANGUAGE */
+/* ========================================================= */
+
+.language-selector{
 
     position:relative;
 
@@ -495,45 +1291,46 @@ section{
 
 .language-button{
 
-    width:240px;
+    width:90px;
+    height:54px;
 
-    height:62px;
-
-    padding:0 22px;
-
-    background:rgba(255,255,255,0.03);
-
-    border:1px solid rgba(215,179,119,0.25);
+    border:none;
 
     border-radius:18px;
+
+    background:
+    rgba(255,255,255,.03);
+
+    border:
+    1px solid rgba(255,255,255,.06);
+
+    color:white;
+
+    cursor:pointer;
 
     display:flex;
 
     align-items:center;
 
-    justify-content:space-between;
+    justify-content:center;
 
-    cursor:pointer;
-
-    transition:var(--transition);
+    gap:10px;
 
 }
 
-.language-button:hover{
+.language-arrow{
 
-    border-color:var(--gold);
+    width:8px;
+    height:8px;
 
-    transform:translateY(-2px);
+    border-right:
+    2px solid white;
 
-    box-shadow:var(--shadow-gold);
+    border-bottom:
+    2px solid white;
 
-}
-
-.language-button span{
-
-    font-size:16px;
-
-    font-weight:500;
+    transform:
+    rotate(45deg);
 
 }
 
@@ -541,14 +1338,15 @@ section{
 
     position:absolute;
 
-    top:78px;
+    top:70px;
     right:0;
 
-    width:240px;
+    width:180px;
 
     background:#0b0b0b;
 
-    border:1px solid var(--border);
+    border:
+    1px solid rgba(255,255,255,.06);
 
     border-radius:22px;
 
@@ -558,21 +1356,22 @@ section{
 
     visibility:hidden;
 
-    transform:translateY(10px);
+    transform:
+    translateY(10px);
 
-    transition:var(--transition);
-
-    box-shadow:var(--shadow-dark);
+    transition:.4s;
 
 }
 
-.language-system.active .language-dropdown{
+.language-selector.active
+.language-dropdown{
 
     opacity:1;
 
     visibility:visible;
 
-    transform:translateY(0);
+    transform:
+    translateY(0);
 
 }
 
@@ -580,56 +1379,28 @@ section{
 
     padding:18px 22px;
 
-    display:flex;
-
-    align-items:center;
-
-    gap:14px;
-
     cursor:pointer;
 
-    transition:var(--transition);
+    transition:.3s;
 
-    border-bottom:1px solid rgba(255,255,255,0.03);
-
-}
-
-.language-option:last-child{
-    border-bottom:none;
 }
 
 .language-option:hover{
 
-    background:#121212;
+    background:
+    rgba(255,255,255,.03);
 
     color:var(--gold);
 
 }
 
-.language-flag{
-
-    width:24px;
-    height:24px;
-
-    border-radius:50%;
-
-    object-fit:cover;
-
-}
-
 /* ========================================================= */
-/* GLOBAL BUTTONS */
+/* BUTTONS */
 /* ========================================================= */
 
-.btn{
-
-    height:64px;
-
-    padding:0 34px;
-
-    border:none;
-
-    border-radius:18px;
+.nav-cta,
+.primary-button,
+.secondary-button{
 
     display:inline-flex;
 
@@ -637,468 +1408,200 @@ section{
 
     justify-content:center;
 
-    cursor:pointer;
+    text-decoration:none;
 
-    font-size:15px;
-
-    font-weight:700;
-
-    transition:var(--transition);
-
-    position:relative;
-
-    overflow:hidden;
+    transition:.5s var(--transition);
 
 }
 
-.btn-primary{
+.nav-cta{
+
+    height:54px;
+
+    padding:0 28px;
+
+    border-radius:18px;
 
     background:var(--gold);
 
     color:black;
 
-}
+    font-size:14px;
 
-.btn-primary:hover{
-
-    transform:translateY(-4px);
-
-    box-shadow:var(--shadow-gold);
+    font-weight:700;
 
 }
 
-.btn-secondary{
+.nav-cta:hover{
 
-    background:transparent;
+    transform:
+    translateY(-3px);
 
-    border:1px solid rgba(255,255,255,0.08);
+    box-shadow:
+    0 15px 50px rgba(215,179,119,.22);
+
+}
+
+.primary-button{
+
+    height:70px;
+
+    padding:0 38px;
+
+    border-radius:22px;
+
+    background:var(--gold);
+
+    color:black;
+
+    font-weight:700;
+
+    font-size:15px;
+
+}
+
+.primary-button:hover{
+
+    transform:
+    translateY(-5px);
+
+    box-shadow:
+    0 25px 70px rgba(215,179,119,.22);
+
+}
+
+.secondary-button{
+
+    height:70px;
+
+    padding:0 38px;
+
+    border-radius:22px;
+
+    border:
+    1px solid rgba(255,255,255,.08);
 
     color:white;
 
+    font-weight:600;
+
 }
 
-.btn-secondary:hover{
+.secondary-button:hover{
 
-    border-color:var(--gold);
+    transform:
+    translateY(-5px);
 
-    transform:translateY(-4px);
+    border-color:
+    rgba(215,179,119,.25);
 
 }
 
 /* ========================================================= */
-/* SECTION TITLE */
+/* MOBILE */
 /* ========================================================= */
 
-.section-title{
+.mobile-button{
 
-    margin-bottom:80px;
+    width:58px;
+    height:58px;
 
-    text-align:center;
+    border:none;
+
+    background:
+    rgba(255,255,255,.03);
+
+    border:
+    1px solid rgba(255,255,255,.06);
+
+    border-radius:18px;
+
+    display:none;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    gap:6px;
+
+    padding:0 16px;
+
+    cursor:pointer;
 
 }
 
-.section-title span{
+.mobile-button span{
 
-    display:inline-flex;
+    width:100%;
+    height:2px;
 
-    padding:14px 20px;
-
-    background:rgba(255,255,255,0.03);
-
-    border:1px solid rgba(255,255,255,0.05);
+    background:white;
 
     border-radius:999px;
 
-    color:var(--gold);
-
-    margin-bottom:26px;
-
-    letter-spacing:1px;
-
-    font-size:14px;
-
 }
 
-.section-title h2{
+.mobile-menu{
 
-    font-size:78px;
+    position:fixed;
 
-    line-height:1.05;
+    inset:0;
 
-    letter-spacing:-4px;
+    background:
+    rgba(0,0,0,.94);
 
-    margin-bottom:28px;
+    backdrop-filter:blur(20px);
 
-}
+    z-index:9998;
 
-.section-title p{
+    display:flex;
 
-    max-width:920px;
+    align-items:center;
 
-    margin:auto;
+    justify-content:center;
 
-    font-size:20px;
+    flex-direction:column;
 
-    line-height:2;
-
-    color:var(--text-soft);
-
-}
-
-/* ========================================================= */
-/* REVEAL EFFECT */
-/* ========================================================= */
-
-.reveal{
+    gap:30px;
 
     opacity:0;
 
-    transform:translateY(80px);
+    visibility:hidden;
 
-    transition:1s cubic-bezier(.19,1,.22,1);
+    transition:.5s;
 
 }
 
-.reveal.active{
+.mobile-menu.active{
 
     opacity:1;
 
-    transform:translateY(0);
+    visibility:visible;
+
+}
+
+.mobile-menu a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:38px;
+
+    font-weight:700;
+
+}
+
+.mobile-cta{
+
+    margin-top:30px;
+
+    color:var(--gold)!important;
 
 }
 
 /* ========================================================= */
-/* RESPONSIVE */
-/* ========================================================= */
-
-@media(max-width:1200px){
-
-    .nav-links{
-        display:none;
-    }
-
-    .section-title h2{
-        font-size:58px;
-    }
-
-}
-
-@media(max-width:768px){
-
-    .logo{
-        font-size:30px;
-    }
-
-    .language-button{
-        width:190px;
-    }
-
-    .language-dropdown{
-        width:190px;
-    }
-
-    .section-title h2{
-        font-size:42px;
-        line-height:1.15;
-    }
-
-    .section-title p{
-        font-size:17px;
-        line-height:1.8;
-    }
-
-}
-
-</style>
-
-</head>
-
-<body>
-
-<!-- ========================================================= -->
-<!-- PRELOADER -->
-<!-- ========================================================= -->
-
-<div class="preloader" id="preloader">
-
-<div class="loader-logo">
-FLUX IMPORTS
-</div>
-
-<div class="loader-line"></div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- GLOBAL BACKGROUND -->
-<!-- ========================================================= -->
-
-<div class="background-grid"></div>
-
-<div class="background-noise"></div>
-
-<div class="glow glow-1"></div>
-
-<div class="glow glow-2"></div>
-
-<!-- ========================================================= -->
-<!-- NAVBAR -->
-<!-- ========================================================= -->
-
-<nav class="navbar" id="navbar">
-
-<div class="container nav-wrapper">
-
-<!-- ========================================================= -->
-<!-- LOGO -->
-<!-- ========================================================= -->
-
-<div class="logo">
-FLUX IMPORTS
-</div>
-
-<!-- ========================================================= -->
-<!-- NAVIGATION -->
-<!-- ========================================================= -->
-
-<div class="nav-links">
-
-<a href="#">
-Home
-</a>
-
-<a href="#">
-Platform
-</a>
-
-<a href="#">
-Global Network
-</a>
-
-<a href="#">
-Analytics
-</a>
-
-<a href="#">
-Pricing
-</a>
-
-<a href="#">
-Contact
-</a>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- LANGUAGE SYSTEM -->
-<!-- ========================================================= -->
-
-<div class="language-system" id="languageSystem">
-
-<div class="language-button">
-
-<span id="currentLanguage">
-🇧🇷 BR Português
-</span>
-
-<span>
-⌄
-</span>
-
-</div>
-
-<div class="language-dropdown">
-
-<div class="language-option" data-lang="en">
-🇺🇸 English
-</div>
-
-<div class="language-option" data-lang="pt">
-🇧🇷 Português
-</div>
-
-<div class="language-option" data-lang="es">
-🇪🇸 Español
-</div>
-
-<div class="language-option" data-lang="de">
-🇩🇪 Deutsch
-</div>
-
-<div class="language-option" data-lang="fr">
-🇫🇷 Français
-</div>
-
-<div class="language-option" data-lang="nl">
-🇳🇱 Nederlands
-</div>
-
-<div class="language-option" data-lang="ar">
-🇸🇦 العربية
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</nav>
-
-<!-- ========================================================= -->
-<!-- MAIN WRAPPER -->
-<!-- ========================================================= -->
-
-<main id="app">
-
-<!-- ========================================================= -->
-<!-- HERO SECTION ENTRA NA PARTE 2 -->
-<!-- ========================================================= -->
-
-</main>
-
-<!-- ========================================================= -->
-<!-- SCRIPTS -->
-<!-- ========================================================= -->
-
-<script>
-
-/* ========================================================= */
-/* PRELOADER */
-/* ========================================================= */
-
-window.addEventListener('load', () => {
-
-    const preloader =
-    document.getElementById('preloader');
-
-    setTimeout(() => {
-
-        preloader.classList.add('hide');
-
-    },1200);
-
-});
-
-/* ========================================================= */
-/* NAVBAR SCROLL */
-/* ========================================================= */
-
-const navbar =
-document.getElementById('navbar');
-
-window.addEventListener('scroll', () => {
-
-    if(window.scrollY > 50){
-
-        navbar.classList.add('scrolled');
-
-    }else{
-
-        navbar.classList.remove('scrolled');
-
-    }
-
-});
-
-/* ========================================================= */
-/* LANGUAGE SYSTEM */
-/* ========================================================= */
-
-const languageSystem =
-document.getElementById('languageSystem');
-
-const currentLanguage =
-document.getElementById('currentLanguage');
-
-languageSystem.addEventListener('click', () => {
-
-    languageSystem.classList.toggle('active');
-
-});
-
-document.querySelectorAll('.language-option')
-.forEach(option => {
-
-    option.addEventListener('click', (e) => {
-
-        e.stopPropagation();
-
-        const text =
-        option.innerText;
-
-        currentLanguage.innerText =
-        text;
-
-        localStorage.setItem(
-        'flux-language',
-        text
-        );
-
-    });
-
-});
-
-/* ========================================================= */
-/* LOAD SAVED LANGUAGE */
-/* ========================================================= */
-
-const savedLanguage =
-localStorage.getItem('flux-language');
-
-if(savedLanguage){
-
-    currentLanguage.innerText =
-    savedLanguage;
-
-}
-
-/* ========================================================= */
-/* REVEAL EFFECT */
-/* ========================================================= */
-
-const reveals =
-document.querySelectorAll('.reveal');
-
-window.addEventListener('scroll', () => {
-
-    reveals.forEach(reveal => {
-
-        const windowHeight =
-        window.innerHeight;
-
-        const elementTop =
-        reveal.getBoundingClientRect().top;
-
-        const revealPoint = 120;
-
-        if(elementTop < windowHeight - revealPoint){
-
-            reveal.classList.add('active');
-
-        }
-
-    });
-
-});
-
-</script>
-
-<!-- ========================================================= -->
-<!-- PART 2 • HERO CINEMATIC SECTION -->
-<!-- COLAR ABAIXO DO <main id="app"> -->
-<!-- ========================================================= -->
-
-<!-- ========================================================= -->
-<!-- HERO -->
-<!-- ========================================================= -->
-
-<section class="hero-section">
-
-<style>
-
-/* ========================================================= */
-/* HERO SECTION */
+/* HERO */
 /* ========================================================= */
 
 .hero-section{
@@ -1107,29 +1610,15 @@ window.addEventListener('scroll', () => {
 
     min-height:100vh;
 
-    display:flex;
-
-    align-items:center;
-
     overflow:hidden;
 
-    padding-top:140px;
-
 }
-
-/* ========================================================= */
-/* HERO VIDEO */
-/* ========================================================= */
 
 .hero-video-wrapper{
 
     position:absolute;
 
     inset:0;
-
-    overflow:hidden;
-
-    z-index:1;
 
 }
 
@@ -1140,14 +1629,9 @@ window.addEventListener('scroll', () => {
 
     object-fit:cover;
 
-    opacity:.16;
+    opacity:.20;
 
-    filter:
-    contrast(1.2)
-    brightness(.45)
-    saturate(1.1);
-
-    transform:scale(1.08);
+    transform:scale(1.05);
 
 }
 
@@ -1161,33 +1645,19 @@ window.addEventListener('scroll', () => {
 
     linear-gradient(
     180deg,
-    rgba(0,0,0,.45),
-    rgba(0,0,0,.72)
-    ),
-
-    radial-gradient(
-    circle at top right,
-    rgba(215,179,119,.14),
-    transparent 40%
-    ),
-
-    radial-gradient(
-    circle at bottom left,
-    rgba(79,140,255,.10),
-    transparent 40%
+    rgba(0,0,0,.4),
+    rgba(0,0,0,.85)
     );
 
 }
-
-/* ========================================================= */
-/* HERO CONTAINER */
-/* ========================================================= */
 
 .hero-container{
 
     position:relative;
 
-    z-index:3;
+    z-index:2;
+
+    min-height:100vh;
 
     display:flex;
 
@@ -1199,5248 +1669,13 @@ window.addEventListener('scroll', () => {
 
 }
 
-/* ========================================================= */
-/* HERO LEFT */
-/* ========================================================= */
+.hero-content{
 
-.hero-left{
-
-    width:55%;
+    max-width:760px;
 
 }
 
 .hero-badge{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    padding:16px 22px;
-
-    background:rgba(255,255,255,0.04);
-
-    border:1px solid rgba(255,255,255,0.08);
-
-    border-radius:999px;
-
-    margin-bottom:34px;
-
-    backdrop-filter:blur(14px);
-
-}
-
-.hero-badge-dot{
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    box-shadow:
-    0 0 20px var(--gold);
-
-}
-
-.hero-badge span{
-
-    color:var(--gold);
-
-    letter-spacing:1px;
-
-    font-size:14px;
-
-    font-weight:600;
-
-}
-
-.hero-title{
-
-    font-size:118px;
-
-    line-height:.95;
-
-    font-weight:900;
-
-    letter-spacing:-7px;
-
-    margin-bottom:34px;
-
-}
-
-.hero-title span{
-
-    color:var(--gold);
-
-}
-
-.hero-description{
-
-    max-width:860px;
-
-    font-size:22px;
-
-    line-height:2;
-
-    color:var(--text-soft);
-
-    margin-bottom:50px;
-
-}
-
-/* ========================================================= */
-/* HERO BUTTONS */
-/* ========================================================= */
-
-.hero-buttons{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:22px;
-
-    margin-bottom:60px;
-
-}
-
-.hero-trust{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:42px;
-
-    flex-wrap:wrap;
-
-}
-
-.hero-trust-item{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:8px;
-
-}
-
-.hero-trust-item strong{
-
-    font-size:34px;
-
-    color:var(--gold);
-
-}
-
-.hero-trust-item span{
-
-    color:var(--text-soft);
-
-    font-size:15px;
-
-}
-
-/* ========================================================= */
-/* HERO RIGHT */
-/* ========================================================= */
-
-.hero-right{
-
-    width:45%;
-
-    position:relative;
-
-}
-
-/* ========================================================= */
-/* DASHBOARD */
-/* ========================================================= */
-
-.hero-dashboard{
-
-    position:relative;
-
-    background:rgba(255,255,255,0.04);
-
-    border:1px solid rgba(255,255,255,0.06);
-
-    backdrop-filter:blur(20px);
-
-    border-radius:42px;
-
-    padding:34px;
-
-    overflow:hidden;
-
-    box-shadow:
-    0 30px 100px rgba(0,0,0,.55);
-
-}
-
-.hero-dashboard::before{
-
-    content:'';
-
-    position:absolute;
-
-    width:500px;
-    height:500px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(circle,
-    rgba(215,179,119,.18),
-    transparent 70%);
-
-    top:-260px;
-    right:-260px;
-
-}
-
-/* ========================================================= */
-/* DASHBOARD TOP */
-/* ========================================================= */
-
-.dashboard-top{
-
-    display:flex;
-
-    gap:22px;
-
-    margin-bottom:24px;
-
-}
-
-.dashboard-card{
-
-    flex:1;
-
-    background:#090909;
-
-    border:1px solid rgba(255,255,255,0.05);
-
-    border-radius:28px;
-
-    padding:28px;
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-.dashboard-card::before{
-
-    content:'';
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-    linear-gradient(
-    120deg,
-    transparent,
-    rgba(255,255,255,.04),
-    transparent
-    );
-
-    transform:translateX(-100%);
-
-    animation:cardShine 5s infinite linear;
-
-}
-
-@keyframes cardShine{
-
-    100%{
-        transform:translateX(100%);
-    }
-
-}
-
-.dashboard-card small{
-
-    display:block;
-
-    margin-bottom:14px;
-
-    color:#757575;
-
-    font-size:13px;
-
-    letter-spacing:1px;
-
-}
-
-.dashboard-card h3{
-
-    font-size:42px;
-
-    color:white;
-
-}
-
-/* ========================================================= */
-/* DASHBOARD GRAPH */
-/* ========================================================= */
-
-.dashboard-graph{
-
-    position:relative;
-
-    height:360px;
-
-    border-radius:34px;
-
-    background:
-
-    linear-gradient(
-    180deg,
-    rgba(255,255,255,.02),
-    rgba(255,255,255,.01)
-    );
-
-    border:1px solid rgba(255,255,255,.05);
-
-    overflow:hidden;
-
-}
-
-.dashboard-graph::before{
-
-    content:'';
-
-    position:absolute;
-
-    inset:0;
-
-    background-image:
-
-    linear-gradient(
-    rgba(255,255,255,0.03) 1px,
-    transparent 1px
-    ),
-
-    linear-gradient(
-    90deg,
-    rgba(255,255,255,0.03) 1px,
-    transparent 1px
-    );
-
-    background-size:40px 40px;
-
-}
-
-.graph-line{
-
-    position:absolute;
-
-    bottom:0;
-    left:0;
-
-    width:100%;
-    height:100%;
-
-}
-
-.graph-line svg{
-
-    width:100%;
-    height:100%;
-
-}
-
-/* ========================================================= */
-/* FLOATING LIVE CARDS */
-/* ========================================================= */
-
-.live-card{
-
-    position:absolute;
-
-    background:rgba(10,10,10,.95);
-
-    border:1px solid rgba(255,255,255,.06);
-
-    backdrop-filter:blur(20px);
-
-    border-radius:28px;
-
-    padding:24px;
-
-    z-index:10;
-
-    animation:floatingCard 5s ease-in-out infinite;
-
-    box-shadow:
-    0 20px 60px rgba(0,0,0,.45);
-
-}
-
-.live-card.one{
-
-    top:-60px;
-    right:-50px;
-
-}
-
-.live-card.two{
-
-    bottom:-50px;
-    left:-60px;
-
-    animation-delay:2s;
-
-}
-
-.live-card small{
-
-    display:block;
-
-    margin-bottom:10px;
-
-    color:#777;
-
-    letter-spacing:1px;
-
-    font-size:12px;
-
-}
-
-.live-card strong{
-
-    font-size:22px;
-
-    line-height:1.5;
-
-}
-
-.live-indicator{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:10px;
-
-    margin-top:14px;
-
-    color:#4eff91;
-
-    font-size:13px;
-
-}
-
-.live-indicator::before{
-
-    content:'';
-
-    width:8px;
-    height:8px;
-
-    border-radius:50%;
-
-    background:#4eff91;
-
-    box-shadow:
-    0 0 12px #4eff91;
-
-}
-
-/* ========================================================= */
-/* FLOAT ANIMATION */
-/* ========================================================= */
-
-@keyframes floatingCard{
-
-    0%{
-        transform:translateY(0px);
-    }
-
-    50%{
-        transform:translateY(-14px);
-    }
-
-    100%{
-        transform:translateY(0px);
-    }
-
-}
-
-/* ========================================================= */
-/* HERO BACKGROUND PARTICLES */
-/* ========================================================= */
-
-.hero-particles{
-
-    position:absolute;
-
-    inset:0;
-
-    z-index:1;
-
-    pointer-events:none;
-
-}
-
-.particle{
-
-    position:absolute;
-
-    width:4px;
-    height:4px;
-
-    background:rgba(255,255,255,.35);
-
-    border-radius:50%;
-
-    animation:particleFloat linear infinite;
-
-}
-
-@keyframes particleFloat{
-
-    0%{
-        transform:translateY(0px);
-        opacity:0;
-    }
-
-    50%{
-        opacity:1;
-    }
-
-    100%{
-        transform:translateY(-120px);
-        opacity:0;
-    }
-
-}
-
-/* ========================================================= */
-/* RESPONSIVE */
-/* ========================================================= */
-
-@media(max-width:1400px){
-
-    .hero-title{
-        font-size:92px;
-    }
-
-}
-
-@media(max-width:1200px){
-
-    .hero-container{
-
-        flex-direction:column;
-
-    }
-
-    .hero-left,
-    .hero-right{
-
-        width:100%;
-
-    }
-
-}
-
-@media(max-width:768px){
-
-    .hero-title{
-
-        font-size:58px;
-
-        letter-spacing:-3px;
-
-    }
-
-    .hero-description{
-
-        font-size:18px;
-
-        line-height:1.8;
-
-    }
-
-    .hero-buttons{
-
-        flex-direction:column;
-
-        align-items:flex-start;
-
-    }
-
-    .hero-trust{
-
-        gap:26px;
-
-    }
-
-}
-
-</style>
-
-<!-- ========================================================= -->
-<!-- VIDEO BACKGROUND -->
-<!-- ========================================================= -->
-
-<div class="hero-video-wrapper">
-
-<video
-class="hero-video"
-autoplay
-muted
-loop
-playsinline
->
-
-<source
-src="https://cdn.coverr.co/videos/coverr-luxury-car-driving-1562494206519?download=1080p"
-type="video/mp4"
->
-
-</video>
-
-<div class="hero-overlay"></div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- PARTICLES -->
-<!-- ========================================================= -->
-
-<div class="hero-particles" id="particles"></div>
-
-<!-- ========================================================= -->
-<!-- HERO CONTENT -->
-<!-- ========================================================= -->
-
-<div class="container hero-container">
-
-<!-- ========================================================= -->
-<!-- LEFT -->
-<!-- ========================================================= -->
-
-<div class="hero-left reveal active">
-
-<div class="hero-badge">
-
-<div class="hero-badge-dot"></div>
-
-<span>
-GLOBAL AUTOMOTIVE INFRASTRUCTURE
-</span>
-
-</div>
-
-<h1 class="hero-title">
-
-The Operating
-System For
-<span>
-Global Vehicle
-Imports.
-</span>
-
-</h1>
-
-<p class="hero-description">
-
-Flux Imports centralizes international quotations, logistics intelligence, real-time currency conversion, taxation workflows, B2B automotive networking and enterprise analytics into one powerful global ecosystem designed for dealerships, importers and luxury automotive professionals.
-
-</p>
-
-<div class="hero-buttons">
-
-<button class="btn btn-primary">
-
-REQUEST PRIVATE ACCESS
-
-</button>
-
-<button class="btn btn-secondary">
-
-WATCH PLATFORM DEMO
-
-</button>
-
-</div>
-
-<div class="hero-trust">
-
-<div class="hero-trust-item">
-
-<strong id="dealersCounter">
-124+
-</strong>
-
-<span>
-Verified Global Dealers
-</span>
-
-</div>
-
-<div class="hero-trust-item">
-
-<strong id="countriesCounter">
-34
-</strong>
-
-<span>
-Connected Countries
-</span>
-
-</div>
-
-<div class="hero-trust-item">
-
-<strong id="operationsCounter">
-€8.4M
-</strong>
-
-<span>
-Monthly Operations
-</span>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- RIGHT -->
-<!-- ========================================================= -->
-
-<div class="hero-right reveal active">
-
-<div class="hero-dashboard">
-
-<div class="dashboard-top">
-
-<div class="dashboard-card">
-
-<small>
-GLOBAL OPERATIONS
-</small>
-
-<h3>
-124+
-</h3>
-
-</div>
-
-<div class="dashboard-card">
-
-<small>
-MONTHLY VOLUME
-</small>
-
-<h3 id="liveVolume">
-€8.4M
-</h3>
-
-</div>
-
-</div>
-
-<div class="dashboard-graph">
-
-<div class="graph-line">
-
-<svg viewBox="0 0 1000 300" preserveAspectRatio="none">
-
-<path
-d="
-M0,260
-C120,220
-220,210
-320,170
-C420,120
-520,140
-620,90
-C720,40
-820,80
-1000,20
-"
-stroke="#d7b377"
-stroke-width="5"
-fill="none"
-stroke-linecap="round"
-/>
-
-</svg>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- FLOATING LIVE CARDS -->
-<!-- ========================================================= -->
-
-<div class="live-card one">
-
-<small>
-LIVE QUOTATION
-</small>
-
-<strong>
-Porsche 911 GT3 RS → Germany
-</strong>
-
-<div class="live-indicator">
-LIVE GLOBAL OPERATION
-</div>
-
-</div>
-
-<div class="live-card two">
-
-<small>
-REAL-TIME EXCHANGE RATE
-</small>
-
-<strong>
-EUR/USD 1.08 ↑
-</strong>
-
-<div class="live-indicator">
-UPDATED 12 SECONDS AGO
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- HERO SCRIPTS -->
-<!-- ========================================================= -->
-
-<script>
-
-/* ========================================================= */
-/* HERO PARTICLES */
-/* ========================================================= */
-
-const particlesContainer =
-document.getElementById('particles');
-
-for(let i = 0; i < 50; i++){
-
-    const particle =
-    document.createElement('div');
-
-    particle.classList.add('particle');
-
-    particle.style.left =
-    Math.random() * 100 + '%';
-
-    particle.style.top =
-    Math.random() * 100 + '%';
-
-    particle.style.animationDuration =
-    (Math.random() * 6 + 4) + 's';
-
-    particle.style.animationDelay =
-    Math.random() * 5 + 's';
-
-    particle.style.opacity =
-    Math.random();
-
-    particlesContainer.appendChild(particle);
-
-}
-
-/* ========================================================= */
-/* LIVE VOLUME */
-/* ========================================================= */
-
-setInterval(() => {
-
-    const volume =
-    (Math.random() * 4 + 7).toFixed(1);
-
-    document.getElementById('liveVolume')
-    .innerText =
-    '€' + volume + 'M';
-
-},4000);
-
-/* ========================================================= */
-/* LIVE OPERATIONS */
-/* ========================================================= */
-
-const liveOperations = [
-
-'Ferrari SF90 → Dubai',
-'McLaren 765LT → Netherlands',
-'Porsche GT3 RS → Germany',
-'Lamborghini Huracán → Miami',
-'Rolls-Royce Cullinan → Paris',
-'Bugatti Chiron → Switzerland'
-
-];
-
-let currentOperation = 0;
-
-setInterval(() => {
-
-    currentOperation++;
-
-    if(currentOperation >= liveOperations.length){
-
-        currentOperation = 0;
-
-    }
-
-    document.querySelector('.live-card.one strong')
-    .innerText =
-    liveOperations[currentOperation];
-
-},5000);
-
-</script>
-
-<!-- ========================================================= -->
-<!-- PART 3 COMEÇA ABAIXO -->
-<!-- ========================================================= -->
-<!-- ========================================================= -->
-<!-- PART 3 • GLOBAL NETWORK + WORLD MAP -->
-<!-- COLAR ABAIXO DA PARTE 2 -->
-<!-- ========================================================= -->
-
-<!-- ========================================================= -->
-<!-- GLOBAL NETWORK SECTION -->
-<!-- ========================================================= -->
-
-<section class="global-network-section section-spacing">
-
-<style>
-
-/* ========================================================= */
-/* GLOBAL NETWORK */
-/* ========================================================= */
-
-.global-network-section{
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-/* ========================================================= */
-/* SECTION BACKGROUND */
-/* ========================================================= */
-
-.network-background-glow{
-
-    position:absolute;
-
-    width:1200px;
-    height:1200px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(
-    circle,
-    rgba(215,179,119,.08),
-    transparent 70%
-    );
-
-    top:-500px;
-    left:-400px;
-
-    filter:blur(120px);
-
-    z-index:0;
-
-}
-
-/* ========================================================= */
-/* NETWORK GRID */
-/* ========================================================= */
-
-.network-grid{
-
-    display:grid;
-
-    grid-template-columns:
-    1fr 1.2fr;
-
-    gap:80px;
-
-    align-items:center;
-
-    position:relative;
-
-    z-index:2;
-
-}
-
-/* ========================================================= */
-/* NETWORK LEFT */
-/* ========================================================= */
-
-.network-left{
-
-    position:relative;
-
-}
-
-.network-label{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    padding:16px 22px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    border-radius:999px;
-
-    margin-bottom:28px;
-
-}
-
-.network-label-dot{
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    box-shadow:
-    0 0 20px var(--gold);
-
-}
-
-.network-label span{
-
-    color:var(--gold);
-
-    letter-spacing:1px;
-
-    font-size:14px;
-
-    font-weight:600;
-
-}
-
-.network-title{
-
-    font-size:82px;
-
-    line-height:1;
-
-    font-weight:900;
-
-    letter-spacing:-5px;
-
-    margin-bottom:32px;
-
-}
-
-.network-description{
-
-    font-size:20px;
-
-    line-height:2;
-
-    color:var(--text-soft);
-
-    margin-bottom:50px;
-
-}
-
-/* ========================================================= */
-/* NETWORK STATS */
-/* ========================================================= */
-
-.network-stats{
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(2,1fr);
-
-    gap:22px;
-
-}
-
-.network-stat{
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:30px;
-
-    padding:34px;
-
-    transition:var(--transition);
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-.network-stat:hover{
-
-    transform:translateY(-8px);
-
-    border-color:
-    rgba(215,179,119,.25);
-
-}
-
-.network-stat::before{
-
-    content:'';
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-    linear-gradient(
-    120deg,
-    transparent,
-    rgba(255,255,255,.03),
-    transparent
-    );
-
-    transform:translateX(-100%);
-
-    transition:1s;
-
-}
-
-.network-stat:hover::before{
-
-    transform:translateX(100%);
-
-}
-
-.network-stat h3{
-
-    font-size:46px;
-
-    color:var(--gold);
-
-    margin-bottom:10px;
-
-}
-
-.network-stat p{
-
-    color:var(--text-soft);
-
-    line-height:1.7;
-
-}
-
-/* ========================================================= */
-/* MAP SIDE */
-/* ========================================================= */
-
-.network-map-wrapper{
-
-    position:relative;
-
-}
-
-/* ========================================================= */
-/* WORLD MAP CARD */
-/* ========================================================= */
-
-.world-map-card{
-
-    position:relative;
-
-    height:760px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:42px;
-
-    overflow:hidden;
-
-    backdrop-filter:blur(20px);
-
-    box-shadow:
-    0 30px 100px rgba(0,0,0,.45);
-
-}
-
-/* ========================================================= */
-/* MAP IMAGE */
-/* ========================================================= */
-
-.world-map{
-
-    position:absolute;
-
-    inset:0;
-
-    width:100%;
-    height:100%;
-
-    object-fit:cover;
-
-    opacity:.22;
-
-    filter:
-    contrast(1.2)
-    brightness(.8);
-
-}
-
-/* ========================================================= */
-/* MAP OVERLAY */
-/* ========================================================= */
-
-.world-map-overlay{
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-
-    radial-gradient(
-    circle at center,
-    rgba(215,179,119,.08),
-    transparent 50%
-    ),
-
-    linear-gradient(
-    180deg,
-    rgba(0,0,0,.1),
-    rgba(0,0,0,.5)
-    );
-
-}
-
-/* ========================================================= */
-/* GLOBAL ROUTES */
-/* ========================================================= */
-
-.route-line{
-
-    position:absolute;
-
-    height:2px;
-
-    background:
-    linear-gradient(
-    90deg,
-    transparent,
-    var(--gold),
-    transparent
-    );
-
-    transform-origin:left;
-
-    opacity:.8;
-
-}
-
-.route-line::before{
-
-    content:'';
-
-    position:absolute;
-
-    right:0;
-    top:50%;
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    transform:translateY(-50%);
-
-    box-shadow:
-    0 0 20px var(--gold);
-
-}
-
-/* ========================================================= */
-/* ROUTES */
-/* ========================================================= */
-
-.route-1{
-
-    width:340px;
-
-    top:180px;
-    left:180px;
-
-    transform:rotate(14deg);
-
-    animation:routePulse 4s infinite;
-
-}
-
-.route-2{
-
-    width:280px;
-
-    top:320px;
-    left:340px;
-
-    transform:rotate(-18deg);
-
-    animation:routePulse 6s infinite;
-
-}
-
-.route-3{
-
-    width:420px;
-
-    top:250px;
-    left:160px;
-
-    transform:rotate(32deg);
-
-    animation:routePulse 5s infinite;
-
-}
-
-.route-4{
-
-    width:300px;
-
-    top:420px;
-    left:480px;
-
-    transform:rotate(-24deg);
-
-    animation:routePulse 7s infinite;
-
-}
-
-/* ========================================================= */
-/* ROUTE ANIMATION */
-/* ========================================================= */
-
-@keyframes routePulse{
-
-    0%{
-        opacity:.2;
-    }
-
-    50%{
-        opacity:1;
-    }
-
-    100%{
-        opacity:.2;
-    }
-
-}
-
-/* ========================================================= */
-/* GLOBAL POINTS */
-/* ========================================================= */
-
-.global-point{
-
-    position:absolute;
-
-    width:16px;
-    height:16px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    box-shadow:
-    0 0 20px var(--gold);
-
-    animation:pointPulse 3s infinite;
-
-}
-
-.global-point::after{
-
-    content:'';
-
-    position:absolute;
-
-    inset:-12px;
-
-    border:
-    1px solid rgba(215,179,119,.35);
-
-    border-radius:50%;
-
-}
-
-.point-1{
-
-    top:160px;
-    left:220px;
-
-}
-
-.point-2{
-
-    top:240px;
-    right:200px;
-
-}
-
-.point-3{
-
-    bottom:180px;
-    left:340px;
-
-}
-
-.point-4{
-
-    bottom:260px;
-    right:260px;
-
-}
-
-@keyframes pointPulse{
-
-    0%{
-        transform:scale(1);
-    }
-
-    50%{
-        transform:scale(1.2);
-    }
-
-    100%{
-        transform:scale(1);
-    }
-
-}
-
-/* ========================================================= */
-/* LIVE GLOBAL ACTIVITY */
-/* ========================================================= */
-
-.global-activity{
-
-    position:absolute;
-
-    right:30px;
-    bottom:30px;
-
-    width:340px;
-
-    background:
-    rgba(0,0,0,.72);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    border-radius:28px;
-
-    padding:28px;
-
-    backdrop-filter:blur(20px);
-
-    box-shadow:
-    0 20px 60px rgba(0,0,0,.45);
-
-}
-
-.global-activity small{
-
-    display:block;
-
-    color:#7a7a7a;
-
-    margin-bottom:16px;
-
-    letter-spacing:1px;
-
-}
-
-.activity-item{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    padding:14px 0;
-
-    border-bottom:
-    1px solid rgba(255,255,255,.04);
-
-}
-
-.activity-item:last-child{
-
-    border-bottom:none;
-
-}
-
-.activity-item strong{
-
-    font-size:15px;
-
-}
-
-.activity-item span{
-
-    color:var(--gold);
-
-    font-size:13px;
-
-}
-
-/* ========================================================= */
-/* FLOATING NETWORK CARD */
-/* ========================================================= */
-
-.network-floating-card{
-
-    position:absolute;
-
-    top:-50px;
-    right:-50px;
-
-    width:320px;
-
-    background:
-    rgba(8,8,8,.92);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    border-radius:32px;
-
-    padding:30px;
-
-    backdrop-filter:blur(20px);
-
-    z-index:10;
-
-    animation:floatingNetwork 6s ease-in-out infinite;
-
-}
-
-.network-floating-card small{
-
-    display:block;
-
-    margin-bottom:12px;
-
-    color:#7c7c7c;
-
-    letter-spacing:1px;
-
-}
-
-.network-floating-card h3{
-
-    font-size:38px;
-
-    color:var(--gold);
-
-    margin-bottom:12px;
-
-}
-
-.network-floating-card p{
-
-    color:var(--text-soft);
-
-    line-height:1.8;
-
-}
-
-@keyframes floatingNetwork{
-
-    0%{
-        transform:translateY(0px);
-    }
-
-    50%{
-        transform:translateY(-14px);
-    }
-
-    100%{
-        transform:translateY(0px);
-    }
-
-}
-
-/* ========================================================= */
-/* RESPONSIVE */
-/* ========================================================= */
-
-@media(max-width:1300px){
-
-    .network-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-}
-
-@media(max-width:768px){
-
-    .network-title{
-
-        font-size:52px;
-
-    }
-
-    .network-description{
-
-        font-size:17px;
-
-        line-height:1.8;
-
-    }
-
-    .network-stats{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .world-map-card{
-
-        height:620px;
-
-    }
-
-    .network-floating-card{
-
-        display:none;
-
-    }
-
-    .global-activity{
-
-        width:90%;
-
-        left:50%;
-
-        transform:translateX(-50%);
-
-    }
-
-}
-
-</style>
-
-<!-- ========================================================= -->
-<!-- BACKGROUND GLOW -->
-<!-- ========================================================= -->
-
-<div class="network-background-glow"></div>
-
-<!-- ========================================================= -->
-<!-- CONTAINER -->
-<!-- ========================================================= -->
-
-<div class="container network-grid">
-
-<!-- ========================================================= -->
-<!-- LEFT CONTENT -->
-<!-- ========================================================= -->
-
-<div class="network-left reveal">
-
-<div class="network-label">
-
-<div class="network-label-dot"></div>
-
-<span>
-GLOBAL AUTOMOTIVE ECOSYSTEM
-</span>
-
-</div>
-
-<h2 class="network-title">
-
-Connected
-Automotive
-Operations
-<span class="gold">
-Worldwide.
-</span>
-
-</h2>
-
-<p class="network-description">
-
-Flux Imports creates a private international infrastructure connecting dealerships, importers, brokers and automotive professionals through intelligent global quotation systems, logistics automation and enterprise-grade operational workflows.
-
-</p>
-
-<div class="network-stats">
-
-<div class="network-stat">
-
-<h3 id="networkCountries">
-34+
-</h3>
-
-<p>
-Supported countries with intelligent import and export systems.
-</p>
-
-</div>
-
-<div class="network-stat">
-
-<h3 id="networkCurrencies">
-18
-</h3>
-
-<p>
-Integrated international currencies with live exchange conversion.
-</p>
-
-</div>
-
-<div class="network-stat">
-
-<h3 id="networkDealers">
-120+
-</h3>
-
-<p>
-Verified dealerships and automotive professionals connected globally.
-</p>
-
-</div>
-
-<div class="network-stat">
-
-<h3 id="networkQuotes">
-42K
-</h3>
-
-<p>
-Professional international quotations generated through the platform.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- MAP -->
-<!-- ========================================================= -->
-
-<div class="network-map-wrapper reveal">
-
-<div class="world-map-card">
-
-<img
-class="world-map"
-src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2000&auto=format&fit=crop"
-alt="World Map"
->
-
-<div class="world-map-overlay"></div>
-
-<!-- ========================================================= -->
-<!-- ROUTES -->
-<!-- ========================================================= -->
-
-<div class="route-line route-1"></div>
-<div class="route-line route-2"></div>
-<div class="route-line route-3"></div>
-<div class="route-line route-4"></div>
-
-<!-- ========================================================= -->
-<!-- GLOBAL POINTS -->
-<!-- ========================================================= -->
-
-<div class="global-point point-1"></div>
-<div class="global-point point-2"></div>
-<div class="global-point point-3"></div>
-<div class="global-point point-4"></div>
-
-<!-- ========================================================= -->
-<!-- FLOATING CARD -->
-<!-- ========================================================= -->
-
-<div class="network-floating-card">
-
-<small>
-LIVE INTERNATIONAL ACTIVITY
-</small>
-
-<h3>
-+284
-</h3>
-
-<p>
-Global automotive operations processed through the Flux Imports ecosystem within the last 24 hours.
-</p>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- ACTIVITY -->
-<!-- ========================================================= -->
-
-<div class="global-activity">
-
-<small>
-REAL-TIME GLOBAL OPERATIONS
-</small>
-
-<div class="activity-item">
-
-<strong>
-Ferrari SF90 → Dubai
-</strong>
-
-<span>
-LIVE
-</span>
-
-</div>
-
-<div class="activity-item">
-
-<strong>
-GT3 RS → Germany
-</strong>
-
-<span>
-2 MIN AGO
-</span>
-
-</div>
-
-<div class="activity-item">
-
-<strong>
-McLaren 765LT → Miami
-</strong>
-
-<span>
-LIVE
-</span>
-
-</div>
-
-<div class="activity-item">
-
-<strong>
-Lamborghini STO → Paris
-</strong>
-
-<span>
-5 MIN AGO
-</span>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================================= -->
-<!-- GLOBAL NETWORK SCRIPTS -->
-<!-- ========================================================= -->
-
-<script>
-
-/* ========================================================= */
-/* LIVE GLOBAL STATS */
-/* ========================================================= */
-
-setInterval(() => {
-
-    const quotes =
-    Math.floor(Math.random() * 100) + 42;
-
-    document.getElementById('networkQuotes')
-    .innerText =
-    quotes + 'K';
-
-},4000);
-
-/* ========================================================= */
-/* LIVE OPERATIONS */
-/* ========================================================= */
-
-const activityOperations = [
-
-'Ferrari Purosangue → Netherlands',
-'Bentley Continental GT → Dubai',
-'Porsche Turbo S → Germany',
-'Rolls Royce Spectre → Miami',
-'Mercedes AMG GT → Switzerland',
-'Bugatti Chiron → Qatar'
-
-];
-
-let operationIndex = 0;
-
-setInterval(() => {
-
-    operationIndex++;
-
-    if(operationIndex >= activityOperations.length){
-
-        operationIndex = 0;
-
-    }
-
-    document.querySelectorAll('.activity-item strong')[0]
-    .innerText =
-    activityOperations[operationIndex];
-
-},5000);
-
-</script>
-
-<!-- ========================================================= -->
-<!-- PART 4 COMEÇA ABAIXO -->
-<!-- ========================================================= -->
-<!-- ========================================================= -->
-<!-- PART 4 • EVERYTHING IN ONE PLATFORM -->
-<!-- COLAR ABAIXO DA PARTE 3 -->
-<!-- ========================================================= -->
-
-<section class="platform-section section-spacing">
-
-<style>
-
-/* ========================================================= */
-/* PLATFORM SECTION */
-/* ========================================================= */
-
-.platform-section{
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-/* ========================================================= */
-/* PLATFORM GLOW */
-/* ========================================================= */
-
-.platform-glow{
-
-    position:absolute;
-
-    width:1200px;
-    height:1200px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(
-    circle,
-    rgba(215,179,119,.08),
-    transparent 70%
-    );
-
-    top:-500px;
-    right:-500px;
-
-    filter:blur(140px);
-
-    z-index:0;
-
-}
-
-/* ========================================================= */
-/* PLATFORM HEADER */
-/* ========================================================= */
-
-.platform-header{
-
-    position:relative;
-
-    z-index:2;
-
-    margin-bottom:100px;
-
-}
-
-/* ========================================================= */
-/* PLATFORM GRID */
-/* ========================================================= */
-
-.platform-grid{
-
-    position:relative;
-
-    z-index:2;
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(3,1fr);
-
-    gap:30px;
-
-}
-
-/* ========================================================= */
-/* PLATFORM CARD */
-/* ========================================================= */
-
-.platform-card{
-
-    position:relative;
-
-    min-height:420px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:36px;
-
-    padding:38px;
-
-    overflow:hidden;
-
-    transition:var(--transition);
-
-    backdrop-filter:blur(20px);
-
-}
-
-.platform-card:hover{
-
-    transform:
-    translateY(-10px);
-
-    border-color:
-    rgba(215,179,119,.25);
-
-    box-shadow:
-    0 30px 100px rgba(0,0,0,.45);
-
-}
-
-.platform-card::before{
-
-    content:'';
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-    linear-gradient(
-    120deg,
-    transparent,
-    rgba(255,255,255,.03),
-    transparent
-    );
-
-    transform:translateX(-100%);
-
-    transition:1.2s;
-
-}
-
-.platform-card:hover::before{
-
-    transform:translateX(100%);
-
-}
-
-/* ========================================================= */
-/* CARD ICON */
-/* ========================================================= */
-
-.platform-icon{
-
-    width:82px;
-    height:82px;
-
-    border-radius:24px;
-
-    background:
-    linear-gradient(
-    180deg,
-    rgba(215,179,119,.22),
-    rgba(215,179,119,.05)
-    );
-
-    border:
-    1px solid rgba(215,179,119,.18);
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    margin-bottom:28px;
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-.platform-icon::before{
-
-    content:'';
-
-    position:absolute;
-
-    width:120%;
-    height:120%;
-
-    background:
-    linear-gradient(
-    120deg,
-    transparent,
-    rgba(255,255,255,.12),
-    transparent
-    );
-
-    transform:rotate(20deg);
-
-    animation:iconShine 5s linear infinite;
-
-}
-
-@keyframes iconShine{
-
-    0%{
-        transform:
-        translateX(-120%)
-        rotate(20deg);
-    }
-
-    100%{
-        transform:
-        translateX(180%)
-        rotate(20deg);
-    }
-
-}
-
-.platform-icon svg{
-
-    width:34px;
-    height:34px;
-
-    stroke:var(--gold);
-
-    stroke-width:1.7;
-
-    fill:none;
-
-    z-index:2;
-
-}
-
-/* ========================================================= */
-/* CARD TEXT */
-/* ========================================================= */
-
-.platform-card h3{
-
-    font-size:34px;
-
-    line-height:1.2;
-
-    margin-bottom:18px;
-
-    letter-spacing:-1px;
-
-}
-
-.platform-card p{
-
-    color:var(--text-soft);
-
-    line-height:2;
-
-    font-size:17px;
-
-    margin-bottom:40px;
-
-}
-
-/* ========================================================= */
-/* MINI METRICS */
-/* ========================================================= */
-
-.platform-metric{
-
-    position:absolute;
-
-    bottom:38px;
-    left:38px;
-
-    display:flex;
-
-    align-items:center;
-
-    gap:14px;
-
-}
-
-.metric-dot{
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    box-shadow:
-    0 0 20px var(--gold);
-
-}
-
-.platform-metric span{
-
-    color:var(--gold);
-
-    font-size:13px;
-
-    letter-spacing:1px;
-
-}
-
-/* ========================================================= */
-/* LARGE FEATURE */
-/* ========================================================= */
-
-.platform-large{
-
-    grid-column:
-    span 2;
-
-    min-height:500px;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    gap:40px;
-
-}
-
-/* ========================================================= */
-/* LARGE LEFT */
-/* ========================================================= */
-
-.platform-large-left{
-
-    width:50%;
-
-}
-
-/* ========================================================= */
-/* LARGE RIGHT */
-/* ========================================================= */
-
-.platform-large-right{
-
-    width:50%;
-
-    position:relative;
-
-}
-
-/* ========================================================= */
-/* DASHBOARD MOCKUP */
-/* ========================================================= */
-
-.mockup-dashboard{
-
-    position:relative;
-
-    width:100%;
-
-    height:360px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    border-radius:32px;
-
-    overflow:hidden;
-
-}
-
-/* ========================================================= */
-/* DASHBOARD TOP */
-/* ========================================================= */
-
-.mockup-top{
-
-    display:flex;
-
-    gap:16px;
-
-    padding:22px;
-
-}
-
-.mockup-box{
-
-    flex:1;
-
-    background:#0a0a0a;
-
-    border:
-    1px solid rgba(255,255,255,.04);
-
-    border-radius:20px;
-
-    padding:20px;
-
-}
-
-.mockup-box small{
-
-    display:block;
-
-    margin-bottom:10px;
-
-    color:#787878;
-
-    font-size:12px;
-
-    letter-spacing:1px;
-
-}
-
-.mockup-box strong{
-
-    font-size:28px;
-
-}
-
-/* ========================================================= */
-/* MOCKUP GRAPH */
-/* ========================================================= */
-
-.mockup-chart{
-
-    position:absolute;
-
-    bottom:20px;
-    left:20px;
-    right:20px;
-
-    height:180px;
-
-    border-radius:24px;
-
-    overflow:hidden;
-
-    background:
-    linear-gradient(
-    180deg,
-    rgba(255,255,255,.02),
-    rgba(255,255,255,.01)
-    );
-
-}
-
-.mockup-chart svg{
-
-    width:100%;
-    height:100%;
-
-}
-
-/* ========================================================= */
-/* FLOATING LIVE */
-/* ========================================================= */
-
-.platform-live{
-
-    position:absolute;
-
-    top:-30px;
-    right:-30px;
-
-    width:260px;
-
-    background:
-    rgba(8,8,8,.92);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    border-radius:28px;
-
-    padding:24px;
-
-    backdrop-filter:blur(20px);
-
-    animation:platformFloat 6s ease-in-out infinite;
-
-}
-
-.platform-live small{
-
-    display:block;
-
-    margin-bottom:12px;
-
-    color:#7b7b7b;
-
-    letter-spacing:1px;
-
-}
-
-.platform-live strong{
-
-    font-size:18px;
-
-    line-height:1.6;
-
-}
-
-.platform-live-indicator{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:10px;
-
-    margin-top:14px;
-
-    color:#4eff91;
-
-    font-size:12px;
-
-}
-
-.platform-live-indicator::before{
-
-    content:'';
-
-    width:8px;
-    height:8px;
-
-    border-radius:50%;
-
-    background:#4eff91;
-
-    box-shadow:
-    0 0 12px #4eff91;
-
-}
-
-@keyframes platformFloat{
-
-    0%{
-        transform:translateY(0px);
-    }
-
-    50%{
-        transform:translateY(-12px);
-    }
-
-    100%{
-        transform:translateY(0px);
-    }
-
-}
-
-/* ========================================================= */
-/* RESPONSIVE */
-/* ========================================================= */
-
-@media(max-width:1300px){
-
-    .platform-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .platform-large{
-
-        grid-column:span 1;
-
-        flex-direction:column;
-
-    }
-
-    .platform-large-left,
-    .platform-large-right{
-
-        width:100%;
-
-    }
-
-}
-
-@media(max-width:768px){
-
-    .platform-card{
-
-        min-height:auto;
-
-    }
-
-    .platform-card h3{
-
-        font-size:28px;
-
-    }
-
-    .platform-live{
-
-        display:none;
-
-    }
-
-}
-
-</style>
-
-<!-- ========================================================= -->
-<!-- GLOW -->
-<!-- ========================================================= -->
-
-<div class="platform-glow"></div>
-
-<!-- ========================================================= -->
-<!-- CONTAINER -->
-<!-- ========================================================= -->
-
-<div class="container">
-
-<!-- ========================================================= -->
-<!-- HEADER -->
-<!-- ========================================================= -->
-
-<div class="section-title platform-header reveal">
-
-<span>
-EVERYTHING IN ONE PLATFORM
-</span>
-
-<h2>
-
-Built For
-<span class="gold">
-Modern Automotive
-Operations.
-</span>
-
-</h2>
-
-<p>
-
-Flux Imports centralizes international quotations, logistics, currency conversion, taxes, analytics, customer management and B2B networking into one intelligent enterprise infrastructure designed for high-performance global automotive businesses.
-
-</p>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- GRID -->
-<!-- ========================================================= -->
-
-<div class="platform-grid">
-
-<!-- ========================================================= -->
-<!-- CARD 1 -->
-<!-- ========================================================= -->
-
-<div class="platform-card reveal">
-
-<div class="platform-icon">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M3 7h18"></path>
-<path d="M6 3h12l2 4H4z"></path>
-<path d="M5 21h14"></path>
-<path d="M7 7v14"></path>
-<path d="M17 7v14"></path>
-
-</svg>
-
-</div>
-
-<h3>
-
-Global
-Vehicle Quotations
-
-</h3>
-
-<p>
-
-Generate professional import and export quotations in seconds with real-time operational intelligence, international logistics and automated calculations.
-
-</p>
-
-<div class="platform-metric">
-
-<div class="metric-dot"></div>
-
-<span>
-LIVE INTERNATIONAL OPERATIONS
-</span>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD 2 -->
-<!-- ========================================================= -->
-
-<div class="platform-card reveal">
-
-<div class="platform-icon">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M12 1v22"></path>
-<path d="M17 5H9a4 4 0 0 0 0 8h6a4 4 0 0 1 0 8H6"></path>
-
-</svg>
-
-</div>
-
-<h3>
-
-Real-Time
-Currency Conversion
-
-</h3>
-
-<p>
-
-Automatically convert international currencies using real-time exchange rates integrated directly into global automotive quotation workflows.
-
-</p>
-
-<div class="platform-metric">
-
-<div class="metric-dot"></div>
-
-<span>
-LIVE EXCHANGE DATA
-</span>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- LARGE CARD -->
-<!-- ========================================================= -->
-
-<div class="platform-card platform-large reveal">
-
-<!-- ========================================================= -->
-<!-- LEFT -->
-<!-- ========================================================= -->
-
-<div class="platform-large-left">
-
-<div class="platform-icon">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M3 3v18h18"></path>
-<path d="M7 14l4-4 3 3 5-6"></path>
-
-</svg>
-
-</div>
-
-<h3>
-
-Enterprise Analytics
-And Operational Intelligence
-
-</h3>
-
-<p>
-
-Track international operations, monitor profitability, analyze import trends, compare quotations and identify strategic business opportunities through intelligent enterprise dashboards designed for automotive professionals.
-
-</p>
-
-<div class="platform-metric">
-
-<div class="metric-dot"></div>
-
-<span>
-REAL-TIME BUSINESS ANALYTICS
-</span>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- RIGHT -->
-<!-- ========================================================= -->
-
-<div class="platform-large-right">
-
-<div class="mockup-dashboard">
-
-<div class="mockup-top">
-
-<div class="mockup-box">
-
-<small>
-GLOBAL VOLUME
-</small>
-
-<strong>
-€8.4M
-</strong>
-
-</div>
-
-<div class="mockup-box">
-
-<small>
-LIVE QUOTES
-</small>
-
-<strong id="liveQuotes">
-482
-</strong>
-
-</div>
-
-</div>
-
-<div class="mockup-chart">
-
-<svg viewBox="0 0 1000 300">
-
-<path
-d="
-M0,240
-C100,200
-220,190
-320,150
-C420,100
-520,120
-620,80
-C720,30
-820,60
-1000,10
-"
-stroke="#d7b377"
-stroke-width="5"
-fill="none"
-stroke-linecap="round"
-/>
-
-</svg>
-
-</div>
-
-</div>
-
-<div class="platform-live">
-
-<small>
-LIVE AUTOMOTIVE ACTIVITY
-</small>
-
-<strong id="liveActivityText">
-
-Ferrari SF90 →
-Dubai
-
-</strong>
-
-<div class="platform-live-indicator">
-ACTIVE GLOBAL NETWORK
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD 4 -->
-<!-- ========================================================= -->
-
-<div class="platform-card reveal">
-
-<div class="platform-icon">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M12 2l9 4.9v5c0 5-3.8 9.7-9 11-5.2-1.3-9-6-9-11v-5z"></path>
-
-</svg>
-
-</div>
-
-<h3>
-
-Enterprise
-Security Infrastructure
-
-</h3>
-
-<p>
-
-Built with enterprise-grade security, encrypted infrastructure, 2FA authentication and professional operational access control systems.
-
-</p>
-
-<div class="platform-metric">
-
-<div class="metric-dot"></div>
-
-<span>
-GDPR COMPLIANT SYSTEM
-</span>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD 5 -->
-<!-- ========================================================= -->
-
-<div class="platform-card reveal">
-
-<div class="platform-icon">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-<path d="M7 10l5 5 5-5"></path>
-<path d="M12 15V3"></path>
-
-</svg>
-
-</div>
-
-<h3>
-
-Professional
-PDF Generation
-
-</h3>
-
-<p>
-
-Create premium branded quotation PDFs including pricing, vehicle information, taxes, compliance details and logistics calculations automatically.
-
-</p>
-
-<div class="platform-metric">
-
-<div class="metric-dot"></div>
-
-<span>
-AUTOMATED DOCUMENT WORKFLOW
-</span>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================================= -->
-<!-- PART 4 SCRIPTS -->
-<!-- ========================================================= -->
-
-<script>
-
-/* ========================================================= */
-/* LIVE QUOTES */
-/* ========================================================= */
-
-setInterval(() => {
-
-    const quotes =
-    Math.floor(Math.random() * 200) + 400;
-
-    document.getElementById('liveQuotes')
-    .innerText =
-    quotes;
-
-},3000);
-
-/* ========================================================= */
-/* LIVE ACTIVITY */
-/* ========================================================= */
-
-const liveActivities = [
-
-'Porsche GT3 RS → Germany',
-'McLaren 765LT → Netherlands',
-'Ferrari Purosangue → Dubai',
-'Rolls Royce Spectre → Miami',
-'Lamborghini STO → Paris',
-'Mercedes AMG GT → Switzerland'
-
-];
-
-let liveIndex = 0;
-
-setInterval(() => {
-
-    liveIndex++;
-
-    if(liveIndex >= liveActivities.length){
-
-        liveIndex = 0;
-
-    }
-
-    document.getElementById('liveActivityText')
-    .innerText =
-    liveActivities[liveIndex];
-
-},5000);
-
-</script>
-
-<!-- ========================================================= -->
-<!-- PART 5 COMEÇA ABAIXO -->
-<!-- ========================================================= -->
-<!-- ========================================================= -->
-<!-- PART 5 • B2B ECOSYSTEM + DEALERS NETWORK -->
-<!-- COLAR ABAIXO DA PARTE 4 -->
-<!-- ========================================================= -->
-
-<section class="ecosystem-section section-spacing">
-
-<style>
-
-/* ========================================================= */
-/* ECOSYSTEM SECTION */
-/* ========================================================= */
-
-.ecosystem-section{
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-/* ========================================================= */
-/* ECOSYSTEM GLOW */
-/* ========================================================= */
-
-.ecosystem-glow{
-
-    position:absolute;
-
-    width:1400px;
-    height:1400px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(
-    circle,
-    rgba(79,140,255,.08),
-    transparent 70%
-    );
-
-    top:-700px;
-    right:-700px;
-
-    filter:blur(140px);
-
-    z-index:0;
-
-}
-
-/* ========================================================= */
-/* ECOSYSTEM GRID */
-/* ========================================================= */
-
-.ecosystem-grid{
-
-    position:relative;
-
-    z-index:2;
-
-    display:grid;
-
-    grid-template-columns:
-    1.1fr 1fr;
-
-    gap:80px;
-
-    align-items:center;
-
-}
-
-/* ========================================================= */
-/* LEFT SIDE */
-/* ========================================================= */
-
-.ecosystem-left{
-
-    position:relative;
-
-}
-
-.ecosystem-badge{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    padding:16px 22px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    border-radius:999px;
-
-    margin-bottom:30px;
-
-}
-
-.ecosystem-badge-dot{
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    box-shadow:
-    0 0 20px var(--gold);
-
-}
-
-.ecosystem-badge span{
-
-    color:var(--gold);
-
-    font-size:14px;
-
-    letter-spacing:1px;
-
-    font-weight:600;
-
-}
-
-.ecosystem-title{
-
-    font-size:84px;
-
-    line-height:1;
-
-    letter-spacing:-5px;
-
-    margin-bottom:34px;
-
-}
-
-.ecosystem-description{
-
-    font-size:20px;
-
-    line-height:2;
-
-    color:var(--text-soft);
-
-    margin-bottom:50px;
-
-}
-
-/* ========================================================= */
-/* DEALERS GRID */
-/* ========================================================= */
-
-.dealers-grid{
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(2,1fr);
-
-    gap:22px;
-
-}
-
-/* ========================================================= */
-/* DEALER CARD */
-/* ========================================================= */
-
-.dealer-card{
-
-    position:relative;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:30px;
-
-    padding:34px;
-
-    overflow:hidden;
-
-    transition:var(--transition);
-
-}
-
-.dealer-card:hover{
-
-    transform:
-    translateY(-8px);
-
-    border-color:
-    rgba(215,179,119,.22);
-
-    box-shadow:
-    0 30px 100px rgba(0,0,0,.4);
-
-}
-
-.dealer-card::before{
-
-    content:'';
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-    linear-gradient(
-    120deg,
-    transparent,
-    rgba(255,255,255,.03),
-    transparent
-    );
-
-    transform:translateX(-100%);
-
-    transition:1.2s;
-
-}
-
-.dealer-card:hover::before{
-
-    transform:translateX(100%);
-
-}
-
-.dealer-card-icon{
-
-    width:72px;
-    height:72px;
-
-    border-radius:22px;
-
-    background:
-    linear-gradient(
-    180deg,
-    rgba(215,179,119,.18),
-    rgba(215,179,119,.05)
-    );
-
-    border:
-    1px solid rgba(215,179,119,.16);
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    margin-bottom:24px;
-
-}
-
-.dealer-card-icon svg{
-
-    width:30px;
-    height:30px;
-
-    stroke:var(--gold);
-
-    fill:none;
-
-    stroke-width:1.7;
-
-}
-
-.dealer-card h3{
-
-    font-size:28px;
-
-    margin-bottom:16px;
-
-    letter-spacing:-1px;
-
-}
-
-.dealer-card p{
-
-    color:var(--text-soft);
-
-    line-height:1.9;
-
-    font-size:16px;
-
-}
-
-/* ========================================================= */
-/* RIGHT SIDE */
-/* ========================================================= */
-
-.ecosystem-right{
-
-    position:relative;
-
-}
-
-/* ========================================================= */
-/* NETWORK PANEL */
-/* ========================================================= */
-
-.network-panel{
-
-    position:relative;
-
-    height:780px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:42px;
-
-    overflow:hidden;
-
-    backdrop-filter:blur(20px);
-
-    box-shadow:
-    0 30px 100px rgba(0,0,0,.45);
-
-}
-
-/* ========================================================= */
-/* NETWORK HEADER */
-/* ========================================================= */
-
-.network-panel-top{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    padding:30px;
-
-    border-bottom:
-    1px solid rgba(255,255,255,.05);
-
-}
-
-.network-panel-top h3{
-
-    font-size:28px;
-
-}
-
-.network-status{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    color:#4eff91;
-
-    font-size:13px;
-
-    letter-spacing:1px;
-
-}
-
-.network-status::before{
-
-    content:'';
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:#4eff91;
-
-    box-shadow:
-    0 0 14px #4eff91;
-
-}
-
-/* ========================================================= */
-/* NETWORK LIST */
-/* ========================================================= */
-
-.network-list{
-
-    padding:26px;
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:18px;
-
-}
-
-/* ========================================================= */
-/* NETWORK ITEM */
-/* ========================================================= */
-
-.network-item{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    background:
-    rgba(255,255,255,.02);
-
-    border:
-    1px solid rgba(255,255,255,.04);
-
-    border-radius:24px;
-
-    padding:22px;
-
-    transition:var(--transition);
-
-}
-
-.network-item:hover{
-
-    transform:
-    translateX(8px);
-
-    border-color:
-    rgba(215,179,119,.18);
-
-}
-
-.network-item-left{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:18px;
-
-}
-
-.network-avatar{
-
-    width:58px;
-    height:58px;
-
-    border-radius:50%;
-
-    object-fit:cover;
-
-    border:
-    2px solid rgba(215,179,119,.25);
-
-}
-
-.network-user h4{
-
-    font-size:17px;
-
-    margin-bottom:6px;
-
-}
-
-.network-user span{
-
-    color:var(--text-soft);
-
-    font-size:14px;
-
-}
-
-.network-country{
-
-    color:var(--gold);
-
-    font-size:13px;
-
-    letter-spacing:1px;
-
-}
-
-/* ========================================================= */
-/* FLOATING LIVE DEAL */
-/* ========================================================= */
-
-.live-deal-card{
-
-    position:absolute;
-
-    bottom:-40px;
-    right:-40px;
-
-    width:340px;
-
-    background:
-    rgba(8,8,8,.94);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    border-radius:30px;
-
-    padding:28px;
-
-    backdrop-filter:blur(20px);
-
-    box-shadow:
-    0 30px 100px rgba(0,0,0,.45);
-
-    animation:dealFloat 6s ease-in-out infinite;
-
-}
-
-.live-deal-card small{
-
-    display:block;
-
-    margin-bottom:12px;
-
-    color:#7a7a7a;
-
-    letter-spacing:1px;
-
-}
-
-.live-deal-card h3{
-
-    font-size:22px;
-
-    line-height:1.6;
-
-    margin-bottom:18px;
-
-}
-
-.live-deal-footer{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-}
-
-.live-deal-footer span{
-
-    color:#4eff91;
-
-    font-size:13px;
-
-}
-
-.live-deal-footer strong{
-
-    color:var(--gold);
-
-    font-size:18px;
-
-}
-
-@keyframes dealFloat{
-
-    0%{
-        transform:translateY(0px);
-    }
-
-    50%{
-        transform:translateY(-14px);
-    }
-
-    100%{
-        transform:translateY(0px);
-    }
-
-}
-
-/* ========================================================= */
-/* RESPONSIVE */
-/* ========================================================= */
-
-@media(max-width:1300px){
-
-    .ecosystem-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-}
-
-@media(max-width:768px){
-
-    .ecosystem-title{
-
-        font-size:54px;
-
-    }
-
-    .ecosystem-description{
-
-        font-size:17px;
-
-        line-height:1.8;
-
-    }
-
-    .dealers-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .network-panel{
-
-        height:auto;
-
-    }
-
-    .live-deal-card{
-
-        display:none;
-
-    }
-
-}
-
-</style>
-
-<!-- ========================================================= -->
-<!-- GLOW -->
-<!-- ========================================================= -->
-
-<div class="ecosystem-glow"></div>
-
-<!-- ========================================================= -->
-<!-- CONTAINER -->
-<!-- ========================================================= -->
-
-<div class="container ecosystem-grid">
-
-<!-- ========================================================= -->
-<!-- LEFT -->
-<!-- ========================================================= -->
-
-<div class="ecosystem-left reveal">
-
-<div class="ecosystem-badge">
-
-<div class="ecosystem-badge-dot"></div>
-
-<span>
-PRIVATE B2B ECOSYSTEM
-</span>
-
-</div>
-
-<h2 class="ecosystem-title">
-
-Built For
-Dealerships,
-Importers
-And Global
-Automotive
-Professionals.
-
-</h2>
-
-<p class="ecosystem-description">
-
-Flux Imports is not a public platform. The ecosystem was designed exclusively for verified automotive businesses, creating a private global infrastructure where dealerships, brokers and import specialists can operate with security, intelligence and strategic international connections.
-
-</p>
-
-<div class="dealers-grid">
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="dealer-card">
-
-<div class="dealer-card-icon">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M3 7h18"></path>
-<path d="M6 3h12l2 4H4z"></path>
-<path d="M5 21h14"></path>
-
-</svg>
-
-</div>
-
-<h3>
-Dealerships
-</h3>
-
-<p>
-Professional dealership operations connected through a global enterprise automotive infrastructure.
-</p>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="dealer-card">
-
-<div class="dealer-card-icon">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M12 2v20"></path>
-<path d="M2 12h20"></path>
-
-</svg>
-
-</div>
-
-<h3>
-Importers
-</h3>
-
-<p>
-Intelligent international logistics, quotation workflows and import automation systems.
-</p>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="dealer-card">
-
-<div class="dealer-card-icon">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M3 12h18"></path>
-<path d="M12 3v18"></path>
-
-</svg>
-
-</div>
-
-<h3>
-Brokers
-</h3>
-
-<p>
-Strategic B2B networking and premium vehicle sourcing opportunities worldwide.
-</p>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="dealer-card">
-
-<div class="dealer-card-icon">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M4 4h16v16H4z"></path>
-<path d="M9 9h6v6H9z"></path>
-
-</svg>
-
-</div>
-
-<h3>
-Enterprise
-</h3>
-
-<p>
-Secure enterprise-grade infrastructure with analytics, compliance and operational intelligence.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- RIGHT -->
-<!-- ========================================================= -->
-
-<div class="ecosystem-right reveal">
-
-<div class="network-panel">
-
-<!-- ========================================================= -->
-<!-- TOP -->
-<!-- ========================================================= -->
-
-<div class="network-panel-top">
-
-<h3>
-Global Network
-</h3>
-
-<div class="network-status">
-LIVE ECOSYSTEM
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- LIST -->
-<!-- ========================================================= -->
-
-<div class="network-list">
-
-<!-- ========================================================= -->
-<!-- ITEM -->
-<!-- ========================================================= -->
-
-<div class="network-item">
-
-<div class="network-item-left">
-
-<img
-class="network-avatar"
-src="https://randomuser.me/api/portraits/men/32.jpg"
->
-
-<div class="network-user">
-
-<h4>
-Luca Ferrari
-</h4>
-
-<span>
-Luxury Dealership
-</span>
-
-</div>
-
-</div>
-
-<div class="network-country">
-ITALY
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- ITEM -->
-<!-- ========================================================= -->
-
-<div class="network-item">
-
-<div class="network-item-left">
-
-<img
-class="network-avatar"
-src="https://randomuser.me/api/portraits/men/54.jpg"
->
-
-<div class="network-user">
-
-<h4>
-Michael Bauer
-</h4>
-
-<span>
-Import Specialist
-</span>
-
-</div>
-
-</div>
-
-<div class="network-country">
-GERMANY
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- ITEM -->
-<!-- ========================================================= -->
-
-<div class="network-item">
-
-<div class="network-item-left">
-
-<img
-class="network-avatar"
-src="https://randomuser.me/api/portraits/women/44.jpg"
->
-
-<div class="network-user">
-
-<h4>
-Emily Carter
-</h4>
-
-<span>
-Automotive Broker
-</span>
-
-</div>
-
-</div>
-
-<div class="network-country">
-UNITED STATES
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- ITEM -->
-<!-- ========================================================= -->
-
-<div class="network-item">
-
-<div class="network-item-left">
-
-<img
-class="network-avatar"
-src="https://randomuser.me/api/portraits/men/76.jpg"
->
-
-<div class="network-user">
-
-<h4>
-Hassan Al-Fayed
-</h4>
-
-<span>
-Premium Vehicles
-</span>
-
-</div>
-
-</div>
-
-<div class="network-country">
-DUBAI
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- ITEM -->
-<!-- ========================================================= -->
-
-<div class="network-item">
-
-<div class="network-item-left">
-
-<img
-class="network-avatar"
-src="https://randomuser.me/api/portraits/women/68.jpg"
->
-
-<div class="network-user">
-
-<h4>
-Sophie Laurent
-</h4>
-
-<span>
-Vehicle Export
-</span>
-
-</div>
-
-</div>
-
-<div class="network-country">
-FRANCE
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- FLOATING LIVE DEAL -->
-<!-- ========================================================= -->
-
-<div class="live-deal-card">
-
-<small>
-LIVE INTERNATIONAL DEAL
-</small>
-
-<h3 id="liveDealText">
-
-Porsche 911 GT3 RS Successfully Exported To Germany
-
-</h3>
-
-<div class="live-deal-footer">
-
-<span>
-ACTIVE NETWORK
-</span>
-
-<strong>
-€482K
-</strong>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================================= -->
-<!-- PART 5 SCRIPTS -->
-<!-- ========================================================= -->
-
-<script>
-
-/* ========================================================= */
-/* LIVE DEALS */
-/* ========================================================= */
-
-const liveDeals = [
-
-'Ferrari SF90 Successfully Imported To Dubai',
-'McLaren 765LT Delivered To Netherlands',
-'Rolls Royce Spectre Exported To Miami',
-'Mercedes AMG GT Imported To Germany',
-'Porsche Turbo S Delivered To Switzerland',
-'Bentley Continental GT Exported To Paris'
-
-];
-
-let dealIndex = 0;
-
-setInterval(() => {
-
-    dealIndex++;
-
-    if(dealIndex >= liveDeals.length){
-
-        dealIndex = 0;
-
-    }
-
-    document.getElementById('liveDealText')
-    .innerText =
-    liveDeals[dealIndex];
-
-},5000);
-
-</script>
-
-<!-- ========================================================= -->
-<!-- PART 6 COMEÇA ABAIXO -->
-<!-- ========================================================= -->
-<!-- ========================================================= -->
-<!-- PART 6 • ENTERPRISE ANALYTICS DASHBOARD -->
-<!-- COLAR ABAIXO DA PARTE 5 -->
-<!-- ========================================================= -->
-
-<section class="analytics-section section-spacing">
-
-<style>
-
-/* ========================================================= */
-/* ANALYTICS SECTION */
-/* ========================================================= */
-
-.analytics-section{
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-/* ========================================================= */
-/* ANALYTICS GLOW */
-/* ========================================================= */
-
-.analytics-glow{
-
-    position:absolute;
-
-    width:1400px;
-    height:1400px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(
-    circle,
-    rgba(215,179,119,.07),
-    transparent 70%
-    );
-
-    bottom:-700px;
-    left:-700px;
-
-    filter:blur(160px);
-
-    z-index:0;
-
-}
-
-/* ========================================================= */
-/* ANALYTICS WRAPPER */
-/* ========================================================= */
-
-.analytics-wrapper{
-
-    position:relative;
-
-    z-index:2;
-
-}
-
-/* ========================================================= */
-/* ANALYTICS TOP */
-/* ========================================================= */
-
-.analytics-top{
-
-    display:flex;
-
-    align-items:flex-end;
-
-    justify-content:space-between;
-
-    gap:60px;
-
-    margin-bottom:80px;
-
-}
-
-.analytics-left{
-
-    max-width:900px;
-
-}
-
-.analytics-badge{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    padding:16px 22px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    border-radius:999px;
-
-    margin-bottom:30px;
-
-}
-
-.analytics-dot{
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    box-shadow:
-    0 0 18px var(--gold);
-
-}
-
-.analytics-badge span{
-
-    color:var(--gold);
-
-    font-size:14px;
-
-    letter-spacing:1px;
-
-    font-weight:600;
-
-}
-
-.analytics-title{
-
-    font-size:86px;
-
-    line-height:1;
-
-    letter-spacing:-5px;
-
-    margin-bottom:34px;
-
-}
-
-.analytics-description{
-
-    font-size:20px;
-
-    line-height:2;
-
-    color:var(--text-soft);
-
-}
-
-.analytics-right{
-
-    display:flex;
-
-    gap:20px;
-
-}
-
-/* ========================================================= */
-/* MINI STATS */
-/* ========================================================= */
-
-.analytics-mini{
-
-    min-width:220px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:30px;
-
-    padding:30px;
-
-    transition:var(--transition);
-
-}
-
-.analytics-mini:hover{
-
-    transform:
-    translateY(-6px);
-
-    border-color:
-    rgba(215,179,119,.22);
-
-}
-
-.analytics-mini small{
-
-    display:block;
-
-    margin-bottom:16px;
-
-    color:#777;
-
-    letter-spacing:1px;
-
-}
-
-.analytics-mini strong{
-
-    font-size:40px;
-
-    color:var(--gold);
-
-}
-
-/* ========================================================= */
-/* DASHBOARD GRID */
-/* ========================================================= */
-
-.analytics-grid{
-
-    display:grid;
-
-    grid-template-columns:
-    1.4fr .8fr;
-
-    gap:30px;
-
-}
-
-/* ========================================================= */
-/* MAIN DASHBOARD */
-/* ========================================================= */
-
-.analytics-dashboard{
-
-    position:relative;
-
-    min-height:760px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:42px;
-
-    overflow:hidden;
-
-    backdrop-filter:blur(20px);
-
-    box-shadow:
-    0 30px 100px rgba(0,0,0,.45);
-
-}
-
-/* ========================================================= */
-/* DASHBOARD HEADER */
-/* ========================================================= */
-
-.dashboard-header{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    padding:34px;
-
-    border-bottom:
-    1px solid rgba(255,255,255,.05);
-
-}
-
-.dashboard-header h3{
-
-    font-size:32px;
-
-}
-
-.dashboard-live{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    color:#4eff91;
-
-    font-size:13px;
-
-    letter-spacing:1px;
-
-}
-
-.dashboard-live::before{
-
-    content:'';
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:#4eff91;
-
-    box-shadow:
-    0 0 14px #4eff91;
-
-}
-
-/* ========================================================= */
-/* DASHBOARD BODY */
-/* ========================================================= */
-
-.dashboard-body{
-
-    padding:34px;
-
-}
-
-/* ========================================================= */
-/* CHART AREA */
-/* ========================================================= */
-
-.chart-area{
-
-    position:relative;
-
-    height:340px;
-
-    border-radius:32px;
-
-    overflow:hidden;
-
-    background:
-    linear-gradient(
-    180deg,
-    rgba(255,255,255,.03),
-    rgba(255,255,255,.01)
-    );
-
-    border:
-    1px solid rgba(255,255,255,.04);
-
-    margin-bottom:30px;
-
-}
-
-.chart-area::before{
-
-    content:'';
-
-    position:absolute;
-
-    inset:0;
-
-    background-image:
-
-    linear-gradient(
-    rgba(255,255,255,.03) 1px,
-    transparent 1px
-    ),
-
-    linear-gradient(
-    90deg,
-    rgba(255,255,255,.03) 1px,
-    transparent 1px
-    );
-
-    background-size:42px 42px;
-
-}
-
-.chart-svg{
-
-    position:absolute;
-
-    inset:0;
-
-    width:100%;
-    height:100%;
-
-}
-
-/* ========================================================= */
-/* ANALYTICS CARDS */
-/* ========================================================= */
-
-.analytics-cards{
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(3,1fr);
-
-    gap:22px;
-
-}
-
-.analytics-card{
-
-    background:
-    rgba(255,255,255,.02);
-
-    border:
-    1px solid rgba(255,255,255,.04);
-
-    border-radius:26px;
-
-    padding:28px;
-
-    transition:var(--transition);
-
-}
-
-.analytics-card:hover{
-
-    transform:
-    translateY(-6px);
-
-    border-color:
-    rgba(215,179,119,.18);
-
-}
-
-.analytics-card small{
-
-    display:block;
-
-    margin-bottom:14px;
-
-    color:#787878;
-
-    letter-spacing:1px;
-
-}
-
-.analytics-card strong{
-
-    display:block;
-
-    font-size:34px;
-
-    margin-bottom:14px;
-
-}
-
-.analytics-card span{
-
-    color:var(--text-soft);
-
-    line-height:1.8;
-
-    font-size:15px;
-
-}
-
-/* ========================================================= */
-/* RIGHT PANEL */
-/* ========================================================= */
-
-.analytics-side{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:30px;
-
-}
-
-/* ========================================================= */
-/* SIDE PANEL */
-/* ========================================================= */
-
-.side-panel{
-
-    position:relative;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:36px;
-
-    overflow:hidden;
-
-    padding:32px;
-
-    backdrop-filter:blur(20px);
-
-}
-
-.side-panel h3{
-
-    font-size:28px;
-
-    margin-bottom:28px;
-
-}
-
-/* ========================================================= */
-/* TOP COUNTRIES */
-/* ========================================================= */
-
-.country-list{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:18px;
-
-}
-
-.country-item{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    padding:18px;
-
-    border-radius:20px;
-
-    background:
-    rgba(255,255,255,.02);
-
-    border:
-    1px solid rgba(255,255,255,.03);
-
-    transition:var(--transition);
-
-}
-
-.country-item:hover{
-
-    transform:
-    translateX(6px);
-
-    border-color:
-    rgba(215,179,119,.16);
-
-}
-
-.country-item strong{
-
-    font-size:15px;
-
-}
-
-.country-item span{
-
-    color:var(--gold);
-
-    font-size:14px;
-
-}
-
-/* ========================================================= */
-/* LIVE ACTIVITY FEED */
-/* ========================================================= */
-
-.activity-feed{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:18px;
-
-}
-
-.feed-item{
-
-    display:flex;
-
-    gap:16px;
-
-    align-items:flex-start;
-
-}
-
-.feed-dot{
-
-    width:12px;
-    height:12px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    margin-top:7px;
-
-    box-shadow:
-    0 0 16px var(--gold);
-
-}
-
-.feed-content strong{
-
-    display:block;
-
-    margin-bottom:8px;
-
-    font-size:15px;
-
-    line-height:1.7;
-
-}
-
-.feed-content span{
-
-    color:var(--text-soft);
-
-    font-size:13px;
-
-}
-
-/* ========================================================= */
-/* RESPONSIVE */
-/* ========================================================= */
-
-@media(max-width:1300px){
-
-    .analytics-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .analytics-top{
-
-        flex-direction:column;
-
-        align-items:flex-start;
-
-    }
-
-}
-
-@media(max-width:768px){
-
-    .analytics-title{
-
-        font-size:54px;
-
-    }
-
-    .analytics-description{
-
-        font-size:17px;
-
-        line-height:1.8;
-
-    }
-
-    .analytics-right{
-
-        flex-direction:column;
-
-        width:100%;
-
-    }
-
-    .analytics-mini{
-
-        width:100%;
-
-    }
-
-    .analytics-cards{
-
-        grid-template-columns:1fr;
-
-    }
-
-}
-
-</style>
-
-<!-- ========================================================= -->
-<!-- GLOW -->
-<!-- ========================================================= -->
-
-<div class="analytics-glow"></div>
-
-<!-- ========================================================= -->
-<!-- CONTAINER -->
-<!-- ========================================================= -->
-
-<div class="container analytics-wrapper">
-
-<!-- ========================================================= -->
-<!-- TOP -->
-<!-- ========================================================= -->
-
-<div class="analytics-top reveal">
-
-<div class="analytics-left">
-
-<div class="analytics-badge">
-
-<div class="analytics-dot"></div>
-
-<span>
-ENTERPRISE ANALYTICS
-</span>
-
-</div>
-
-<h2 class="analytics-title">
-
-Operational
-Intelligence
-For Global
-Automotive
-Businesses.
-
-</h2>
-
-<p class="analytics-description">
-
-Monitor international quotations, analyze profitability, track global operations, identify market demand and optimize business performance through intelligent enterprise analytics designed specifically for automotive professionals.
-
-</p>
-
-</div>
-
-<div class="analytics-right">
-
-<div class="analytics-mini">
-
-<small>
-LIVE VOLUME
-</small>
-
-<strong id="analyticsVolume">
-€8.4M
-</strong>
-
-</div>
-
-<div class="analytics-mini">
-
-<small>
-ACTIVE QUOTES
-</small>
-
-<strong id="analyticsQuotes">
-482
-</strong>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- GRID -->
-<!-- ========================================================= -->
-
-<div class="analytics-grid">
-
-<!-- ========================================================= -->
-<!-- MAIN -->
-<!-- ========================================================= -->
-
-<div class="analytics-dashboard reveal">
-
-<div class="dashboard-header">
-
-<h3>
-Global Operations Analytics
-</h3>
-
-<div class="dashboard-live">
-LIVE ENTERPRISE DATA
-</div>
-
-</div>
-
-<div class="dashboard-body">
-
-<div class="chart-area">
-
-<svg
-class="chart-svg"
-viewBox="0 0 1000 300"
-preserveAspectRatio="none"
->
-
-<path
-d="
-M0,260
-C120,210
-220,220
-320,160
-C420,90
-520,120
-620,70
-C720,20
-820,60
-1000,10
-"
-stroke="#d7b377"
-stroke-width="5"
-fill="none"
-stroke-linecap="round"
-/>
-
-</svg>
-
-</div>
-
-<div class="analytics-cards">
-
-<div class="analytics-card">
-
-<small>
-IMPORT OPERATIONS
-</small>
-
-<strong id="importsData">
-1,248
-</strong>
-
-<span>
-International import operations processed through the platform this month.
-</span>
-
-</div>
-
-<div class="analytics-card">
-
-<small>
-AVERAGE MARGIN
-</small>
-
-<strong id="marginData">
-18%
-</strong>
-
-<span>
-Average operational profitability calculated across global automotive transactions.
-</span>
-
-</div>
-
-<div class="analytics-card">
-
-<small>
-ACTIVE COUNTRIES
-</small>
-
-<strong id="countriesData">
-34
-</strong>
-
-<span>
-Countries currently connected through the Flux Imports global ecosystem.
-</span>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- SIDE -->
-<!-- ========================================================= -->
-
-<div class="analytics-side reveal">
-
-<!-- ========================================================= -->
-<!-- COUNTRIES -->
-<!-- ========================================================= -->
-
-<div class="side-panel">
-
-<h3>
-Top Markets
-</h3>
-
-<div class="country-list">
-
-<div class="country-item">
-
-<strong>
-Germany
-</strong>
-
-<span>
-+18%
-</span>
-
-</div>
-
-<div class="country-item">
-
-<strong>
-Dubai
-</strong>
-
-<span>
-+26%
-</span>
-
-</div>
-
-<div class="country-item">
-
-<strong>
-Netherlands
-</strong>
-
-<span>
-+14%
-</span>
-
-</div>
-
-<div class="country-item">
-
-<strong>
-United States
-</strong>
-
-<span>
-+31%
-</span>
-
-</div>
-
-<div class="country-item">
-
-<strong>
-Switzerland
-</strong>
-
-<span>
-+11%
-</span>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- LIVE FEED -->
-<!-- ========================================================= -->
-
-<div class="side-panel">
-
-<h3>
-Live Enterprise Feed
-</h3>
-
-<div class="activity-feed">
-
-<div class="feed-item">
-
-<div class="feed-dot"></div>
-
-<div class="feed-content">
-
-<strong id="feedText1">
-
-Ferrari SF90 quotation generated for Dubai.
-
-</strong>
-
-<span>
-2 minutes ago
-</span>
-
-</div>
-
-</div>
-
-<div class="feed-item">
-
-<div class="feed-dot"></div>
-
-<div class="feed-content">
-
-<strong id="feedText2">
-
-Porsche GT3 RS exported to Germany.
-
-</strong>
-
-<span>
-5 minutes ago
-</span>
-
-</div>
-
-</div>
-
-<div class="feed-item">
-
-<div class="feed-dot"></div>
-
-<div class="feed-content">
-
-<strong id="feedText3">
-
-McLaren 765LT import workflow completed.
-
-</strong>
-
-<span>
-9 minutes ago
-</span>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================================= -->
-<!-- PART 6 SCRIPTS -->
-<!-- ========================================================= -->
-
-<script>
-
-/* ========================================================= */
-/* LIVE ANALYTICS */
-/* ========================================================= */
-
-setInterval(() => {
-
-    const volume =
-    (Math.random() * 4 + 7).toFixed(1);
-
-    document.getElementById('analyticsVolume')
-    .innerText =
-    '€' + volume + 'M';
-
-    document.getElementById('analyticsQuotes')
-    .innerText =
-    Math.floor(Math.random() * 200) + 400;
-
-    document.getElementById('importsData')
-    .innerText =
-    Math.floor(Math.random() * 500) + 1000;
-
-    document.getElementById('marginData')
-    .innerText =
-    Math.floor(Math.random() * 10) + 15 + '%';
-
-},4000);
-
-/* ========================================================= */
-/* LIVE FEED */
-/* ========================================================= */
-
-const feedMessages = [
-
-'Rolls Royce Spectre quotation generated for Miami.',
-'Lamborghini STO exported to Switzerland.',
-'Mercedes AMG GT import completed successfully.',
-'Bentley Continental GT quotation approved.',
-'Ferrari Purosangue operational workflow finalized.',
-'Porsche Turbo S export operation completed.'
-
-];
-
-let feedIndex = 0;
-
-setInterval(() => {
-
-    feedIndex++;
-
-    if(feedIndex >= feedMessages.length){
-
-        feedIndex = 0;
-
-    }
-
-    document.getElementById('feedText1')
-    .innerText =
-    feedMessages[feedIndex];
-
-},5000);
-
-</script>
-
-<!-- ========================================================= -->
-<!-- PART 7 COMEÇA ABAIXO -->
-<!-- ========================================================= -->
-<!-- ========================================================= -->
-<!-- PART 7 • PRICING + CONVERSION SECTION -->
-<!-- COLAR ABAIXO DA PARTE 6 -->
-<!-- ========================================================= -->
-
-<section class="pricing-section section-spacing">
-
-<style>
-
-/* ========================================================= */
-/* PRICING SECTION */
-/* ========================================================= */
-
-.pricing-section{
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-/* ========================================================= */
-/* BACKGROUND */
-/* ========================================================= */
-
-.pricing-glow{
-
-    position:absolute;
-
-    width:1500px;
-    height:1500px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(
-    circle,
-    rgba(215,179,119,.08),
-    transparent 70%
-    );
-
-    top:-800px;
-    left:-800px;
-
-    filter:blur(180px);
-
-    z-index:0;
-
-}
-
-/* ========================================================= */
-/* HEADER */
-/* ========================================================= */
-
-.pricing-header{
-
-    position:relative;
-
-    z-index:2;
-
-    text-align:center;
-
-    margin-bottom:100px;
-
-}
-
-.pricing-badge{
 
     display:inline-flex;
 
@@ -6458,249 +1693,11 @@ setInterval(() => {
     border:
     1px solid rgba(255,255,255,.06);
 
-    margin-bottom:30px;
-
-}
-
-.pricing-badge-dot{
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    box-shadow:
-    0 0 16px var(--gold);
-
-}
-
-.pricing-badge span{
-
-    color:var(--gold);
-
-    font-size:14px;
-
-    letter-spacing:1px;
-
-    font-weight:600;
-
-}
-
-.pricing-title{
-
-    font-size:92px;
-
-    line-height:1;
-
-    letter-spacing:-5px;
-
     margin-bottom:34px;
 
 }
 
-.pricing-description{
-
-    max-width:920px;
-
-    margin:auto;
-
-    font-size:20px;
-
-    line-height:2;
-
-    color:var(--text-soft);
-
-}
-
-/* ========================================================= */
-/* PRICING GRID */
-/* ========================================================= */
-
-.pricing-grid{
-
-    position:relative;
-
-    z-index:2;
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(3,1fr);
-
-    gap:30px;
-
-}
-
-/* ========================================================= */
-/* CARD */
-/* ========================================================= */
-
-.pricing-card{
-
-    position:relative;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:42px;
-
-    padding:42px;
-
-    overflow:hidden;
-
-    transition:var(--transition);
-
-    backdrop-filter:blur(20px);
-
-}
-
-.pricing-card:hover{
-
-    transform:
-    translateY(-10px);
-
-    border-color:
-    rgba(215,179,119,.22);
-
-    box-shadow:
-    0 40px 120px rgba(0,0,0,.45);
-
-}
-
-/* ========================================================= */
-/* FEATURED */
-/* ========================================================= */
-
-.pricing-card.featured{
-
-    border:
-    1px solid rgba(215,179,119,.28);
-
-    transform:
-    scale(1.04);
-
-    background:
-    linear-gradient(
-    180deg,
-    rgba(215,179,119,.06),
-    rgba(255,255,255,.03)
-    );
-
-}
-
-.pricing-card.featured::before{
-
-    content:'MOST POPULAR';
-
-    position:absolute;
-
-    top:24px;
-    right:24px;
-
-    padding:10px 16px;
-
-    border-radius:999px;
-
-    background:var(--gold);
-
-    color:black;
-
-    font-size:11px;
-
-    font-weight:800;
-
-    letter-spacing:1px;
-
-}
-
-/* ========================================================= */
-/* PLAN */
-/* ========================================================= */
-
-.plan-name{
-
-    font-size:34px;
-
-    margin-bottom:16px;
-
-}
-
-.plan-description{
-
-    color:var(--text-soft);
-
-    line-height:1.8;
-
-    margin-bottom:34px;
-
-}
-
-/* ========================================================= */
-/* PRICE */
-/* ========================================================= */
-
-.plan-price{
-
-    display:flex;
-
-    align-items:flex-end;
-
-    gap:10px;
-
-    margin-bottom:40px;
-
-}
-
-.plan-price h2{
-
-    font-size:72px;
-
-    line-height:1;
-
-    letter-spacing:-3px;
-
-}
-
-.plan-price span{
-
-    color:var(--text-soft);
-
-    margin-bottom:12px;
-
-}
-
-/* ========================================================= */
-/* FEATURES */
-/* ========================================================= */
-
-.plan-features{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:18px;
-
-    margin-bottom:40px;
-
-}
-
-.plan-feature{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:14px;
-
-}
-
-.plan-feature-dot{
+.hero-badge-dot{
 
     width:10px;
     height:10px;
@@ -6710,865 +1707,15 @@ setInterval(() => {
     background:var(--gold);
 
     box-shadow:
-    0 0 12px var(--gold);
+    0 0 14px var(--gold);
 
 }
 
-.plan-feature span{
-
-    color:var(--text);
-
-    line-height:1.7;
-
-}
-
-/* ========================================================= */
-/* CTA */
-/* ========================================================= */
-
-.plan-btn{
-
-    width:100%;
-
-    height:64px;
-
-    border:none;
-
-    border-radius:20px;
-
-    cursor:pointer;
-
-    font-size:15px;
-
-    font-weight:800;
-
-    transition:var(--transition);
-
-}
-
-.plan-btn.primary{
-
-    background:var(--gold);
-
-    color:black;
-
-}
-
-.plan-btn.primary:hover{
-
-    transform:
-    translateY(-4px);
-
-    box-shadow:
-    0 20px 60px rgba(215,179,119,.25);
-
-}
-
-.plan-btn.secondary{
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.08);
-
-    color:white;
-
-}
-
-.plan-btn.secondary:hover{
-
-    border-color:
-    rgba(215,179,119,.22);
-
-    transform:
-    translateY(-4px);
-
-}
-
-/* ========================================================= */
-/* ENTERPRISE CTA */
-/* ========================================================= */
-
-.enterprise-cta{
-
-    position:relative;
-
-    z-index:2;
-
-    margin-top:120px;
-
-    padding:90px;
-
-    border-radius:48px;
-
-    overflow:hidden;
-
-    background:
-    linear-gradient(
-    180deg,
-    rgba(255,255,255,.03),
-    rgba(255,255,255,.01)
-    );
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    gap:60px;
-
-}
-
-.enterprise-cta::before{
-
-    content:'';
-
-    position:absolute;
-
-    width:700px;
-    height:700px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(
-    circle,
-    rgba(215,179,119,.12),
-    transparent 70%
-    );
-
-    top:-300px;
-    right:-300px;
-
-}
-
-.enterprise-left{
-
-    position:relative;
-
-    z-index:2;
-
-    max-width:820px;
-
-}
-
-.enterprise-left h2{
-
-    font-size:68px;
-
-    line-height:1;
-
-    letter-spacing:-4px;
-
-    margin-bottom:28px;
-
-}
-
-.enterprise-left p{
-
-    color:var(--text-soft);
-
-    line-height:2;
-
-    font-size:19px;
-
-}
-
-.enterprise-right{
-
-    position:relative;
-
-    z-index:2;
-
-}
-
-/* ========================================================= */
-/* RESPONSIVE */
-/* ========================================================= */
-
-@media(max-width:1300px){
-
-    .pricing-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .pricing-card.featured{
-
-        transform:none;
-
-    }
-
-    .enterprise-cta{
-
-        flex-direction:column;
-
-        align-items:flex-start;
-
-    }
-
-}
-
-@media(max-width:768px){
-
-    .pricing-title{
-
-        font-size:54px;
-
-    }
-
-    .pricing-description{
-
-        font-size:17px;
-
-        line-height:1.8;
-
-    }
-
-    .enterprise-left h2{
-
-        font-size:44px;
-
-    }
-
-    .enterprise-left p{
-
-        font-size:17px;
-
-        line-height:1.8;
-
-    }
-
-    .enterprise-cta{
-
-        padding:50px 34px;
-
-    }
-
-}
-
-</style>
-
-<!-- ========================================================= -->
-<!-- GLOW -->
-<!-- ========================================================= -->
-
-<div class="pricing-glow"></div>
-
-<!-- ========================================================= -->
-<!-- CONTAINER -->
-<!-- ========================================================= -->
-
-<div class="container">
-
-<!-- ========================================================= -->
-<!-- HEADER -->
-<!-- ========================================================= -->
-
-<div class="pricing-header reveal">
-
-<div class="pricing-badge">
-
-<div class="pricing-badge-dot"></div>
-
-<span>
-GLOBAL ACCESS PLANS
-</span>
-
-</div>
-
-<h2 class="pricing-title">
-
-Enterprise
-Infrastructure
-Built For
-Automotive
-Growth.
-
-</h2>
-
-<p class="pricing-description">
-
-Choose the ideal operational infrastructure for your dealership, brokerage or automotive import business and access the private global ecosystem built for modern international automotive operations.
-
-</p>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- GRID -->
-<!-- ========================================================= -->
-
-<div class="pricing-grid">
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="pricing-card reveal">
-
-<h3 class="plan-name">
-Starter
-</h3>
-
-<p class="plan-description">
-
-Perfect for independent importers and small automotive businesses starting international operations.
-
-</p>
-
-<div class="plan-price">
-
-<h2>
-€99
-</h2>
-
-<span>
-/ month
-</span>
-
-</div>
-
-<div class="plan-features">
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-International quotations
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Live currency conversion
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-PDF generation
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Basic analytics
-</span>
-
-</div>
-
-</div>
-
-<button class="plan-btn secondary">
-
-START FREE TRIAL
-
-</button>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD FEATURED -->
-<!-- ========================================================= -->
-
-<div class="pricing-card featured reveal">
-
-<h3 class="plan-name">
-Professional
-</h3>
-
-<p class="plan-description">
-
-Designed for dealerships, brokers and automotive professionals operating internationally.
-
-</p>
-
-<div class="plan-price">
-
-<h2>
-€249
-</h2>
-
-<span>
-/ month
-</span>
-
-</div>
-
-<div class="plan-features">
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Advanced quotation workflows
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-B2B automotive network
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Enterprise analytics
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Operational dashboards
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Premium support access
-</span>
-
-</div>
-
-</div>
-
-<button class="plan-btn primary">
-
-ACCESS PROFESSIONAL
-
-</button>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="pricing-card reveal">
-
-<h3 class="plan-name">
-Enterprise
-</h3>
-
-<p class="plan-description">
-
-Built for high-volume automotive groups requiring private operational infrastructure.
-
-</p>
-
-<div class="plan-price">
-
-<h2>
-Custom
-</h2>
-
-</div>
-
-<div class="plan-features">
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Unlimited operations
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Private infrastructure
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Custom integrations
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Dedicated enterprise support
-</span>
-
-</div>
-
-<div class="plan-feature">
-
-<div class="plan-feature-dot"></div>
-
-<span>
-Advanced compliance systems
-</span>
-
-</div>
-
-</div>
-
-<button class="plan-btn secondary">
-
-CONTACT SALES
-
-</button>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- ENTERPRISE CTA -->
-<!-- ========================================================= -->
-
-<div class="enterprise-cta reveal">
-
-<div class="enterprise-left">
-
-<h2>
-
-The Future Of
-Global Automotive
-Operations Starts Here.
-
-</h2>
-
-<p>
-
-Join the private infrastructure trusted by automotive professionals, import specialists and international dealerships operating across multiple countries through intelligent enterprise workflows.
-
-</p>
-
-</div>
-
-<div class="enterprise-right">
-
-<button class="btn btn-primary">
-
-REQUEST PRIVATE ACCESS
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================================= -->
-<!-- PART 8 COMEÇA ABAIXO -->
-<!-- ========================================================= -->
-<!-- ========================================================= -->
-<!-- PART 8 • FOUNDER + COMPANY + TRUST -->
-<!-- COLAR ABAIXO DA PARTE 7 -->
-<!-- ========================================================= -->
-
-<section class="founder-section section-spacing">
-
-<style>
-
-/* ========================================================= */
-/* FOUNDER SECTION */
-/* ========================================================= */
-
-.founder-section{
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-/* ========================================================= */
-/* BACKGROUND */
-/* ========================================================= */
-
-.founder-glow{
-
-    position:absolute;
-
-    width:1400px;
-    height:1400px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(
-    circle,
-    rgba(215,179,119,.07),
-    transparent 70%
-    );
-
-    top:-700px;
-    right:-700px;
-
-    filter:blur(180px);
-
-    z-index:0;
-
-}
-
-/* ========================================================= */
-/* GRID */
-/* ========================================================= */
-
-.founder-grid{
-
-    position:relative;
-
-    z-index:2;
-
-    display:grid;
-
-    grid-template-columns:
-    1fr 1.1fr;
-
-    gap:80px;
-
-    align-items:center;
-
-}
-
-/* ========================================================= */
-/* LEFT */
-/* ========================================================= */
-
-.founder-left{
-
-    position:relative;
-
-}
-
-/* ========================================================= */
-/* IMAGE CARD */
-/* ========================================================= */
-
-.founder-image-card{
-
-    position:relative;
-
-    height:780px;
-
-    border-radius:48px;
-
-    overflow:hidden;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    box-shadow:
-    0 40px 120px rgba(0,0,0,.45);
-
-}
-
-/* ========================================================= */
-/* IMAGE */
-/* ========================================================= */
-
-.founder-image{
-
-    width:100%;
-    height:100%;
-
-    object-fit:cover;
-
-    opacity:.9;
-
-    filter:
-    contrast(1.05)
-    brightness(.72);
-
-}
-
-/* ========================================================= */
-/* OVERLAY */
-/* ========================================================= */
-
-.founder-overlay{
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-
-    linear-gradient(
-    180deg,
-    rgba(0,0,0,.1),
-    rgba(0,0,0,.78)
-    ),
-
-    radial-gradient(
-    circle at top right,
-    rgba(215,179,119,.15),
-    transparent 40%
-    );
-
-}
-
-/* ========================================================= */
-/* COMPANY FLOAT */
-/* ========================================================= */
-
-.company-float{
-
-    position:absolute;
-
-    bottom:40px;
-    left:40px;
-
-    right:40px;
-
-    padding:30px;
-
-    border-radius:32px;
-
-    background:
-    rgba(0,0,0,.55);
-
-    border:
-    1px solid rgba(255,255,255,.08);
-
-    backdrop-filter:blur(20px);
-
-}
-
-.company-float small{
-
-    display:block;
-
-    margin-bottom:12px;
-
-    color:#888;
-
-    letter-spacing:1px;
-
-}
-
-.company-float h3{
-
-    font-size:34px;
-
-    margin-bottom:14px;
-
-}
-
-.company-float p{
-
-    color:var(--text-soft);
-
-    line-height:1.8;
-
-}
-
-/* ========================================================= */
-/* RIGHT */
-/* ========================================================= */
-
-.founder-right{
-
-    position:relative;
-
-}
-
-/* ========================================================= */
-/* BADGE */
-/* ========================================================= */
-
-.founder-badge{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    padding:16px 22px;
-
-    border-radius:999px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    margin-bottom:30px;
-
-}
-
-.founder-dot{
-
-    width:10px;
-    height:10px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    box-shadow:
-    0 0 18px var(--gold);
-
-}
-
-.founder-badge span{
+.hero-badge span{
 
     color:var(--gold);
 
-    font-size:14px;
+    font-size:13px;
 
     letter-spacing:1px;
 
@@ -7580,583 +1727,224 @@ REQUEST PRIVATE ACCESS
 /* TITLE */
 /* ========================================================= */
 
-.founder-title{
+.hero-title{
 
-    font-size:82px;
+    font-size:118px;
 
-    line-height:1;
+    line-height:.9;
 
-    letter-spacing:-5px;
+    letter-spacing:-7px;
 
     margin-bottom:34px;
 
 }
 
-/* ========================================================= */
-/* DESCRIPTION */
-/* ========================================================= */
+.hero-description{
 
-.founder-description{
+    max-width:620px;
 
     font-size:20px;
 
     line-height:2;
 
-    color:var(--text-soft);
+    color:var(--text);
 
     margin-bottom:50px;
 
 }
 
-/* ========================================================= */
-/* COMPANY INFO */
-/* ========================================================= */
+.hero-buttons{
 
-.company-info{
+    display:flex;
 
-    display:grid;
+    gap:22px;
 
-    grid-template-columns:
-    repeat(2,1fr);
-
-    gap:24px;
+    flex-wrap:wrap;
 
 }
 
 /* ========================================================= */
-/* INFO CARD */
+/* CAR */
 /* ========================================================= */
 
-.info-card{
+.hero-car-wrapper{
 
     position:relative;
 
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:30px;
-
-    padding:30px;
-
-    transition:var(--transition);
-
-    overflow:hidden;
+    width:720px;
 
 }
 
-.info-card:hover{
+.hero-car{
 
-    transform:
-    translateY(-6px);
-
-    border-color:
-    rgba(215,179,119,.2);
-
-}
-
-.info-card small{
-
-    display:block;
-
-    margin-bottom:14px;
-
-    color:#777;
-
-    letter-spacing:1px;
-
-}
-
-.info-card strong{
-
-    display:block;
-
-    font-size:22px;
-
-    line-height:1.6;
-
-}
-
-/* ========================================================= */
-/* TRUST SECTION */
-/* ========================================================= */
-
-.trust-wrapper{
+    width:100%;
 
     position:relative;
 
     z-index:2;
 
-    margin-top:120px;
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(4,1fr);
-
-    gap:30px;
+    filter:
+    drop-shadow(0 40px 80px rgba(0,0,0,.45));
 
 }
 
-/* ========================================================= */
-/* TRUST CARD */
-/* ========================================================= */
-
-.trust-card-enterprise{
-
-    position:relative;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.05);
-
-    border-radius:34px;
-
-    padding:36px;
-
-    overflow:hidden;
-
-    transition:var(--transition);
-
-}
-
-.trust-card-enterprise:hover{
-
-    transform:
-    translateY(-8px);
-
-    border-color:
-    rgba(215,179,119,.22);
-
-    box-shadow:
-    0 30px 100px rgba(0,0,0,.4);
-
-}
-
-.trust-card-enterprise h3{
-
-    font-size:46px;
-
-    color:var(--gold);
-
-    margin-bottom:14px;
-
-}
-
-.trust-card-enterprise p{
-
-    color:var(--text-soft);
-
-    line-height:1.8;
-
-}
-
-/* ========================================================= */
-/* RESPONSIVE */
-/* ========================================================= */
-
-@media(max-width:1300px){
-
-    .founder-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .trust-wrapper{
-
-        grid-template-columns:1fr 1fr;
-
-    }
-
-}
-
-@media(max-width:768px){
-
-    .founder-title{
-
-        font-size:54px;
-
-    }
-
-    .founder-description{
-
-        font-size:17px;
-
-        line-height:1.8;
-
-    }
-
-    .company-info{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .trust-wrapper{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .founder-image-card{
-
-        height:620px;
-
-    }
-
-}
-
-</style>
-
-<!-- ========================================================= -->
-<!-- GLOW -->
-<!-- ========================================================= -->
-
-<div class="founder-glow"></div>
-
-<!-- ========================================================= -->
-<!-- CONTAINER -->
-<!-- ========================================================= -->
-
-<div class="container">
-
-<!-- ========================================================= -->
-<!-- GRID -->
-<!-- ========================================================= -->
-
-<div class="founder-grid">
-
-<!-- ========================================================= -->
-<!-- LEFT -->
-<!-- ========================================================= -->
-
-<div class="founder-left reveal">
-
-<div class="founder-image-card">
-
-<img
-class="founder-image"
-src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2000&auto=format&fit=crop"
-alt="Flux Imports"
->
-
-<div class="founder-overlay"></div>
-
-<div class="company-float">
-
-<small>
-FOUNDED IN THE NETHERLANDS
-</small>
-
-<h3>
-Flux Imports
-</h3>
-
-<p>
-
-Global automotive infrastructure designed for dealerships, brokers, importers and enterprise automotive operations worldwide.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- RIGHT -->
-<!-- ========================================================= -->
-
-<div class="founder-right reveal">
-
-<div class="founder-badge">
-
-<div class="founder-dot"></div>
-
-<span>
-COMPANY INFRASTRUCTURE
-</span>
-
-</div>
-
-<h2 class="founder-title">
-
-Built By
-Automotive
-Professionals
-For Global
-Operations.
-
-</h2>
-
-<p class="founder-description">
-
-Founded by Braga in the Netherlands, Flux Imports was created to modernize international automotive operations through intelligent quotation systems, enterprise analytics, logistics automation and strategic global automotive networking.
-
-</p>
-
-<div class="company-info">
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="info-card">
-
-<small>
-FOUNDER & CEO
-</small>
-
-<strong>
-L. Braga
-</strong>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="info-card">
-
-<small>
-HEADQUARTERS
-</small>
-
-<strong>
-'s-Hertogenbosch, Netherlands
-</strong>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="info-card">
-
-<small>
-OFFICIAL CONTACT
-</small>
-
-<strong>
-+49 152 29271880
-</strong>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="info-card">
-
-<small>
-OFFICIAL EMAIL
-</small>
-
-<strong>
-contact@fluximports.com
-</strong>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="info-card">
-
-<small>
-WEBSITE
-</small>
-
-<strong>
-fluximports.app
-</strong>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="info-card">
-
-<small>
-KVK REGISTRATION
-</small>
-
-<strong>
-77518543 • Since 2020
-</strong>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- TRUST -->
-<!-- ========================================================= -->
-
-<div class="trust-wrapper">
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="trust-card-enterprise reveal">
-
-<h3>
-2FA
-</h3>
-
-<p>
-
-Enterprise-grade authentication systems designed to protect global automotive operations and business intelligence.
-
-</p>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="trust-card-enterprise reveal">
-
-<h3>
-GDPR
-</h3>
-
-<p>
-
-European compliance infrastructure aligned with international enterprise data protection standards.
-
-</p>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="trust-card-enterprise reveal">
-
-<h3>
-24/7
-</h3>
-
-<p>
-
-Global operational infrastructure designed for international dealerships and automotive professionals worldwide.
-
-</p>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- CARD -->
-<!-- ========================================================= -->
-
-<div class="trust-card-enterprise reveal">
-
-<h3>
-2020
-</h3>
-
-<p>
-
-Building the future of international automotive quotation and enterprise operational intelligence.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================================= -->
-<!-- PART 9 COMEÇA ABAIXO -->
-<!-- ========================================================= -->
-<!-- ========================================================= -->
-<!-- PART 9 • FOOTER + CONTACT + FINAL CTA -->
-<!-- COLAR ABAIXO DA PARTE 8 -->
-<!-- ========================================================= -->
-
-<section class="footer-section">
-
-<style>
-
-/* ========================================================= */
-/* FOOTER SECTION */
-/* ========================================================= */
-
-.footer-section{
-
-    position:relative;
-
-    padding-top:120px;
-
-    overflow:hidden;
-
-}
-
-/* ========================================================= */
-/* FOOTER GLOW */
-/* ========================================================= */
-
-.footer-glow{
+.car-glow{
 
     position:absolute;
 
-    width:1400px;
-    height:1400px;
+    width:400px;
+    height:400px;
 
     border-radius:50%;
 
     background:
     radial-gradient(
     circle,
-    rgba(215,179,119,.08),
+    rgba(215,179,119,.25),
     transparent 70%
     );
 
-    bottom:-800px;
-    right:-800px;
+    bottom:-100px;
+    left:50%;
 
-    filter:blur(180px);
+    transform:
+    translateX(-50%);
 
-    z-index:0;
+    filter:blur(80px);
 
 }
 
 /* ========================================================= */
-/* FINAL CTA */
+/* SCROLL */
 /* ========================================================= */
 
-.final-cta{
+.scroll-indicator{
+
+    position:absolute;
+
+    bottom:40px;
+    left:50%;
+
+    transform:
+    translateX(-50%);
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:14px;
+
+    z-index:3;
+
+}
+
+.scroll-line{
+
+    width:2px;
+    height:80px;
+
+    background:
+    linear-gradient(
+    180deg,
+    var(--gold),
+    transparent
+    );
+
+    animation:scrollMove 2s infinite;
+
+}
+
+@keyframes scrollMove{
+
+    0%{
+        transform:translateY(0);
+        opacity:1;
+    }
+
+    100%{
+        transform:translateY(18px);
+        opacity:0;
+    }
+
+}
+
+.scroll-indicator span{
+
+    color:#8d8d8d;
+
+    font-size:12px;
+
+    letter-spacing:3px;
+
+}
+
+/* ========================================================= */
+/* SECTIONS */
+/* ========================================================= */
+
+.experience-section,
+.network-section,
+.technology-section,
+.final-section{
+
+    padding:180px 0;
+
+}
+
+/* ========================================================= */
+/* TITLES */
+/* ========================================================= */
+
+.section-mini-title{
+
+    display:inline-block;
+
+    color:var(--gold);
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+    margin-bottom:26px;
+
+}
+
+.section-title{
+
+    font-size:88px;
+
+    line-height:1;
+
+    letter-spacing:-5px;
+
+}
+
+/* ========================================================= */
+/* EXPERIENCE */
+/* ========================================================= */
+
+.experience-panels{
+
+    margin-top:100px;
+
+    display:grid;
+
+    grid-template-columns:
+    1.2fr 1fr 1fr;
+
+    gap:26px;
+
+}
+
+.experience-panel{
 
     position:relative;
 
-    z-index:2;
+    min-height:520px;
 
-    padding:120px;
-
-    border-radius:52px;
+    border-radius:40px;
 
     overflow:hidden;
 
@@ -8168,131 +1956,335 @@ Building the future of international automotive quotation and enterprise operati
     );
 
     border:
-    1px solid rgba(255,255,255,.06);
+    1px solid rgba(255,255,255,.05);
 
-    margin-bottom:120px;
+    padding:40px;
 
-    box-shadow:
-    0 40px 140px rgba(0,0,0,.45);
-
-}
-
-.final-cta::before{
-
-    content:'';
-
-    position:absolute;
-
-    width:800px;
-    height:800px;
-
-    border-radius:50%;
-
-    background:
-    radial-gradient(
-    circle,
-    rgba(215,179,119,.14),
-    transparent 70%
-    );
-
-    top:-400px;
-    right:-300px;
+    transition:.6s var(--transition);
 
 }
 
-.final-cta-content{
+.experience-panel:hover{
+
+    transform:
+    translateY(-10px);
+
+}
+
+.panel-large{
+
+    min-height:620px;
+
+}
+
+.panel-content{
 
     position:relative;
 
     z-index:2;
 
-    max-width:1100px;
+}
+
+.panel-content h3{
+
+    font-size:42px;
+
+    line-height:1.1;
+
+    margin-bottom:24px;
 
 }
 
-.final-cta-badge{
+.panel-content p{
 
-    display:inline-flex;
+    color:var(--text);
+
+    line-height:2;
+
+}
+
+.panel-image{
+
+    position:absolute;
+
+    right:0;
+    bottom:0;
+
+    width:100%;
+
+    opacity:.75;
+
+}
+
+/* ========================================================= */
+/* NETWORK */
+/* ========================================================= */
+
+.network-container{
+
+    display:flex;
 
     align-items:center;
 
-    gap:12px;
+    justify-content:space-between;
 
-    padding:16px 22px;
-
-    border-radius:999px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    margin-bottom:34px;
+    gap:80px;
 
 }
 
-.final-cta-dot{
+.network-description{
 
-    width:10px;
-    height:10px;
+    max-width:620px;
+
+    margin-top:30px;
+
+    color:var(--text);
+
+    line-height:2;
+
+    font-size:19px;
+
+}
+
+.network-visual{
+
+    position:relative;
+
+    width:760px;
+
+    height:760px;
+
+}
+
+.world-map{
+
+    width:100%;
+
+    opacity:.16;
+
+}
+
+/* ========================================================= */
+/* POINTS */
+/* ========================================================= */
+
+.network-point{
+
+    position:absolute;
+
+    width:18px;
+    height:18px;
 
     border-radius:50%;
 
     background:var(--gold);
 
     box-shadow:
-    0 0 16px var(--gold);
+    0 0 24px var(--gold);
+
+    animation:pulse 3s infinite;
 
 }
 
-.final-cta-badge span{
+@keyframes pulse{
 
-    color:var(--gold);
+    0%{
+        transform:scale(1);
+    }
 
-    font-size:14px;
+    50%{
+        transform:scale(1.3);
+    }
 
-    letter-spacing:1px;
-
-    font-weight:600;
-
-}
-
-.final-cta-title{
-
-    font-size:96px;
-
-    line-height:.95;
-
-    letter-spacing:-6px;
-
-    margin-bottom:36px;
+    100%{
+        transform:scale(1);
+    }
 
 }
 
-.final-cta-description{
+.point-1{
 
-    font-size:21px;
-
-    line-height:2;
-
-    color:var(--text-soft);
-
-    margin-bottom:50px;
-
-    max-width:920px;
+    top:180px;
+    left:220px;
 
 }
 
-.final-cta-buttons{
+.point-2{
 
-    display:flex;
+    top:260px;
+    right:160px;
 
-    align-items:center;
+}
+
+.point-3{
+
+    bottom:200px;
+    left:260px;
+
+}
+
+.point-4{
+
+    bottom:260px;
+    right:240px;
+
+}
+
+/* ========================================================= */
+/* LINES */
+/* ========================================================= */
+
+.network-line{
+
+    position:absolute;
+
+    height:2px;
+
+    background:
+    linear-gradient(
+    90deg,
+    transparent,
+    var(--gold),
+    transparent
+    );
+
+}
+
+.line-1{
+
+    width:320px;
+
+    top:220px;
+    left:240px;
+
+    transform:
+    rotate(18deg);
+
+}
+
+.line-2{
+
+    width:260px;
+
+    top:360px;
+    left:340px;
+
+    transform:
+    rotate(-18deg);
+
+}
+
+.line-3{
+
+    width:380px;
+
+    top:280px;
+    left:180px;
+
+    transform:
+    rotate(38deg);
+
+}
+
+/* ========================================================= */
+/* TECHNOLOGY */
+/* ========================================================= */
+
+.technology-grid{
+
+    margin-top:100px;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
 
     gap:24px;
 
-    flex-wrap:wrap;
+}
+
+.tech-card{
+
+    min-height:320px;
+
+    border-radius:34px;
+
+    background:
+    linear-gradient(
+    180deg,
+    rgba(255,255,255,.04),
+    rgba(255,255,255,.02)
+    );
+
+    border:
+    1px solid rgba(255,255,255,.05);
+
+    padding:36px;
+
+    transition:.5s var(--transition);
+
+}
+
+.tech-card:hover{
+
+    transform:
+    translateY(-10px);
+
+}
+
+.tech-card h3{
+
+    font-size:32px;
+
+    line-height:1.2;
+
+    margin-bottom:24px;
+
+}
+
+.tech-card p{
+
+    color:var(--text);
+
+    line-height:2;
+
+}
+
+/* ========================================================= */
+/* FINAL */
+/* ========================================================= */
+
+.final-container{
+
+    text-align:center;
+
+}
+
+.final-title{
+
+    font-size:110px;
+
+    line-height:.9;
+
+    letter-spacing:-7px;
+
+    margin-bottom:30px;
+
+}
+
+.final-description{
+
+    max-width:720px;
+
+    margin:auto;
+
+    color:var(--text);
+
+    line-height:2;
+
+    font-size:20px;
+
+    margin-bottom:50px;
 
 }
 
@@ -8300,147 +2292,51 @@ Building the future of international automotive quotation and enterprise operati
 /* FOOTER */
 /* ========================================================= */
 
-.footer-main{
+.footer{
 
-    position:relative;
-
-    z-index:2;
-
-    padding-bottom:60px;
+    padding:120px 0 60px;
 
 }
 
-/* ========================================================= */
-/* FOOTER GRID */
-/* ========================================================= */
+.footer-top{
 
-.footer-grid{
+    display:flex;
 
-    display:grid;
+    justify-content:space-between;
 
-    grid-template-columns:
-    1.3fr .8fr .8fr .8fr;
-
-    gap:60px;
+    gap:80px;
 
     margin-bottom:80px;
 
 }
 
-/* ========================================================= */
-/* FOOTER BRAND */
-/* ========================================================= */
+.footer-brand h2{
 
-.footer-brand{
+    font-size:42px;
 
-    position:relative;
+    margin-bottom:24px;
 
 }
 
-.footer-logo{
+.footer-brand p{
 
-    font-size:48px;
+    max-width:480px;
 
-    font-weight:900;
-
-    letter-spacing:2px;
-
-    color:var(--gold);
-
-    margin-bottom:28px;
-
-}
-
-.footer-description{
-
-    color:var(--text-soft);
+    color:var(--text);
 
     line-height:2;
 
-    font-size:17px;
-
-    margin-bottom:34px;
-
-    max-width:520px;
-
 }
 
-/* ========================================================= */
-/* SOCIALS */
-/* ========================================================= */
-
-.footer-socials{
+.footer-links-wrapper{
 
     display:flex;
 
-    gap:16px;
+    gap:80px;
 
 }
 
-.footer-social{
-
-    width:54px;
-    height:54px;
-
-    border-radius:18px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    transition:var(--transition);
-
-    cursor:pointer;
-
-}
-
-.footer-social:hover{
-
-    transform:
-    translateY(-4px);
-
-    border-color:
-    rgba(215,179,119,.24);
-
-    box-shadow:
-    0 20px 50px rgba(0,0,0,.35);
-
-}
-
-.footer-social svg{
-
-    width:22px;
-    height:22px;
-
-    stroke:var(--gold);
-
-    fill:none;
-
-    stroke-width:1.8;
-
-}
-
-/* ========================================================= */
-/* FOOTER COLUMN */
-/* ========================================================= */
-
-.footer-column h3{
-
-    font-size:22px;
-
-    margin-bottom:28px;
-
-}
-
-.footer-links{
+.footer-column{
 
     display:flex;
 
@@ -8450,30 +2346,27 @@ Building the future of international automotive quotation and enterprise operati
 
 }
 
-.footer-links a{
+.footer-column h3{
+
+    margin-bottom:12px;
+
+}
+
+.footer-column a{
 
     text-decoration:none;
 
-    color:var(--text-soft);
+    color:var(--text);
 
-    transition:var(--transition);
-
-    font-size:16px;
+    transition:.3s;
 
 }
 
-.footer-links a:hover{
+.footer-column a:hover{
 
     color:var(--gold);
 
-    transform:
-    translateX(4px);
-
 }
-
-/* ========================================================= */
-/* FOOTER BOTTOM */
-/* ========================================================= */
 
 .footer-bottom{
 
@@ -8482,122 +2375,11 @@ Building the future of international automotive quotation and enterprise operati
     border-top:
     1px solid rgba(255,255,255,.05);
 
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    gap:30px;
-
-    flex-wrap:wrap;
-
 }
 
 .footer-bottom p{
 
-    color:#7a7a7a;
-
-    line-height:1.8;
-
-}
-
-.footer-bottom-links{
-
-    display:flex;
-
-    gap:26px;
-
-    flex-wrap:wrap;
-
-}
-
-.footer-bottom-links a{
-
-    text-decoration:none;
-
-    color:#7a7a7a;
-
-    transition:var(--transition);
-
-}
-
-.footer-bottom-links a:hover{
-
-    color:var(--gold);
-
-}
-
-/* ========================================================= */
-/* FLOATING CONTACT */
-/* ========================================================= */
-
-.floating-contact{
-
-    position:fixed;
-
-    right:30px;
-    bottom:30px;
-
-    width:74px;
-    height:74px;
-
-    border-radius:50%;
-
-    background:var(--gold);
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    cursor:pointer;
-
-    z-index:9999;
-
-    box-shadow:
-    0 20px 60px rgba(215,179,119,.35);
-
-    animation:floatingButton 4s ease-in-out infinite;
-
-    transition:var(--transition);
-
-}
-
-.floating-contact:hover{
-
-    transform:
-    scale(1.08);
-
-}
-
-.floating-contact svg{
-
-    width:28px;
-    height:28px;
-
-    stroke:black;
-
-    fill:none;
-
-    stroke-width:2;
-
-}
-
-@keyframes floatingButton{
-
-    0%{
-        transform:translateY(0px);
-    }
-
-    50%{
-        transform:translateY(-10px);
-    }
-
-    100%{
-        transform:translateY(0px);
-    }
+    color:#777;
 
 }
 
@@ -8605,11 +2387,54 @@ Building the future of international automotive quotation and enterprise operati
 /* RESPONSIVE */
 /* ========================================================= */
 
-@media(max-width:1300px){
+@media(max-width:1400px){
 
-    .footer-grid{
+    .hero-title{
 
-        grid-template-columns:1fr 1fr;
+        font-size:92px;
+
+    }
+
+    .section-title{
+
+        font-size:70px;
+
+    }
+
+}
+
+@media(max-width:1200px){
+
+    .nav-links,
+    .nav-cta{
+
+        display:none;
+
+    }
+
+    .mobile-button{
+
+        display:flex;
+
+    }
+
+    .hero-container,
+    .network-container{
+
+        flex-direction:column;
+
+    }
+
+    .experience-panels,
+    .technology-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .footer-top{
+
+        flex-direction:column;
 
     }
 
@@ -8617,21 +2442,15 @@ Building the future of international automotive quotation and enterprise operati
 
 @media(max-width:768px){
 
-    .final-cta{
+    .hero-title{
 
-        padding:60px 34px;
+        font-size:58px;
 
-    }
-
-    .final-cta-title{
-
-        font-size:54px;
-
-        line-height:1.05;
+        letter-spacing:-3px;
 
     }
 
-    .final-cta-description{
+    .hero-description{
 
         font-size:17px;
 
@@ -8639,842 +2458,535 @@ Building the future of international automotive quotation and enterprise operati
 
     }
 
-    .footer-grid{
+    .section-title{
 
-        grid-template-columns:1fr;
+        font-size:48px;
+
+        line-height:1.1;
 
     }
 
-    .footer-bottom{
+    .final-title{
+
+        font-size:60px;
+
+    }
+
+    .technology-grid{
+
+        gap:18px;
+
+    }
+
+    .footer-links-wrapper{
 
         flex-direction:column;
 
-        align-items:flex-start;
+        gap:40px;
 
     }
 
 }
 
-</style>
-
-<!-- ========================================================= -->
-<!-- GLOW -->
-<!-- ========================================================= -->
-
-<div class="footer-glow"></div>
-
-<!-- ========================================================= -->
-<!-- CONTAINER -->
-<!-- ========================================================= -->
-
-<div class="container">
-
-<!-- ========================================================= -->
-<!-- FINAL CTA -->
-<!-- ========================================================= -->
-
-<div class="final-cta reveal">
-
-<div class="final-cta-content">
-
-<div class="final-cta-badge">
-
-<div class="final-cta-dot"></div>
-
-<span>
-PRIVATE GLOBAL ACCESS
-</span>
-
-</div>
-
-<h2 class="final-cta-title">
-
-The Future Of
-Automotive
-Import Operations
-Has Already Begun.
-
-</h2>
-
-<p class="final-cta-description">
-
-Flux Imports was created for automotive professionals who operate globally and demand intelligent enterprise infrastructure, strategic operational control and premium international business performance.
-
-</p>
-
-<div class="final-cta-buttons">
-
-<button class="btn btn-primary">
-
-REQUEST PRIVATE ACCESS
-
-</button>
-
-<button class="btn btn-secondary">
-
-SCHEDULE ENTERPRISE DEMO
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- FOOTER -->
-<!-- ========================================================= -->
-
-<footer class="footer-main">
-
-<div class="footer-grid">
-
-<!-- ========================================================= -->
-<!-- BRAND -->
-<!-- ========================================================= -->
-
-<div class="footer-brand">
-
-<div class="footer-logo">
-FLUX IMPORTS
-</div>
-
-<p class="footer-description">
-
-Enterprise automotive infrastructure built for international dealerships, import specialists, brokers and modern automotive businesses operating globally.
-
-</p>
-
-<div class="footer-socials">
-
-<div class="footer-social">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M22 4s-.7 2.1-2 3.4c1.6 10-4.6 15.5-11.7 15.5-2.3 0-4.5-.7-6.3-1.9 3.2.2 5.5-.9 6.8-2.5-1.5-.1-2.7-1-3.2-2.4.5.1 1 .1 1.5-.1-1.6-.3-2.8-1.7-2.8-3.5.4.2 1 .4 1.5.4-1-.7-1.7-1.9-1.7-3.2 0-.7.2-1.4.5-2 1.8 2.2 4.6 3.7 7.7 3.8-.1-.2-.1-.5-.1-.8 0-2 1.6-3.5 3.6-3.5 1 0 2 .4 2.7 1.1 1-.2 1.9-.6 2.7-1-.3 1-.9 1.8-1.8 2.3 1-.1 1.8-.4 2.6-.7z"></path>
-
-</svg>
-
-</div>
-
-<div class="footer-social">
-
-<svg viewBox="0 0 24 24">
-
-<rect x="2" y="2" width="20" height="20" rx="5"></rect>
-<circle cx="12" cy="12" r="4"></circle>
-<circle cx="18" cy="6" r="1"></circle>
-
-</svg>
-
-</div>
-
-<div class="footer-social">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-12h4v2"></path>
-<rect x="2" y="9" width="4" height="12"></rect>
-<circle cx="4" cy="4" r="2"></circle>
-
-</svg>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- COLUMN -->
-<!-- ========================================================= -->
-
-<div class="footer-column">
-
-<h3>
-Platform
-</h3>
-
-<div class="footer-links">
-
-<a href="#">
-Global Quotations
-</a>
-
-<a href="#">
-Currency Conversion
-</a>
-
-<a href="#">
-Enterprise Analytics
-</a>
-
-<a href="#">
-B2B Network
-</a>
-
-<a href="#">
-Operational Dashboards
-</a>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- COLUMN -->
-<!-- ========================================================= -->
-
-<div class="footer-column">
-
-<h3>
-Company
-</h3>
-
-<div class="footer-links">
-
-<a href="#">
-About Flux Imports
-</a>
-
-<a href="#">
-Founder & CEO
-</a>
-
-<a href="#">
-Global Operations
-</a>
-
-<a href="#">
-Enterprise Access
-</a>
-
-<a href="#">
-Strategic Partners
-</a>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- COLUMN -->
-<!-- ========================================================= -->
-
-<div class="footer-column">
-
-<h3>
-Contact
-</h3>
-
-<div class="footer-links">
-
-<a href="#">
-contact@fluximports.com
-</a>
-
-<a href="#">
-+49 152 29271880
-</a>
-
-<a href="#">
-Netherlands Headquarters
-</a>
-
-<a href="#">
-Request Enterprise Demo
-</a>
-
-<a href="#">
-24/7 Global Support
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- BOTTOM -->
-<!-- ========================================================= -->
-
-<div class="footer-bottom">
-
-<p>
-
-© 2026 Flux Imports. All rights reserved. Global Automotive Infrastructure.
-
-</p>
-
-<div class="footer-bottom-links">
-
-<a href="#">
-Privacy Policy
-</a>
-
-<a href="#">
-Terms of Service
-</a>
-
-<a href="#">
-GDPR Compliance
-</a>
-
-<a href="#">
-Enterprise Security
-</a>
-
-</div>
-
-</div>
-
-</footer>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- FLOATING CONTACT -->
-<!-- ========================================================= -->
-
-<div class="floating-contact">
-
-<svg viewBox="0 0 24 24">
-
-<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-
-</svg>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- PART 10 COMEÇA ABAIXO -->
-<!-- ========================================================= -->
-<!-- ========================================================= -->
-<!-- PART 10 • FINAL POLISH + LANGUAGE SYSTEM + PERFORMANCE -->
-<!-- COLAR ABAIXO DA PARTE 9 -->
-<!-- ========================================================= -->
-
-<style>
-
 /* ========================================================= */
-/* FINAL PERFORMANCE OPTIMIZATION */
+/* FLUX IMPORTS • SCRIPT.JS */
 /* ========================================================= */
 
-img{
-
-    user-select:none;
-
-    -webkit-user-drag:none;
-
-}
-
-button{
-
-    font-family:'Inter',sans-serif;
-
-}
-
-body.loaded{
-
-    overflow-x:hidden;
-
-}
-
 /* ========================================================= */
-/* SMOOTH GLOBAL TRANSITIONS */
+/* PRELOADER */
 /* ========================================================= */
 
-*{
+window.addEventListener('load', () => {
 
-    transition:
-    background-color .3s ease,
-    border-color .3s ease,
-    color .3s ease;
+    const preloader =
+    document.getElementById('preloader');
 
-}
+    setTimeout(() => {
 
-/* ========================================================= */
-/* GLOBAL HOVER LIGHT */
-/* ========================================================= */
+        preloader.classList.add('hidden');
 
-.platform-card,
-.pricing-card,
-.dealer-card,
-.analytics-card,
-.info-card,
-.network-stat,
-.trust-card-enterprise{
+    },2200);
 
-    position:relative;
-
-}
-
-.platform-card::after,
-.pricing-card::after,
-.dealer-card::after,
-.analytics-card::after,
-.info-card::after,
-.network-stat::after,
-.trust-card-enterprise::after{
-
-    content:'';
-
-    position:absolute;
-
-    inset:0;
-
-    border-radius:inherit;
-
-    background:
-    radial-gradient(
-    circle at var(--x) var(--y),
-    rgba(255,255,255,.06),
-    transparent 40%
-    );
-
-    opacity:0;
-
-    transition:opacity .4s ease;
-
-    pointer-events:none;
-
-}
-
-.platform-card:hover::after,
-.pricing-card:hover::after,
-.dealer-card:hover::after,
-.analytics-card:hover::after,
-.info-card:hover::after,
-.network-stat:hover::after,
-.trust-card-enterprise:hover::after{
-
-    opacity:1;
-
-}
+});
 
 /* ========================================================= */
-/* GLOBAL SELECTION */
+/* CURSOR GLOW */
 /* ========================================================= */
 
-::selection{
+const cursorGlow =
+document.querySelector('.cursor-glow');
 
-    background:var(--gold);
+window.addEventListener('mousemove',(e) => {
 
-    color:black;
+    cursorGlow.style.left =
+    e.clientX + 'px';
 
-}
+    cursorGlow.style.top =
+    e.clientY + 'px';
+
+});
+
+/* ========================================================= */
+/* NAVBAR SCROLL */
+/* ========================================================= */
+
+const navbar =
+document.getElementById('navbar');
+
+window.addEventListener('scroll',() => {
+
+    if(window.scrollY > 40){
+
+        navbar.classList.add('scrolled');
+
+    }else{
+
+        navbar.classList.remove('scrolled');
+
+    }
+
+});
 
 /* ========================================================= */
 /* MOBILE MENU */
 /* ========================================================= */
 
-.mobile-menu-button{
-
-    display:none;
-
-    width:60px;
-    height:60px;
-
-    border-radius:18px;
-
-    background:
-    rgba(255,255,255,.03);
-
-    border:
-    1px solid rgba(255,255,255,.06);
-
-    align-items:center;
-
-    justify-content:center;
-
-    cursor:pointer;
-
-}
-
-.mobile-menu-button span{
-
-    width:24px;
-    height:2px;
-
-    background:white;
-
-    position:relative;
-
-    display:block;
-
-}
-
-.mobile-menu-button span::before,
-.mobile-menu-button span::after{
-
-    content:'';
-
-    position:absolute;
-
-    left:0;
-
-    width:24px;
-    height:2px;
-
-    background:white;
-
-}
-
-.mobile-menu-button span::before{
-
-    top:-7px;
-
-}
-
-.mobile-menu-button span::after{
-
-    bottom:-7px;
-
-}
-
-/* ========================================================= */
-/* MOBILE NAV */
-/* ========================================================= */
-
-.mobile-nav{
-
-    position:fixed;
-
-    inset:0;
-
-    background:
-    rgba(0,0,0,.94);
-
-    backdrop-filter:blur(30px);
-
-    z-index:99999;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    flex-direction:column;
-
-    gap:30px;
-
-    opacity:0;
-
-    visibility:hidden;
-
-    transition:.5s ease;
-
-}
-
-.mobile-nav.active{
-
-    opacity:1;
-
-    visibility:visible;
-
-}
-
-.mobile-nav a{
-
-    text-decoration:none;
-
-    color:white;
-
-    font-size:34px;
-
-    font-weight:700;
-
-}
-
-/* ========================================================= */
-/* RESPONSIVE */
-/* ========================================================= */
-
-@media(max-width:1200px){
-
-    .mobile-menu-button{
-
-        display:flex;
-
-    }
-
-}
-
-</style>
-
-<!-- ========================================================= -->
-<!-- MOBILE NAV -->
-<!-- ========================================================= -->
-
-<div class="mobile-nav" id="mobileNav">
-
-<a href="#">
-Home
-</a>
-
-<a href="#">
-Platform
-</a>
-
-<a href="#">
-Analytics
-</a>
-
-<a href="#">
-Pricing
-</a>
-
-<a href="#">
-Contact
-</a>
-
-</div>
-
-<!-- ========================================================= -->
-<!-- MOBILE BUTTON -->
-<!-- ========================================================= -->
-
-<script>
-
-/* ========================================================= */
-/* MOBILE BUTTON */
-/* ========================================================= */
-
 const mobileButton =
-document.createElement('div');
+document.getElementById('mobileButton');
 
-mobileButton.classList.add(
-'mobile-menu-button'
-);
+const mobileMenu =
+document.getElementById('mobileMenu');
 
-mobileButton.innerHTML =
-'<span></span>';
+mobileButton.addEventListener('click',() => {
 
-document.querySelector('.nav-wrapper')
-.appendChild(mobileButton);
-
-const mobileNav =
-document.getElementById('mobileNav');
-
-mobileButton.addEventListener('click', () => {
-
-    mobileNav.classList.toggle('active');
+    mobileMenu.classList.toggle('active');
 
 });
 
 /* ========================================================= */
-/* ADVANCED REVEAL */
+/* LANGUAGE */
 /* ========================================================= */
 
-const advancedReveal =
-document.querySelectorAll('.reveal');
+const languageSelector =
+document.querySelector('.language-selector');
 
-const revealObserver =
-new IntersectionObserver((entries) => {
+const languageButton =
+document.querySelector('.language-button');
 
-    entries.forEach((entry) => {
+languageButton.addEventListener('click',() => {
 
-        if(entry.isIntersecting){
-
-            entry.target.classList.add('active');
-
-        }
-
-    });
-
-},{
-    threshold:.1
-});
-
-advancedReveal.forEach((el) => {
-
-    revealObserver.observe(el);
+    languageSelector.classList.toggle('active');
 
 });
 
 /* ========================================================= */
-/* MOUSE LIGHT EFFECT */
-/* ========================================================= */
-
-const hoverCards =
-document.querySelectorAll(
-
-'.platform-card,\
-.pricing-card,\
-.dealer-card,\
-.analytics-card,\
-.info-card,\
-.network-stat,\
-.trust-card-enterprise'
-
-);
-
-hoverCards.forEach((card) => {
-
-    card.addEventListener('mousemove',(e) => {
-
-        const rect =
-        card.getBoundingClientRect();
-
-        const x =
-        e.clientX - rect.left;
-
-        const y =
-        e.clientY - rect.top;
-
-        card.style.setProperty(
-        '--x',
-        x + 'px'
-        );
-
-        card.style.setProperty(
-        '--y',
-        y + 'px'
-        );
-
-    });
-
-});
-
-/* ========================================================= */
-/* LANGUAGE SYSTEM REAL */
+/* LANGUAGE DATA */
 /* ========================================================= */
 
 const translations = {
 
     en:{
 
-        home:'Home',
-        platform:'Platform',
-        analytics:'Analytics',
-        pricing:'Pricing',
-        contact:'Contact'
+        nav1:'Home',
+        nav2:'Experience',
+        nav3:'Network',
+        nav4:'Technology',
+        nav5:'Contact',
+
+        heroBadge:
+        'GLOBAL AUTOMOTIVE INFRASTRUCTURE',
+
+        heroTitle:
+        'The Future Of Luxury Automotive Operations.',
+
+        heroDescription:
+        'Flux Imports centralizes global vehicle quotations, enterprise logistics, international taxation and luxury automotive operations into one cinematic intelligent infrastructure.',
+
+        heroBtn1:
+        'Request Private Access',
+
+        heroBtn2:
+        'Watch Experience'
 
     },
 
     pt:{
 
-        home:'Início',
-        platform:'Plataforma',
-        analytics:'Analytics',
-        pricing:'Planos',
-        contact:'Contato'
+        nav1:'Início',
+        nav2:'Experiência',
+        nav3:'Rede',
+        nav4:'Tecnologia',
+        nav5:'Contato',
+
+        heroBadge:
+        'INFRAESTRUTURA AUTOMOTIVA GLOBAL',
+
+        heroTitle:
+        'O Futuro Das Operações Automotivas De Luxo.',
+
+        heroDescription:
+        'A Flux Imports centraliza cotações globais, logística empresarial, tributação internacional e operações automotivas premium em uma infraestrutura cinematográfica inteligente.',
+
+        heroBtn1:
+        'Solicitar Acesso',
+
+        heroBtn2:
+        'Ver Experiência'
 
     },
 
     es:{
 
-        home:'Inicio',
-        platform:'Plataforma',
-        analytics:'Analíticas',
-        pricing:'Planes',
-        contact:'Contacto'
+        nav1:'Inicio',
+        nav2:'Experiencia',
+        nav3:'Red',
+        nav4:'Tecnología',
+        nav5:'Contacto',
+
+        heroBadge:
+        'INFRAESTRUCTURA AUTOMOTRIZ GLOBAL',
+
+        heroTitle:
+        'El Futuro De Las Operaciones Automotrices De Lujo.',
+
+        heroDescription:
+        'Flux Imports centraliza cotizaciones globales, logística empresarial, impuestos internacionales y operaciones automotrices premium en una infraestructura cinematográfica inteligente.',
+
+        heroBtn1:
+        'Solicitar Acceso',
+
+        heroBtn2:
+        'Ver Experiencia'
+
+    },
+
+    de:{
+
+        nav1:'Start',
+        nav2:'Erlebnis',
+        nav3:'Netzwerk',
+        nav4:'Technologie',
+        nav5:'Kontakt',
+
+        heroBadge:
+        'GLOBALE AUTOMOBIL INFRASTRUKTUR',
+
+        heroTitle:
+        'Die Zukunft Luxus Automobil Operationen.',
+
+        heroDescription:
+        'Flux Imports zentralisiert globale Fahrzeugangebote, Unternehmenslogistik, internationale Besteuerung und Premium Automobiloperationen in einer intelligenten Infrastruktur.',
+
+        heroBtn1:
+        'Zugang Anfordern',
+
+        heroBtn2:
+        'Erlebnis Ansehen'
 
     }
 
 };
 
 /* ========================================================= */
-/* NAVIGATION UPDATE */
+/* LANGUAGE SYSTEM */
 /* ========================================================= */
 
-const navItems =
-document.querySelectorAll('.nav-links a');
+const languageOptions =
+document.querySelectorAll('.language-option');
 
-document.querySelectorAll('.language-option')
-.forEach(option => {
+languageOptions.forEach(option => {
 
-    option.addEventListener('click', () => {
+    option.addEventListener('click',() => {
 
         const lang =
         option.dataset.lang;
 
-        if(!translations[lang]) return;
+        const data =
+        translations[lang];
 
-        navItems[0].innerText =
-        translations[lang].home;
+        if(!data) return;
 
-        navItems[1].innerText =
-        translations[lang].platform;
+        document.getElementById(
+        'current-language'
+        ).innerText =
+        lang.toUpperCase();
 
-        navItems[2].innerText =
-        'Global Network';
+        /* ========================================================= */
+        /* NAV */
+        /* ========================================================= */
 
-        navItems[3].innerText =
-        translations[lang].analytics;
+        const navLinks =
+        document.querySelectorAll('.nav-links a');
 
-        navItems[4].innerText =
-        translations[lang].pricing;
+        navLinks[0].innerText =
+        data.nav1;
 
-        navItems[5].innerText =
-        translations[lang].contact;
+        navLinks[1].innerText =
+        data.nav2;
+
+        navLinks[2].innerText =
+        data.nav3;
+
+        navLinks[3].innerText =
+        data.nav4;
+
+        navLinks[4].innerText =
+        data.nav5;
+
+        /* ========================================================= */
+        /* MOBILE */
+        /* ========================================================= */
+
+        const mobileLinks =
+        document.querySelectorAll('.mobile-menu a');
+
+        mobileLinks[0].innerText =
+        data.nav1;
+
+        mobileLinks[1].innerText =
+        data.nav2;
+
+        mobileLinks[2].innerText =
+        data.nav3;
+
+        mobileLinks[3].innerText =
+        data.nav4;
+
+        mobileLinks[4].innerText =
+        data.nav5;
+
+        /* ========================================================= */
+        /* HERO */
+        /* ========================================================= */
+
+        document.querySelector(
+        '.hero-badge span'
+        ).innerText =
+        data.heroBadge;
+
+        document.querySelector(
+        '.hero-title'
+        ).innerText =
+        data.heroTitle;
+
+        document.querySelector(
+        '.hero-description'
+        ).innerText =
+        data.heroDescription;
+
+        document.querySelectorAll(
+        '.primary-button'
+        )[0].innerText =
+        data.heroBtn1;
+
+        document.querySelectorAll(
+        '.secondary-button'
+        )[0].innerText =
+        data.heroBtn2;
+
+        languageSelector.classList.remove(
+        'active'
+        );
 
     });
 
 });
 
 /* ========================================================= */
-/* FLOATING CONTACT */
+/* HERO PARALLAX */
 /* ========================================================= */
 
-document.querySelector('.floating-contact')
-.addEventListener('click', () => {
+const heroCar =
+document.querySelector('.hero-car');
 
-    window.open(
-    'https://wa.me/4915229271880',
-    '_blank'
-    );
-
-});
-
-/* ========================================================= */
-/* PARALLAX */
-/* ========================================================= */
-
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll',() => {
 
     const scrollY =
     window.scrollY;
 
-    document.querySelectorAll(
+    heroCar.style.transform =
+    `translateY(${scrollY * .08}px) scale(${1 + scrollY * .00008})`;
 
-    '.glow,\
-    .platform-glow,\
-    .analytics-glow,\
-    .pricing-glow,\
-    .founder-glow,\
-    .footer-glow'
+});
 
-    ).forEach((el,index) => {
+/* ========================================================= */
+/* PARALLAX LIGHTS */
+/* ========================================================= */
 
-        el.style.transform =
-        `translateY(${scrollY * (0.02 + index * 0.005)}px)`;
+const light1 =
+document.querySelector('.light-1');
+
+const light2 =
+document.querySelector('.light-2');
+
+window.addEventListener('scroll',() => {
+
+    const scrollY =
+    window.scrollY;
+
+    light1.style.transform =
+    `translateY(${scrollY * .12}px)`;
+
+    light2.style.transform =
+    `translateY(-${scrollY * .08}px)`;
+
+});
+
+/* ========================================================= */
+/* REVEAL */
+/* ========================================================= */
+
+const revealElements =
+document.querySelectorAll(
+
+'.experience-panel,\
+.tech-card,\
+.section-title,\
+.network-description,\
+.final-title,\
+.final-description'
+
+);
+
+const revealObserver =
+new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if(entry.isIntersecting){
+
+            entry.target.style.opacity = '1';
+
+            entry.target.style.transform =
+            'translateY(0px)';
+
+        }
+
+    });
+
+},{
+    threshold:.12
+});
+
+revealElements.forEach(el => {
+
+    el.style.opacity = '0';
+
+    el.style.transform =
+    'translateY(80px)';
+
+    el.style.transition =
+    '1.2s cubic-bezier(.19,1,.22,1)';
+
+    revealObserver.observe(el);
+
+});
+
+/* ========================================================= */
+/* MAGNETIC BUTTONS */
+/* ========================================================= */
+
+const magneticButtons =
+document.querySelectorAll(
+
+'.primary-button,\
+.secondary-button,\
+.nav-cta'
+
+);
+
+magneticButtons.forEach(button => {
+
+    button.addEventListener('mousemove',(e) => {
+
+        const rect =
+        button.getBoundingClientRect();
+
+        const x =
+        e.clientX - rect.left - rect.width / 2;
+
+        const y =
+        e.clientY - rect.top - rect.height / 2;
+
+        button.style.transform =
+        `translate(${x * .12}px,${y * .12}px)`;
+
+    });
+
+    button.addEventListener('mouseleave',() => {
+
+        button.style.transform =
+        'translate(0px,0px)';
 
     });
 
 });
 
 /* ========================================================= */
-/* FPS OPTIMIZATION */
+/* NETWORK MOTION */
+/* ========================================================= */
+
+const points =
+document.querySelectorAll('.network-point');
+
+points.forEach((point,index) => {
+
+    point.style.animationDelay =
+    `${index * .4}s`;
+
+});
+
+/* ========================================================= */
+/* SCROLL ZOOM PANELS */
+/* ========================================================= */
+
+const panels =
+document.querySelectorAll('.experience-panel');
+
+window.addEventListener('scroll',() => {
+
+    const scrollY =
+    window.scrollY;
+
+    panels.forEach((panel,index) => {
+
+        const speed =
+        .015 + index * .01;
+
+        panel.style.transform =
+        `translateY(${scrollY * speed}px)`;
+
+    });
+
+});
+
+/* ========================================================= */
+/* VIDEO PLAYBACK OPTIMIZATION */
+/* ========================================================= */
+
+const heroVideo =
+document.querySelector('.hero-video');
+
+heroVideo.playbackRate = .85;
+
+/* ========================================================= */
+/* PERFORMANCE */
 /* ========================================================= */
 
 let ticking = false;
 
-function optimizedScroll(){
+function optimizedEffects(){
 
     ticking = false;
 
 }
 
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll',() => {
 
     if(!ticking){
 
         requestAnimationFrame(
-        optimizedScroll
+        optimizedEffects
         );
 
         ticking = true;
@@ -9484,17 +2996,119 @@ window.addEventListener('scroll', () => {
 });
 
 /* ========================================================= */
-/* PERFORMANCE */
+/* SCROLL SMOOTH */
 /* ========================================================= */
 
-window.addEventListener('load', () => {
+document.querySelectorAll('a[href^="#"]')
+.forEach(anchor => {
 
-    document.body.classList.add('loaded');
+    anchor.addEventListener('click',function(e){
+
+        e.preventDefault();
+
+        const target =
+        document.querySelector(
+        this.getAttribute('href')
+        );
+
+        if(!target) return;
+
+        target.scrollIntoView({
+
+            behavior:'smooth'
+
+        });
+
+        mobileMenu.classList.remove(
+        'active'
+        );
+
+    });
 
 });
 
 /* ========================================================= */
-/* EASTER EGG */
+/* HERO TITLE EFFECT */
+/* ========================================================= */
+
+const heroTitle =
+document.querySelector('.hero-title');
+
+heroTitle.innerHTML =
+heroTitle.innerText
+.split(' ')
+.map(word => {
+
+    return `<span>${word}</span>`;
+
+}).join(' ');
+
+const titleWords =
+document.querySelectorAll('.hero-title span');
+
+titleWords.forEach((word,index) => {
+
+    word.style.opacity = '0';
+
+    word.style.display = 'inline-block';
+
+    word.style.transform =
+    'translateY(120px)';
+
+    word.style.transition =
+    '1.2s cubic-bezier(.19,1,.22,1)';
+
+    setTimeout(() => {
+
+        word.style.opacity = '1';
+
+        word.style.transform =
+        'translateY(0px)';
+
+    },300 + index * 80);
+
+});
+
+/* ========================================================= */
+/* CINEMATIC HERO */
+/* ========================================================= */
+
+window.addEventListener('scroll',() => {
+
+    const scrollY =
+    window.scrollY;
+
+    const heroVideo =
+    document.querySelector('.hero-video');
+
+    heroVideo.style.transform =
+    `scale(${1 + scrollY * .0002})`;
+
+});
+
+/* ========================================================= */
+/* AUTO LANGUAGE */
+/* ========================================================= */
+
+const browserLanguage =
+navigator.language
+.substring(0,2);
+
+const autoOption =
+document.querySelector(
+
+`.language-option[data-lang="${browserLanguage}"]`
+
+);
+
+if(autoOption){
+
+    autoOption.click();
+
+}
+
+/* ========================================================= */
+/* CONSOLE */
 /* ========================================================= */
 
 console.log(`
@@ -9511,25 +3125,5 @@ GLOBAL AUTOMOTIVE INFRASTRUCTURE
 `);
 
 /* ========================================================= */
-/* AUTO YEAR */
+/* END */
 /* ========================================================= */
-
-document.querySelectorAll('.auto-year')
-.forEach(el => {
-
-    el.innerText =
-    new Date().getFullYear();
-
-});
-
-</script>
-
-<!-- ========================================================= -->
-<!-- FINAL BODY -->
-<!-- ========================================================= -->
-
-</main>
-
-</body>
-
-</html>
