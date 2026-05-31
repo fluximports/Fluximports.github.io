@@ -3,13 +3,7 @@
 
 <head>
 
-<!-- ========================================================= -->
-<!-- META -->
-<!-- ========================================================= -->
-
 <meta charset="UTF-8">
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <meta
 name="viewport"
@@ -17,53 +11,13 @@ content="width=device-width, initial-scale=1.0"
 />
 
 <title>
-Flux Imports • Global Automotive Infrastructure
+Flux Imports
 </title>
 
 <meta
 name="description"
-content="Global automotive infrastructure for importers, dealerships and luxury automotive professionals."
+content="Global Automotive Infrastructure"
 />
-
-<meta
-name="keywords"
-content="luxury cars, import, export, dealerships, automotive software, supercars"
-/>
-
-<meta
-name="theme-color"
-content="#050505"
-/>
-
-<!-- ========================================================= -->
-<!-- SEO -->
-<!-- ========================================================= -->
-
-<meta property="og:title" content="Flux Imports">
-
-<meta
-property="og:description"
-content="The future of global automotive operations."
-/>
-
-<meta
-property="og:type"
-content="website"
-/>
-
-<meta
-property="og:image"
-content="assets/img/cover.jpg"
-/>
-
-<meta
-property="twitter:card"
-content="summary_large_image"
-/>
-
-<!-- ========================================================= -->
-<!-- FONTS -->
-<!-- ========================================================= -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -74,29 +28,24 @@ href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;60
 rel="stylesheet"
 />
 
-<!-- ========================================================= -->
-<!-- CSS -->
-<!-- ========================================================= -->
-
-<link rel="stylesheet" href="style.css">
+<link
+rel="stylesheet"
+href="style.css"
+/>
 
 </head>
 
 <body>
 
-<!-- ========================================================= -->
 <!-- PRELOADER -->
-<!-- ========================================================= -->
 
 <div class="preloader" id="preloader">
 
 <div class="preloader-logo">
-
 FLUX IMPORTS
-
 </div>
 
-<div class="preloader-line">
+<div class="preloader-bar">
 
 <div class="preloader-fill"></div>
 
@@ -104,51 +53,25 @@ FLUX IMPORTS
 
 </div>
 
-<!-- ========================================================= -->
-<!-- GLOBAL CINEMATIC BACKGROUND -->
-<!-- ========================================================= -->
-
-<div class="global-background">
-
-<div class="background-gradient"></div>
-
-<div class="background-noise"></div>
-
-<div class="background-grid"></div>
-
-<div class="background-light light-1"></div>
-
-<div class="background-light light-2"></div>
-
-</div>
-
-<!-- ========================================================= -->
 <!-- CURSOR -->
-<!-- ========================================================= -->
 
 <div class="cursor-glow"></div>
 
-<!-- ========================================================= -->
+<!-- BACKGROUND -->
+
+<div class="bg-gradient"></div>
+
+<div class="bg-noise"></div>
+
 <!-- NAVBAR -->
-<!-- ========================================================= -->
 
 <header class="navbar" id="navbar">
 
 <div class="container navbar-container">
 
-<!-- ========================================================= -->
-<!-- LOGO -->
-<!-- ========================================================= -->
-
 <a href="#" class="logo">
-
 FLUX IMPORTS
-
 </a>
-
-<!-- ========================================================= -->
-<!-- NAVIGATION -->
-<!-- ========================================================= -->
 
 <nav class="nav-links">
 
@@ -174,25 +97,17 @@ Contact
 
 </nav>
 
-<!-- ========================================================= -->
-<!-- RIGHT -->
-<!-- ========================================================= -->
-
 <div class="navbar-right">
 
-<!-- ========================================================= -->
-<!-- LANGUAGE -->
-<!-- ========================================================= -->
+<!-- LANG -->
 
-<div class="language-selector">
+<div class="language-selector" id="languageSelector">
 
-<button class="language-button">
+<button class="language-button" id="languageButton">
 
-<span id="current-language">
+<span id="currentLanguage">
 EN
 </span>
-
-<div class="language-arrow"></div>
 
 </button>
 
@@ -218,24 +133,13 @@ Deutsch
 
 </div>
 
-<!-- ========================================================= -->
-<!-- CTA -->
-<!-- ========================================================= -->
-
 <a href="#" class="nav-cta">
-
 Request Access
-
 </a>
-
-<!-- ========================================================= -->
-<!-- MOBILE -->
-<!-- ========================================================= -->
 
 <button class="mobile-button" id="mobileButton">
 
 <span></span>
-
 <span></span>
 
 </button>
@@ -246,9 +150,7 @@ Request Access
 
 </header>
 
-<!-- ========================================================= -->
-<!-- MOBILE MENU -->
-<!-- ========================================================= -->
+<!-- MOBILE -->
 
 <div class="mobile-menu" id="mobileMenu">
 
@@ -272,21 +174,11 @@ Technology
 Contact
 </a>
 
-<a href="#" class="mobile-cta">
-Request Access
-</a>
-
 </div>
 
-<!-- ========================================================= -->
 <!-- HERO -->
-<!-- ========================================================= -->
 
 <section class="hero-section" id="hero">
-
-<!-- ========================================================= -->
-<!-- VIDEO -->
-<!-- ========================================================= -->
 
 <div class="hero-video-wrapper">
 
@@ -296,7 +188,7 @@ autoplay
 muted
 loop
 playsinline
-preload="metadata"
+poster="assets/img/poster.jpg"
 >
 
 <source
@@ -310,10 +202,6 @@ type="video/mp4"
 
 </div>
 
-<!-- ========================================================= -->
-<!-- HERO CONTENT -->
-<!-- ========================================================= -->
-
 <div class="container hero-container">
 
 <div class="hero-content">
@@ -322,24 +210,31 @@ type="video/mp4"
 
 <div class="hero-badge-dot"></div>
 
-<span>
+<span id="heroBadge">
+
 GLOBAL AUTOMOTIVE INFRASTRUCTURE
+
 </span>
 
 </div>
 
-<h1 class="hero-title">
+<h1 class="hero-title" id="heroTitle">
 
-The Future
-Of Luxury
-Automotive
-Operations.
+<span>The</span>
+<span>Future</span>
+<span>Of</span>
+<span>Luxury</span>
+<span>Automotive</span>
+<span>Operations.</span>
 
 </h1>
 
-<p class="hero-description">
+<p
+class="hero-description"
+id="heroDescription"
+>
 
-Flux Imports centralizes global vehicle quotations, enterprise logistics, international taxation and luxury automotive operations into one cinematic intelligent infrastructure.
+Flux Imports centralizes global vehicle quotations, enterprise logistics and international automotive operations.
 
 </p>
 
@@ -361,16 +256,13 @@ Watch Experience
 
 </div>
 
-<!-- ========================================================= -->
-<!-- FLOATING CAR -->
-<!-- ========================================================= -->
-
 <div class="hero-car-wrapper">
 
 <img
-src="assets/img/car.png"
-alt="Luxury Vehicle"
+src="assets/img/car.webp"
+alt="Car"
 class="hero-car"
+loading="eager"
 />
 
 <div class="car-glow"></div>
@@ -379,25 +271,9 @@ class="hero-car"
 
 </div>
 
-<!-- ========================================================= -->
-<!-- SCROLL -->
-<!-- ========================================================= -->
-
-<div class="scroll-indicator">
-
-<div class="scroll-line"></div>
-
-<span>
-SCROLL
-</span>
-
-</div>
-
 </section>
 
-<!-- ========================================================= -->
 <!-- EXPERIENCE -->
-<!-- ========================================================= -->
 
 <section
 class="experience-section"
@@ -406,80 +282,41 @@ id="experience"
 
 <div class="container">
 
-<div class="experience-intro">
+<div class="section-header">
 
 <span class="section-mini-title">
-
 CINEMATIC EXPERIENCE
-
 </span>
 
 <h2 class="section-title">
 
-A New Standard
-For Automotive
-Technology.
+Technology
+Built For
+Global
+Operations.
 
 </h2>
 
 </div>
 
-<!-- ========================================================= -->
-<!-- EXPERIENCE PANELS -->
-<!-- ========================================================= -->
+<div class="experience-grid">
 
-<div class="experience-panels">
-
-<!-- ========================================================= -->
-<!-- PANEL -->
-<!-- ========================================================= -->
-
-<div class="experience-panel panel-large">
-
-<div class="panel-content">
-
-<h3>
-
-Real-Time
-Global Quotations
-
-</h3>
-
-<p>
-
-Professional import and export calculations with intelligent logistics and live currency conversion.
-
-</p>
-
-</div>
+<div class="experience-card large">
 
 <img
-src="assets/img/dashboard-1.jpg"
-class="panel-image"
+src="assets/img/dashboard.webp"
+loading="lazy"
 alt=""
 />
 
-</div>
-
-<!-- ========================================================= -->
-<!-- PANEL -->
-<!-- ========================================================= -->
-
-<div class="experience-panel">
-
-<div class="panel-content">
+<div class="experience-card-content">
 
 <h3>
-
-Luxury
-Automotive
-Network
-
+Real-Time Quotations
 </h3>
 
 <p>
-
-Connect dealerships, brokers and automotive professionals globally.
+Luxury automotive calculations with enterprise intelligence.
 
 </p>
 
@@ -487,28 +324,29 @@ Connect dealerships, brokers and automotive professionals globally.
 
 </div>
 
-<!-- ========================================================= -->
-<!-- PANEL -->
-<!-- ========================================================= -->
-
-<div class="experience-panel">
-
-<div class="panel-content">
+<div class="experience-card">
 
 <h3>
-
-Enterprise
-Infrastructure
-
+Enterprise Infrastructure
 </h3>
 
 <p>
-
-Built for performance, scale and premium operational control.
+Global operations built for automotive professionals.
 
 </p>
 
 </div>
+
+<div class="experience-card">
+
+<h3>
+International Network
+</h3>
+
+<p>
+Connected dealerships worldwide.
+
+</p>
 
 </div>
 
@@ -518,9 +356,7 @@ Built for performance, scale and premium operational control.
 
 </section>
 
-<!-- ========================================================= -->
 <!-- NETWORK -->
-<!-- ========================================================= -->
 
 <section
 class="network-section"
@@ -532,9 +368,7 @@ id="network"
 <div class="network-left">
 
 <span class="section-mini-title">
-
 GLOBAL NETWORK
-
 </span>
 
 <h2 class="section-title">
@@ -546,32 +380,20 @@ Worldwide.
 
 <p class="network-description">
 
-Flux Imports connects luxury automotive operations across Europe, the Americas and international markets through one intelligent infrastructure.
+Flux Imports connects dealerships, brokers and luxury automotive businesses globally.
 
 </p>
 
 </div>
 
-<!-- ========================================================= -->
-<!-- NETWORK VISUAL -->
-<!-- ========================================================= -->
-
-<div class="network-visual">
+<div class="network-map-wrapper">
 
 <img
-src="assets/img/world.png"
-class="world-map"
+src="assets/img/world.webp"
+class="network-map"
+loading="lazy"
 alt=""
 />
-
-<div class="network-point point-1"></div>
-<div class="network-point point-2"></div>
-<div class="network-point point-3"></div>
-<div class="network-point point-4"></div>
-
-<div class="network-line line-1"></div>
-<div class="network-line line-2"></div>
-<div class="network-line line-3"></div>
 
 </div>
 
@@ -579,9 +401,7 @@ alt=""
 
 </section>
 
-<!-- ========================================================= -->
 <!-- TECHNOLOGY -->
-<!-- ========================================================= -->
 
 <section
 class="technology-section"
@@ -590,42 +410,23 @@ id="technology"
 
 <div class="container">
 
-<div class="technology-header">
+<div class="section-header">
 
 <span class="section-mini-title">
-
 TECHNOLOGY
-
 </span>
 
 <h2 class="section-title">
 
-Designed For
-High Performance
-Automotive
-Operations.
+Enterprise
+Performance
+Infrastructure.
 
 </h2>
 
 </div>
 
-<!-- ========================================================= -->
-<!-- TECH GRID -->
-<!-- ========================================================= -->
-
 <div class="technology-grid">
-
-<div class="tech-card">
-
-<h3>
-Enterprise Security
-</h3>
-
-<p>
-Professional infrastructure with intelligent authentication and secure operational access.
-</p>
-
-</div>
 
 <div class="tech-card">
 
@@ -634,19 +435,8 @@ Real-Time Conversion
 </h3>
 
 <p>
-Live currency exchange rates integrated directly into international quotations.
-</p>
+Live global currency exchange integration.
 
-</div>
-
-<div class="tech-card">
-
-<h3>
-Private Access
-</h3>
-
-<p>
-Only approved businesses receive invitation-based access to the infrastructure.
 </p>
 
 </div>
@@ -658,7 +448,34 @@ Operational Analytics
 </h3>
 
 <p>
-Strategic dashboards for enterprise-level automotive intelligence.
+Enterprise intelligence for luxury operations.
+
+</p>
+
+</div>
+
+<div class="tech-card">
+
+<h3>
+Private Access
+</h3>
+
+<p>
+Invitation-only infrastructure access.
+
+</p>
+
+</div>
+
+<div class="tech-card">
+
+<h3>
+Enterprise Security
+</h3>
+
+<p>
+Protected and optimized global operations.
+
 </p>
 
 </div>
@@ -669,24 +486,22 @@ Strategic dashboards for enterprise-level automotive intelligence.
 
 </section>
 
-<!-- ========================================================= -->
-<!-- FINAL CTA -->
-<!-- ========================================================= -->
+<!-- CTA -->
 
-<section class="final-section">
+<section class="cta-section">
 
-<div class="container final-container">
+<div class="container cta-container">
 
-<h2 class="final-title">
+<h2 class="cta-title">
 
 This Is Not
 Just Software.
 
 </h2>
 
-<p class="final-description">
+<p class="cta-description">
 
-Flux Imports is the operating infrastructure behind modern luxury automotive operations.
+Flux Imports is the future infrastructure behind modern automotive operations.
 
 </p>
 
@@ -700,9 +515,7 @@ Request Invitation
 
 </section>
 
-<!-- ========================================================= -->
 <!-- FOOTER -->
-<!-- ========================================================= -->
 
 <footer
 class="footer"
@@ -710,8 +523,6 @@ id="contact"
 >
 
 <div class="container footer-container">
-
-<div class="footer-top">
 
 <div class="footer-brand">
 
@@ -721,39 +532,13 @@ FLUX IMPORTS
 
 <p>
 
-Global automotive infrastructure for luxury dealerships, brokers and enterprise import operations.
+Global automotive infrastructure for luxury dealerships and enterprise operations.
 
 </p>
 
 </div>
 
-<div class="footer-links-wrapper">
-
-<div class="footer-column">
-
-<h3>
-Company
-</h3>
-
-<a href="#">
-About
-</a>
-
-<a href="#">
-Technology
-</a>
-
-<a href="#">
-Network
-</a>
-
-</div>
-
-<div class="footer-column">
-
-<h3>
-Contact
-</h3>
+<div class="footer-links">
 
 <a href="#">
 contact@fluximports.com
@@ -771,25 +556,7 @@ Netherlands
 
 </div>
 
-</div>
-
-<div class="footer-bottom">
-
-<p>
-
-© 2026 Flux Imports. All rights reserved.
-
-</p>
-
-</div>
-
-</div>
-
 </footer>
-
-<!-- ========================================================= -->
-<!-- JS -->
-<!-- ========================================================= -->
 
 <script src="script.js"></script>
 
@@ -2489,67 +2256,21 @@ img{
 }
 
 /* ========================================================= */
-/* FLUX IMPORTS • SCRIPT.JS */
+/* FLUX IMPORTS • FINAL OPTIMIZED SCRIPT */
 /* ========================================================= */
 
 /* ========================================================= */
-/* PRELOADER */
-/* ========================================================= */
-
-window.addEventListener('load', () => {
-
-    const preloader =
-    document.getElementById('preloader');
-
-    setTimeout(() => {
-
-        preloader.classList.add('hidden');
-
-    },2200);
-
-});
-
-/* ========================================================= */
-/* CURSOR GLOW */
-/* ========================================================= */
-
-const cursorGlow =
-document.querySelector('.cursor-glow');
-
-window.addEventListener('mousemove',(e) => {
-
-    cursorGlow.style.left =
-    e.clientX + 'px';
-
-    cursorGlow.style.top =
-    e.clientY + 'px';
-
-});
-
-/* ========================================================= */
-/* NAVBAR SCROLL */
+/* ELEMENTS */
 /* ========================================================= */
 
 const navbar =
 document.getElementById('navbar');
 
-window.addEventListener('scroll',() => {
+const preloader =
+document.getElementById('preloader');
 
-    if(window.scrollY > 40){
-
-        navbar.classList.add('scrolled');
-
-    }else{
-
-        navbar.classList.remove('scrolled');
-
-    }
-
-});
-
-/* ========================================================= */
-/* MOBILE MENU */
-/* ========================================================= */
+const cursorGlow =
+document.querySelector('.cursor-glow');
 
 const mobileButton =
 document.getElementById('mobileButton');
@@ -2557,9 +2278,93 @@ document.getElementById('mobileButton');
 const mobileMenu =
 document.getElementById('mobileMenu');
 
+const languageSelector =
+document.getElementById('languageSelector');
+
+const languageButton =
+document.getElementById('languageButton');
+
+const heroCar =
+document.querySelector('.hero-car-wrapper');
+
+const heroVideo =
+document.querySelector('.hero-video');
+
+/* ========================================================= */
+/* PRELOADER */
+/* ========================================================= */
+
+window.addEventListener('load',() => {
+
+    setTimeout(() => {
+
+        preloader.classList.add('hidden');
+
+    },1800);
+
+});
+
+/* ========================================================= */
+/* CURSOR */
+/* ========================================================= */
+
+if(window.innerWidth > 768){
+
+    window.addEventListener('mousemove',(e) => {
+
+        cursorGlow.style.left =
+        e.clientX + 'px';
+
+        cursorGlow.style.top =
+        e.clientY + 'px';
+
+    });
+
+}else{
+
+    cursorGlow.style.display = 'none';
+
+}
+
+/* ========================================================= */
+/* MOBILE MENU */
+/* ========================================================= */
+
 mobileButton.addEventListener('click',() => {
 
     mobileMenu.classList.toggle('active');
+
+    if(mobileMenu.classList.contains('active')){
+
+        document.body.style.overflow =
+        'hidden';
+
+    }else{
+
+        document.body.style.overflow =
+        'auto';
+
+    }
+
+});
+
+/* ========================================================= */
+/* CLOSE MOBILE LINKS */
+/* ========================================================= */
+
+document.querySelectorAll('.mobile-menu a')
+.forEach(link => {
+
+    link.addEventListener('click',() => {
+
+        mobileMenu.classList.remove(
+        'active'
+        );
+
+        document.body.style.overflow =
+        'auto';
+
+    });
 
 });
 
@@ -2567,20 +2372,36 @@ mobileButton.addEventListener('click',() => {
 /* LANGUAGE */
 /* ========================================================= */
 
-const languageSelector =
-document.querySelector('.language-selector');
+languageButton.addEventListener('click',(e) => {
 
-const languageButton =
-document.querySelector('.language-button');
+    e.stopPropagation();
 
-languageButton.addEventListener('click',() => {
-
-    languageSelector.classList.toggle('active');
+    languageSelector.classList.toggle(
+    'active'
+    );
 
 });
 
 /* ========================================================= */
-/* LANGUAGE DATA */
+/* CLOSE LANGUAGE */
+/* ========================================================= */
+
+document.addEventListener('click',(e) => {
+
+    if(
+        !languageSelector.contains(e.target)
+    ){
+
+        languageSelector.classList.remove(
+        'active'
+        );
+
+    }
+
+});
+
+/* ========================================================= */
+/* TRANSLATIONS */
 /* ========================================================= */
 
 const translations = {
@@ -2600,12 +2421,12 @@ const translations = {
         'The Future Of Luxury Automotive Operations.',
 
         heroDescription:
-        'Flux Imports centralizes global vehicle quotations, enterprise logistics, international taxation and luxury automotive operations into one cinematic intelligent infrastructure.',
+        'Flux Imports centralizes global vehicle quotations, enterprise logistics and international automotive operations.',
 
-        heroBtn1:
+        button1:
         'Request Private Access',
 
-        heroBtn2:
+        button2:
         'Watch Experience'
 
     },
@@ -2625,12 +2446,12 @@ const translations = {
         'O Futuro Das Operações Automotivas De Luxo.',
 
         heroDescription:
-        'A Flux Imports centraliza cotações globais, logística empresarial, tributação internacional e operações automotivas premium em uma infraestrutura cinematográfica inteligente.',
+        'A Flux Imports centraliza cotações globais, logística empresarial e operações automotivas internacionais.',
 
-        heroBtn1:
+        button1:
         'Solicitar Acesso',
 
-        heroBtn2:
+        button2:
         'Ver Experiência'
 
     },
@@ -2650,12 +2471,12 @@ const translations = {
         'El Futuro De Las Operaciones Automotrices De Lujo.',
 
         heroDescription:
-        'Flux Imports centraliza cotizaciones globales, logística empresarial, impuestos internacionales y operaciones automotrices premium en una infraestructura cinematográfica inteligente.',
+        'Flux Imports centraliza cotizaciones globales y operaciones automotrices internacionales.',
 
-        heroBtn1:
+        button1:
         'Solicitar Acceso',
 
-        heroBtn2:
+        button2:
         'Ver Experiencia'
 
     },
@@ -2675,12 +2496,12 @@ const translations = {
         'Die Zukunft Luxus Automobil Operationen.',
 
         heroDescription:
-        'Flux Imports zentralisiert globale Fahrzeugangebote, Unternehmenslogistik, internationale Besteuerung und Premium Automobiloperationen in einer intelligenten Infrastruktur.',
+        'Flux Imports zentralisiert globale Fahrzeugangebote und internationale Automobiloperationen.',
 
-        heroBtn1:
+        button1:
         'Zugang Anfordern',
 
-        heroBtn2:
+        button2:
         'Erlebnis Ansehen'
 
     }
@@ -2688,13 +2509,53 @@ const translations = {
 };
 
 /* ========================================================= */
+/* HERO TITLE */
+/* ========================================================= */
+
+function animateHeroTitle(text){
+
+    const heroTitle =
+    document.getElementById('heroTitle');
+
+    heroTitle.innerHTML = '';
+
+    text.split(' ')
+    .forEach((word,index) => {
+
+        const span =
+        document.createElement('span');
+
+        span.innerText = word;
+
+        span.style.opacity = '0';
+
+        span.style.transform =
+        'translateY(120px)';
+
+        span.style.transition =
+        '1.2s cubic-bezier(.19,1,.22,1)';
+
+        heroTitle.appendChild(span);
+
+        setTimeout(() => {
+
+            span.style.opacity = '1';
+
+            span.style.transform =
+            'translateY(0px)';
+
+        },200 + index * 70);
+
+    });
+
+}
+
+/* ========================================================= */
 /* LANGUAGE SYSTEM */
 /* ========================================================= */
 
-const languageOptions =
-document.querySelectorAll('.language-option');
-
-languageOptions.forEach(option => {
+document.querySelectorAll('.language-option')
+.forEach(option => {
 
     option.addEventListener('click',() => {
 
@@ -2707,16 +2568,14 @@ languageOptions.forEach(option => {
         if(!data) return;
 
         document.getElementById(
-        'current-language'
+        'currentLanguage'
         ).innerText =
         lang.toUpperCase();
 
-        /* ========================================================= */
-        /* NAV */
-        /* ========================================================= */
-
         const navLinks =
-        document.querySelectorAll('.nav-links a');
+        document.querySelectorAll(
+        '.nav-links a'
+        );
 
         navLinks[0].innerText =
         data.nav1;
@@ -2733,12 +2592,10 @@ languageOptions.forEach(option => {
         navLinks[4].innerText =
         data.nav5;
 
-        /* ========================================================= */
-        /* MOBILE */
-        /* ========================================================= */
-
         const mobileLinks =
-        document.querySelectorAll('.mobile-menu a');
+        document.querySelectorAll(
+        '.mobile-menu a'
+        );
 
         mobileLinks[0].innerText =
         data.nav1;
@@ -2755,34 +2612,34 @@ languageOptions.forEach(option => {
         mobileLinks[4].innerText =
         data.nav5;
 
-        /* ========================================================= */
-        /* HERO */
-        /* ========================================================= */
-
-        document.querySelector(
-        '.hero-badge span'
+        document.getElementById(
+        'heroBadge'
         ).innerText =
         data.heroBadge;
 
-        document.querySelector(
-        '.hero-title'
-        ).innerText =
-        data.heroTitle;
-
-        document.querySelector(
-        '.hero-description'
+        document.getElementById(
+        'heroDescription'
         ).innerText =
         data.heroDescription;
 
         document.querySelectorAll(
         '.primary-button'
         )[0].innerText =
-        data.heroBtn1;
+        data.button1;
 
         document.querySelectorAll(
         '.secondary-button'
         )[0].innerText =
-        data.heroBtn2;
+        data.button2;
+
+        animateHeroTitle(
+        data.heroTitle
+        );
+
+        localStorage.setItem(
+        'flux-language',
+        lang
+        );
 
         languageSelector.classList.remove(
         'active'
@@ -2793,42 +2650,64 @@ languageOptions.forEach(option => {
 });
 
 /* ========================================================= */
-/* HERO PARALLAX */
+/* AUTO LANGUAGE */
 /* ========================================================= */
 
-const heroCar =
-document.querySelector('.hero-car');
+const savedLanguage =
+localStorage.getItem(
+'flux-language'
+);
 
-window.addEventListener('scroll',() => {
+const browserLanguage =
+navigator.language.substring(0,2);
 
-    const scrollY =
-    window.scrollY;
+const selectedLanguage =
+savedLanguage || browserLanguage;
 
-    heroCar.style.transform =
-    `translateY(${scrollY * .08}px) scale(${1 + scrollY * .00008})`;
+const autoLanguage =
+document.querySelector(
 
-});
+`.language-option[data-lang="${selectedLanguage}"]`
+
+);
+
+if(autoLanguage){
+
+    autoLanguage.click();
+
+}else{
+
+    animateHeroTitle(
+    translations.en.heroTitle
+    );
+
+}
 
 /* ========================================================= */
-/* PARALLAX LIGHTS */
+/* SMOOTH SCROLL */
 /* ========================================================= */
 
-const light1 =
-document.querySelector('.light-1');
+document.querySelectorAll('a[href^="#"]')
+.forEach(anchor => {
 
-const light2 =
-document.querySelector('.light-2');
+    anchor.addEventListener('click',function(e){
 
-window.addEventListener('scroll',() => {
+        e.preventDefault();
 
-    const scrollY =
-    window.scrollY;
+        const target =
+        document.querySelector(
+        this.getAttribute('href')
+        );
 
-    light1.style.transform =
-    `translateY(${scrollY * .12}px)`;
+        if(!target) return;
 
-    light2.style.transform =
-    `translateY(-${scrollY * .08}px)`;
+        target.scrollIntoView({
+
+            behavior:'smooth'
+
+        });
+
+    });
 
 });
 
@@ -2836,15 +2715,15 @@ window.addEventListener('scroll',() => {
 /* REVEAL */
 /* ========================================================= */
 
-const revealElements =
+const revealItems =
 document.querySelectorAll(
 
-'.experience-panel,\
+'.experience-card,\
 .tech-card,\
 .section-title,\
 .network-description,\
-.final-title,\
-.final-description'
+.cta-title,\
+.cta-description'
 
 );
 
@@ -2855,7 +2734,8 @@ new IntersectionObserver((entries) => {
 
         if(entry.isIntersecting){
 
-            entry.target.style.opacity = '1';
+            entry.target.style.opacity =
+            '1';
 
             entry.target.style.transform =
             'translateY(0px)';
@@ -2868,17 +2748,17 @@ new IntersectionObserver((entries) => {
     threshold:.12
 });
 
-revealElements.forEach(el => {
+revealItems.forEach(item => {
 
-    el.style.opacity = '0';
+    item.style.opacity = '0';
 
-    el.style.transform =
-    'translateY(80px)';
+    item.style.transform =
+    'translateY(100px)';
 
-    el.style.transition =
+    item.style.transition =
     '1.2s cubic-bezier(.19,1,.22,1)';
 
-    revealObserver.observe(el);
+    revealObserver.observe(item);
 
 });
 
@@ -2909,7 +2789,7 @@ magneticButtons.forEach(button => {
         e.clientY - rect.top - rect.height / 2;
 
         button.style.transform =
-        `translate(${x * .12}px,${y * .12}px)`;
+        `translate(${x * .10}px,${y * .10}px)`;
 
     });
 
@@ -2923,70 +2803,65 @@ magneticButtons.forEach(button => {
 });
 
 /* ========================================================= */
-/* NETWORK MOTION */
+/* OPTIMIZED SCROLL */
 /* ========================================================= */
 
-const points =
-document.querySelectorAll('.network-point');
-
-points.forEach((point,index) => {
-
-    point.style.animationDelay =
-    `${index * .4}s`;
-
-});
-
-/* ========================================================= */
-/* SCROLL ZOOM PANELS */
-/* ========================================================= */
-
-const panels =
-document.querySelectorAll('.experience-panel');
-
-window.addEventListener('scroll',() => {
-
-    const scrollY =
-    window.scrollY;
-
-    panels.forEach((panel,index) => {
-
-        const speed =
-        .015 + index * .01;
-
-        panel.style.transform =
-        `translateY(${scrollY * speed}px)`;
-
-    });
-
-});
-
-/* ========================================================= */
-/* VIDEO PLAYBACK OPTIMIZATION */
-/* ========================================================= */
-
-const heroVideo =
-document.querySelector('.hero-video');
-
-heroVideo.playbackRate = .85;
-
-/* ========================================================= */
-/* PERFORMANCE */
-/* ========================================================= */
+let currentScroll = 0;
 
 let ticking = false;
 
-function optimizedEffects(){
+function updateEffects(){
+
+    /* NAVBAR */
+
+    if(currentScroll > 40){
+
+        navbar.classList.add(
+        'scrolled'
+        );
+
+    }else{
+
+        navbar.classList.remove(
+        'scrolled'
+        );
+
+    }
+
+    /* HERO CAR */
+
+    const translateY =
+    currentScroll * .06;
+
+    const scale =
+    1 + currentScroll * .00008;
+
+    heroCar.style.transform =
+    `translate3d(0,${translateY}px,0)
+    scale(${scale})`;
+
+    /* VIDEO */
+
+    heroVideo.style.transform =
+    `scale(${1 + currentScroll * .00015})`;
 
     ticking = false;
 
 }
 
+/* ========================================================= */
+/* SCROLL */
+/* ========================================================= */
+
 window.addEventListener('scroll',() => {
+
+    currentScroll =
+    window.scrollY;
 
     if(!ticking){
 
         requestAnimationFrame(
-        optimizedEffects
+        updateEffects
         );
 
         ticking = true;
@@ -2996,116 +2871,24 @@ window.addEventListener('scroll',() => {
 });
 
 /* ========================================================= */
-/* SCROLL SMOOTH */
+/* VIDEO */
 /* ========================================================= */
 
-document.querySelectorAll('a[href^="#"]')
-.forEach(anchor => {
+heroVideo.playbackRate = .85;
 
-    anchor.addEventListener('click',function(e){
+/* ========================================================= */
+/* PERFORMANCE */
+/* ========================================================= */
 
-        e.preventDefault();
+document.querySelectorAll('img')
+.forEach(img => {
 
-        const target =
-        document.querySelector(
-        this.getAttribute('href')
-        );
-
-        if(!target) return;
-
-        target.scrollIntoView({
-
-            behavior:'smooth'
-
-        });
-
-        mobileMenu.classList.remove(
-        'active'
-        );
-
-    });
+    img.setAttribute(
+    'draggable',
+    'false'
+    );
 
 });
-
-/* ========================================================= */
-/* HERO TITLE EFFECT */
-/* ========================================================= */
-
-const heroTitle =
-document.querySelector('.hero-title');
-
-heroTitle.innerHTML =
-heroTitle.innerText
-.split(' ')
-.map(word => {
-
-    return `<span>${word}</span>`;
-
-}).join(' ');
-
-const titleWords =
-document.querySelectorAll('.hero-title span');
-
-titleWords.forEach((word,index) => {
-
-    word.style.opacity = '0';
-
-    word.style.display = 'inline-block';
-
-    word.style.transform =
-    'translateY(120px)';
-
-    word.style.transition =
-    '1.2s cubic-bezier(.19,1,.22,1)';
-
-    setTimeout(() => {
-
-        word.style.opacity = '1';
-
-        word.style.transform =
-        'translateY(0px)';
-
-    },300 + index * 80);
-
-});
-
-/* ========================================================= */
-/* CINEMATIC HERO */
-/* ========================================================= */
-
-window.addEventListener('scroll',() => {
-
-    const scrollY =
-    window.scrollY;
-
-    const heroVideo =
-    document.querySelector('.hero-video');
-
-    heroVideo.style.transform =
-    `scale(${1 + scrollY * .0002})`;
-
-});
-
-/* ========================================================= */
-/* AUTO LANGUAGE */
-/* ========================================================= */
-
-const browserLanguage =
-navigator.language
-.substring(0,2);
-
-const autoOption =
-document.querySelector(
-
-`.language-option[data-lang="${browserLanguage}"]`
-
-);
-
-if(autoOption){
-
-    autoOption.click();
-
-}
 
 /* ========================================================= */
 /* CONSOLE */
